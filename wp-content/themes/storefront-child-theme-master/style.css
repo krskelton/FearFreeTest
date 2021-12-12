@@ -1,0 +1,101 @@
+/*
+Theme Name:   	Storefront Child Theme
+Theme URI:    	https://github.com/stuartduff/storefront-child-theme
+Author:       	Stuart Duff
+Author URI:     http://stuartduff.com
+Template:     	storefront
+Description:  	This is a blank child theme for WooThemes StoreFront theme
+Version:      	1.0.0
+License:      	GNU General Public License v2 or later
+License URI:  	http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  	storefront
+Tags:         	black, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+Storefront is based on Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+FontAwesome License: SIL Open Font License - http://scripts.sil.org/OFL
+Images License: GNU General Public License v2 or later
+*/
+/*
+ * Add your own custom css below this text.
+ */
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+h1 {
+    font-weight: 600;
+    line-height: 70px;
+    font-size: 62px;
+}
+h4 {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    color: #364959 !important;
+}
+h5{
+    font-weight: 500;
+    font-size: 15px;
+    color:#1e6daa;
+}
+.uagb-block-3ed5899b.uagb-layout-input-button .uagb-search-wrapper .uagb-search-form__container .uagb-search-submit {
+    background-color: #ffab41;
+}
+.wp-block-uagb-wp-search.uagb-wp-search__outer-wrap.uagb-layout-input-button .uagb-search-submit {
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    margin: 7px;
+    padding: 0;
+}
+ .wp-block-buttons>.wp-block-button.wp-block-button__width-100:only-child {
+    margin-right: 0;
+    width: 100%;
+    min-width: 200px;
+    margin-right: 10px;
+}
+
+.wp-block-buttons {
+    min-width: 200px !important;
+    /* margin-right: 5px; */
+}
+.banner-image{
+    min-height:500px;
+}
+.uagb-block-3ed5899b .uagb-search-form__container .uagb-search-submit {
+    width: 32px;
+    height: 30px;
+    border: 0;
+}
+/* NEWSLETTER  */
+input#gform_submit_button_1 {
+    background: #ffab41 !important;
+    border-radius: 50px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+form#gform_1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+/* FOOTER */
+.site-footer {
+    background-color: #fff;
+    color: #ccc;
+}
+.menu-footer-container ul {
+    padding-left: 0;
+    list-style: none;
+    margin-left: 0;
+}
+.menu-footer-container ul a {
+    text-decoration: none;
+    line-height: 30px;
+    font-weight: 400;
+    color: #364959 !important;
+}
+hr {
+    color: #000 !important;
+}

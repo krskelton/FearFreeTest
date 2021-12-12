@@ -1,0 +1,84 @@
+2021-12-11T16:37:23+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_styles() in /Applications/MAMP/htdocs/FearFreeTest/wp-content/themes/storefront-child/header.php:30
+Stack trace:
+#0 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/template.php(770): require_once()
+#1 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/template.php(716): load_template('/Applications/M...', true, Array)
+#2 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Applications/MAMP/htdocs/FearFreeTest/wp-content/themes/storefront-child/index.php(14): get_header()
+#4 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/template-loader.php(106): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/FearFreeTest/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/FearFreeTest/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/FearFreeTest/wp-content/themes/storefront-child/header.php on line 30
+
+2021-12-11T16:38:30+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_styles() in /Applications/MAMP/htdocs/FearFreeTest/wp-content/themes/storefront-child/header.php:30
+Stack trace:
+#0 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/template.php(770): require_once()
+#1 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/template.php(716): load_template('/Applications/M...', true, Array)
+#2 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Applications/MAMP/htdocs/FearFreeTest/wp-content/themes/storefront-child/index.php(14): get_header()
+#4 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/template-loader.php(106): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/FearFreeTest/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/FearFreeTest/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/FearFreeTest/wp-content/themes/storefront-child/header.php on line 30
+
+2021-12-11T16:38:37+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_styles() in /Applications/MAMP/htdocs/FearFreeTest/wp-content/themes/storefront-child/header.php:30
+Stack trace:
+#0 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/template.php(770): require_once()
+#1 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/template.php(716): load_template('/Applications/M...', true, Array)
+#2 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Applications/MAMP/htdocs/FearFreeTest/wp-content/themes/storefront-child/index.php(14): get_header()
+#4 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/template-loader.php(106): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/FearFreeTest/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/FearFreeTest/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/FearFreeTest/wp-content/themes/storefront-child/header.php on line 30
+
+2021-12-11T16:38:41+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_styles() in /Applications/MAMP/htdocs/FearFreeTest/wp-content/themes/storefront-child/header.php:30
+Stack trace:
+#0 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/template.php(770): require_once()
+#1 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/template.php(716): load_template('/Applications/M...', true, Array)
+#2 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Applications/MAMP/htdocs/FearFreeTest/wp-content/themes/storefront-child/index.php(14): get_header()
+#4 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/template-loader.php(106): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/FearFreeTest/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/FearFreeTest/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/FearFreeTest/wp-content/themes/storefront-child/header.php on line 30
+
+2021-12-11T16:38:44+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_styles() in /Applications/MAMP/htdocs/FearFreeTest/wp-content/themes/storefront-child/header.php:30
+Stack trace:
+#0 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/template.php(770): require_once()
+#1 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/template.php(716): load_template('/Applications/M...', true, Array)
+#2 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Applications/MAMP/htdocs/FearFreeTest/wp-content/themes/storefront-child/index.php(14): get_header()
+#4 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/template-loader.php(106): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/FearFreeTest/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/FearFreeTest/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/FearFreeTest/wp-content/themes/storefront-child/header.php on line 30
+
+2021-12-11T16:38:55+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_styles() in /Applications/MAMP/htdocs/FearFreeTest/wp-content/themes/storefront-child/header.php:30
+Stack trace:
+#0 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/template.php(770): require_once()
+#1 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/template.php(716): load_template('/Applications/M...', true, Array)
+#2 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Applications/MAMP/htdocs/FearFreeTest/wp-content/themes/storefront-child/index.php(14): get_header()
+#4 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/template-loader.php(106): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/FearFreeTest/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/FearFreeTest/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/FearFreeTest/wp-content/themes/storefront-child/header.php on line 30
+
+2021-12-11T16:41:50+00:00 CRITICAL Uncaught Error: Call to undefined function storefront_header_styles() in /Applications/MAMP/htdocs/FearFreeTest/wp-content/themes/storefront-child/header.php:30
+Stack trace:
+#0 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/template.php(770): require_once()
+#1 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/template.php(716): load_template('/Applications/M...', true, Array)
+#2 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Applications/MAMP/htdocs/FearFreeTest/wp-content/themes/storefront-child/index.php(14): get_header()
+#4 /Applications/MAMP/htdocs/FearFreeTest/wp-includes/template-loader.php(106): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/FearFreeTest/wp-blog-header.php(19): require_once('/Applications/M...')
+#6 /Applications/MAMP/htdocs/FearFreeTest/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown in /Applications/MAMP/htdocs/FearFreeTest/wp-content/themes/storefront-child/header.php on line 30
+
