@@ -1,0 +1,38 @@
+
+.product-table-settings input,
+.product-table-settings select {
+    vertical-align: middle !important;
+}
+.product-table-settings td span.description {
+    margin-left: 3px;
+}
+.product-table-settings a .dashicons-external {
+    font-size: 15px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.woocommerce #product_table_settings_selecting-description + table.form-table {
+    margin-bottom: 30px;
+}
+.woocommerce #product_table_settings_selecting-description + table.form-table th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.woocommerce #product_table_settings_selecting-description + table.form-table td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.product-table-settings .forminp-color .colorpick,
+.product-table-settings .color-size-field .color-input {
+    max-width: 6.7em;
+    display: inline-block;
+}
+.product-table-settings .color-size-field .size-input {
+    max-width: 60px;
+    display: inline-block;
+}
+.product-table-settings table.form-table .colorpickpreview {
+    padding: 12px 4px;
+    border-radius: 4px;
+    vertical-align: middle;
+}

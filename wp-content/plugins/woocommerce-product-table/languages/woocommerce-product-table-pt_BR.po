@@ -1,0 +1,1608 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Product Table\n"
+"POT-Creation-Date: 2021-09-23 18:18+0200\n"
+"PO-Revision-Date: 2021-09-23 18:18+0200\n"
+"Last-Translator: Andrew Keith <andy@barn2.co.uk>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-product-table.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: includes/license/EDD_SL_Plugin_Updater.php\n"
+
+#: includes/Admin/Admin_Controller.php:46
+#, fuzzy
+#| msgid "Product Tables"
+msgid "Product Table"
+msgstr "Tabelas de Produto"
+
+#: includes/Admin/Settings_Page.php:60 includes/Admin/Settings_Page.php:83
+msgid "Product tables"
+msgstr "Tabelas de Produto"
+
+#: includes/Admin/Settings_Page.php:86
+msgid "The following options control the WooCommerce Product Table extension."
+msgstr "As seguintes opções controlam a extensão WooCommerce Product Table."
+
+#: includes/Admin/Settings_Page.php:88
+#, fuzzy
+#| msgid "Documentation and Support"
+msgid "Documentation"
+msgstr "Documentação e Suporte:"
+
+#: includes/Admin/Settings_Page.php:89
+msgid "Support"
+msgstr "Suporte"
+
+#: includes/Admin/Settings_Page.php:103
+msgid "Table design"
+msgstr "Design da Tabela"
+
+#: includes/Admin/Settings_Page.php:104
+#, fuzzy
+#| msgid ""
+#| "Choose whether to use the default design or customize it to suit your "
+#| "requirements."
+msgid "You can customize the table design to suit your requirements."
+msgstr ""
+"Escolha se deseja utilizar o design padrão ou personalize-o da maneira que "
+"achar melhor."
+
+#: includes/Admin/Settings_Page.php:109
+msgid "Design"
+msgstr "Design"
+
+#: includes/Admin/Settings_Page.php:113
+msgid "Default"
+msgstr "Padrão"
+
+#: includes/Admin/Settings_Page.php:114 includes/Admin/Settings_Page.php:499
+msgid "Custom"
+msgstr "Personalizado"
+
+#: includes/Admin/Settings_Page.php:125
+msgid ""
+"Choose your custom table styles below. Any settings you leave blank will "
+"default to your theme styles."
+msgstr ""
+"Escolha abaixo o padrão de estilo de suas tabelas. Configurações deixadas em "
+"branco seguirão o padrão de estilo de seu tema."
+
+#: includes/Admin/Settings_Page.php:129
+msgid "Borders"
+msgstr "Bordas"
+
+#: includes/Admin/Settings_Page.php:132
+msgid "External border icon"
+msgstr "Ícone da borda externa"
+
+#: includes/Admin/Settings_Page.php:132
+msgid "External"
+msgstr "Externa"
+
+#: includes/Admin/Settings_Page.php:133
+msgid "The border for the outer edges of the table."
+msgstr "A borda para as beiradas externas da tabela."
+
+#: includes/Admin/Settings_Page.php:140
+msgid "Header border icon"
+msgstr "Ícone da borda de cabeçalho"
+
+#: includes/Admin/Settings_Page.php:140
+msgid "Header"
+msgstr "Cabeçalho"
+
+#: includes/Admin/Settings_Page.php:141
+msgid "The border for the bottom of the header row."
+msgstr "A borda da parte inferior da linha de cabeçalho."
+
+#: includes/Admin/Settings_Page.php:148
+msgid "Cell border icon"
+msgstr "Ícone da borda da célula"
+
+#: includes/Admin/Settings_Page.php:148
+msgid "Cell"
+msgstr "Célula"
+
+#: includes/Admin/Settings_Page.php:149
+msgid "The border between cells in your table."
+msgstr "A borda entre as células da sua tabela."
+
+#: includes/Admin/Settings_Page.php:153
+msgid "Header background"
+msgstr "Fundo do cabeçalho"
+
+#: includes/Admin/Settings_Page.php:156
+msgid "The header background color."
+msgstr "Cor do fundo do cabeçalho."
+
+#: includes/Admin/Settings_Page.php:157 includes/Admin/Settings_Page.php:166
+#: lib/WooCommerce/Admin/Custom_Settings_Fields.php:80
+msgid "Color"
+msgstr "Cor"
+
+#: includes/Admin/Settings_Page.php:162
+msgid "Cell background"
+msgstr "Fundo da célula"
+
+#: includes/Admin/Settings_Page.php:165
+msgid "The main background color used for the table contents."
+msgstr "A cor principal usada para os conteúdos da tabela."
+
+#: includes/Admin/Settings_Page.php:171
+msgid "Header font"
+msgstr "Fonte do cabeçalho"
+
+#: includes/Admin/Settings_Page.php:174
+msgid "The font used in the table header."
+msgstr "A fonte usada no cabeçalho da tabela."
+
+#: includes/Admin/Settings_Page.php:179
+msgid "Cell font"
+msgstr "Fonte da célula"
+
+#: includes/Admin/Settings_Page.php:182
+msgid "The font used for the table contents."
+msgstr "A fonte usada para os conteúdos da tabela."
+
+#: includes/Admin/Settings_Page.php:194
+msgid ""
+"The following options replace the standard WooCommerce template with a "
+"product table. You can also add the [product_table] shortcode to any post or "
+"page."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:199
+#, fuzzy
+#| msgid "Rows per page"
+msgid "Shop integration"
+msgstr "Linhas por página"
+
+#: includes/Admin/Settings_Page.php:205
+#, fuzzy
+#| msgid "The default columns for your product tables."
+msgid "Where to display product tables"
+msgstr "As colunas padrão para suas tabelas de produtos."
+
+#: includes/Admin/Settings_Page.php:208
+#, fuzzy
+#| msgid "Rows per page"
+msgid "Shop page"
+msgstr "Linhas por página"
+
+#: includes/Admin/Settings_Page.php:215
+#, fuzzy
+#| msgid "Product Table: Filter by Price"
+msgid "Product search results"
+msgstr "Product Table: Filtro de preço"
+
+#: includes/Admin/Settings_Page.php:222
+#, fuzzy
+#| msgid "Product Table: Filter by Price"
+msgid "Product categories"
+msgstr "Product Table: Filtro de preço"
+
+#: includes/Admin/Settings_Page.php:229
+#, fuzzy
+#| msgid "Product tables"
+msgid "Product tags"
+msgstr "Tabelas de Produto"
+
+#: includes/Admin/Settings_Page.php:236
+#, fuzzy
+#| msgid "Product tables"
+msgid "Product attributes"
+msgstr "Tabelas de Produto"
+
+#: includes/Admin/Settings_Page.php:252
+msgid "Table content"
+msgstr "Conteúdo da tabela"
+
+#: includes/Admin/Settings_Page.php:255
+#, fuzzy
+#| msgid ""
+#| "These options set defaults for the [product_table] shortcode. They can be "
+#| "overridden for individual tables when you add the shortcode to the page. "
+#| "%1$sFull list of shortcode options%2$s."
+msgid ""
+"These options set defaults for all product tables. You can override them in "
+"the shortcode for individual tables."
+msgstr ""
+"Essas opções definem os padrões para o shortcode [product_table]. Eles podem "
+"ser substituídos por tabelas individuais quando você adiciona o shortcode à "
+"página. %1$sLista completa de opções de shortcode%2$s."
+
+#: includes/Admin/Settings_Page.php:256
+#, fuzzy
+#| msgid ""
+#| "Please see the Knowledge Base for the %sfull list of shortcode options%s."
+msgid "See the full list of shortcode options"
+msgstr ""
+"Veja a Base de Conhecimento para a %slista completa de opções de shortcode%s."
+
+#: includes/Admin/Settings_Page.php:259
+msgid "Columns"
+msgstr "Colunas"
+
+#: includes/Admin/Settings_Page.php:262
+#, fuzzy
+#| msgid "The default columns for your product tables."
+msgid "Enter the columns for your product tables."
+msgstr "As colunas padrão para suas tabelas de produtos."
+
+#: includes/Admin/Settings_Page.php:267
+msgid "Image size"
+msgstr "Tamanho da imagem"
+
+#: includes/Admin/Settings_Page.php:270
+msgid "W x H in pixels, e.g. 70x50"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:271
+#, fuzzy
+#| msgid ""
+#| "You can also enter standard image sizes here such as thumbnail, "
+#| "shop_thumbnail, medium, etc."
+msgid ""
+"You can also enter a standard image size such as thumbnail, shop_thumbnail, "
+"medium, etc."
+msgstr ""
+"Você também pode inserir tamanhos de imagem padrão, como thumbnail, "
+"shop_thumbnail, médium, etc."
+
+#: includes/Admin/Settings_Page.php:276
+msgid "Image lightbox"
+msgstr "Lightbox de imagem"
+
+#: includes/Admin/Settings_Page.php:279
+#, fuzzy
+#| msgid "Display product images in a lightbox"
+msgid "Show product images in a lightbox"
+msgstr "Exibe imagens do produto em uma lightbox"
+
+#: includes/Admin/Settings_Page.php:283
+msgid "Description length"
+msgstr "Tamanho da descrição"
+
+#: includes/Admin/Settings_Page.php:286
+msgid "words"
+msgstr "palavras"
+
+#: includes/Admin/Settings_Page.php:287
+#, fuzzy
+#| msgid ""
+#| "Enter -1 to display the full product description including formatting."
+msgid "Enter -1 to show the full product description including formatting."
+msgstr ""
+"Coloque -1 para exibir a descrição completa do produto, incluindo a "
+"formatação."
+
+#: includes/Admin/Settings_Page.php:295 includes/Admin/Settings_Page.php:656
+msgid "Product links"
+msgstr "Links de produtos"
+
+#: includes/Admin/Settings_Page.php:298
+msgid "Include links to the relevant product, category, tag, or attribute."
+msgstr "Inclua links para o produto relevante, categoria, tag ou atributo."
+
+#: includes/Admin/Settings_Page.php:299
+msgid ""
+"Enter all, none, or a combination of: sku, name, image, tags, categories, "
+"terms, or attributes as a comma-separated list."
+msgstr ""
+"Coloque todas, nenhuma ou uma combinação de: sku, nome, imagem, tags, "
+"categorias, termos ou atributos como uma lista separada por vírgulas."
+
+#: includes/Admin/Settings_Page.php:311
+#, fuzzy
+#| msgid "Loading products"
+msgid "Loading"
+msgstr "Carregando produtos"
+
+#: includes/Admin/Settings_Page.php:316
+msgid "Lazy load"
+msgstr "Lazy load"
+
+#: includes/Admin/Settings_Page.php:319
+msgid "Load products one page at a time"
+msgstr "Carregar produtos uma página por vez"
+
+#: includes/Admin/Settings_Page.php:320
+msgid ""
+"Enable this if you have many products or experience slow page load times."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:322
+#, php-format
+msgid ""
+"Warning: Lazy load has %1$ssome limitations%2$s &mdash; it limits the "
+"search, sorting, dropdown filters, and variations."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:334
+msgid "Product limit"
+msgstr "Limite de produto"
+
+#: includes/Admin/Settings_Page.php:337
+#, fuzzy
+#| msgid "The maximum total number of products to display in one table."
+msgid "The maximum number of products in one table."
+msgstr "O número total máximo de produtos a serem exibidos em uma tabela."
+
+#: includes/Admin/Settings_Page.php:338
+msgid "Enter -1 to show all products."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:347
+msgid "Rows per page"
+msgstr "Linhas por página"
+
+#: includes/Admin/Settings_Page.php:350
+msgid "The number of products per page of results."
+msgstr "O número de produtos por página de resultados."
+
+#: includes/Admin/Settings_Page.php:351
+#, fuzzy
+#| msgid "Use '-1' to display all products on one page of results."
+msgid "Enter -1 to show all products on a single page."
+msgstr "Use '-1' para exibir todos os produtos em uma página de resultados."
+
+#: includes/Admin/Settings_Page.php:366
+msgid "Sorting"
+msgstr "Ordenação"
+
+#: includes/Admin/Settings_Page.php:371
+msgid "Sort by"
+msgstr "Ordenar por"
+
+#: includes/Admin/Settings_Page.php:375
+msgid "As listed in the Products screen (menu order)"
+msgstr "Conforme listado na tela Produtos (ordem do menu)"
+
+#: includes/Admin/Settings_Page.php:376 includes/Util/Columns_Util.php:30
+msgid "SKU"
+msgstr "REF"
+
+#: includes/Admin/Settings_Page.php:377 includes/Util/Columns_Util.php:31
+msgid "Name"
+msgstr "Nome"
+
+#: includes/Admin/Settings_Page.php:378 includes/Util/Columns_Util.php:29
+msgid "ID"
+msgstr "ID"
+
+#: includes/Admin/Settings_Page.php:379 includes/Util/Columns_Util.php:42
+msgid "Price"
+msgstr "Preço"
+
+#: includes/Admin/Settings_Page.php:380
+msgid "Number of sales"
+msgstr "Número de vendas"
+
+#: includes/Admin/Settings_Page.php:381
+msgid "Average reviews"
+msgstr "Média de avaliações"
+
+#: includes/Admin/Settings_Page.php:382
+msgid "Date added"
+msgstr "Data adicionado"
+
+#: includes/Admin/Settings_Page.php:383
+#, fuzzy
+#| msgid "Date last modified"
+msgid "Date modified"
+msgstr "Data última modificação"
+
+#: includes/Admin/Settings_Page.php:384
+msgid "Other"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:386
+msgid "The initial sort order applied to the table."
+msgstr "A ordenação inicial aplicada à tabela."
+
+#: includes/Admin/Settings_Page.php:395
+msgid "Sort column"
+msgstr "Ordenar coluna"
+
+#: includes/Admin/Settings_Page.php:399
+#, fuzzy
+#| msgid ""
+#| "Please note: column sorting will only work when lazy load is disabled."
+msgid ""
+"Enter a column name, e.g. description, att:size, etc. Will only work when "
+"lazy load is disabled."
+msgstr ""
+"Observe: a ordenação das colunas só funcionará quando o Lazy Load estiver "
+"desabilitado."
+
+#: includes/Admin/Settings_Page.php:403
+msgid "Sort direction"
+msgstr "Direção da Ordenação"
+
+#: includes/Admin/Settings_Page.php:407
+msgid "Automatic"
+msgstr "Automática"
+
+#: includes/Admin/Settings_Page.php:408
+msgid "Ascending (A to Z, 1 to 99)"
+msgstr "Ascendente (A a Z, 1 a 99)"
+
+#: includes/Admin/Settings_Page.php:409
+msgid "Descending (Z to A, 99 to 1)"
+msgstr "Descendente (Z a A, 99 a 1)"
+
+#: includes/Admin/Settings_Page.php:422
+#, fuzzy
+#| msgid "Add to cart column"
+msgid "Add to cart"
+msgstr "Coluna Adicionar ao carrinho"
+
+#: includes/Admin/Settings_Page.php:427
+#, fuzzy
+#| msgid "Loading products"
+msgid "Adding products to cart"
+msgstr "Carregando produtos"
+
+#: includes/Admin/Settings_Page.php:431
+#, fuzzy
+#| msgid "Add to cart button"
+msgid "Add to cart buttons"
+msgstr "Botão Adicionar ao carrinho"
+
+#: includes/Admin/Settings_Page.php:432
+#, fuzzy
+#| msgid "Add to cart column"
+msgid "Add to cart checkboxes"
+msgstr "Coluna Adicionar ao carrinho"
+
+#: includes/Admin/Settings_Page.php:433
+#, fuzzy
+#| msgid "Button and checkbox"
+msgid "Buttons and checkboxes"
+msgstr "Botão e Caixa de Seleção"
+
+#: includes/Admin/Settings_Page.php:435
+#, fuzzy
+#| msgid "The initial sort order applied to the table."
+msgid "How a customer orders products from the table."
+msgstr "A ordenação inicial aplicada à tabela."
+
+#: includes/Admin/Settings_Page.php:440
+msgid "Quantities"
+msgstr "Quantidades"
+
+#: includes/Admin/Settings_Page.php:443
+msgid "Show a quantity box for each product"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:447
+msgid "Variations"
+msgstr "Variações"
+
+#: includes/Admin/Settings_Page.php:451
+#, fuzzy
+#| msgid "Show as dropdown list"
+msgid "Show as dropdown lists"
+msgstr "Mostrar como lista suspensa"
+
+#: includes/Admin/Settings_Page.php:452
+msgid "Show one variation per row"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:453
+msgid "Show a Read More button linking to product page"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:455
+msgid "How to display options for variable products."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:460
+#, fuzzy
+#| msgid "Add to cart button"
+msgid "Multi-select cart button"
+msgstr "Botão Adicionar ao carrinho"
+
+#: includes/Admin/Settings_Page.php:464 includes/Admin/Settings_Page.php:522
+#: includes/Admin/Settings_Page.php:542 includes/Admin/Settings_Page.php:556
+#: includes/Admin/Settings_Page.php:569
+msgid "Above table"
+msgstr "Acima da tabela"
+
+#: includes/Admin/Settings_Page.php:465 includes/Admin/Settings_Page.php:523
+#: includes/Admin/Settings_Page.php:543 includes/Admin/Settings_Page.php:557
+#: includes/Admin/Settings_Page.php:570
+msgid "Below table"
+msgstr "Abaixo da tabela"
+
+#: includes/Admin/Settings_Page.php:466 includes/Admin/Settings_Page.php:524
+#: includes/Admin/Settings_Page.php:544 includes/Admin/Settings_Page.php:558
+#: includes/Admin/Settings_Page.php:571
+msgid "Above and below table"
+msgstr "Acima e abaixo da tabela"
+
+#: includes/Admin/Settings_Page.php:468
+#, fuzzy
+#| msgid ""
+#| "The position of the 'Add Selected To Cart' button for adding multiple "
+#| "products."
+msgid ""
+"The position of the 'Add To Cart' button to add multiple products from the "
+"table."
+msgstr ""
+"A posição do botão \"Adicionar Selecionados ao Carrinho\" para adicionar "
+"vários produtos."
+
+#: includes/Admin/Settings_Page.php:469
+#, fuzzy
+#| msgid ""
+#| "Only applicable if using 'Checkbox' or 'Button + checkbox' for the add to "
+#| "cart buttons"
+msgid ""
+"Only applicable if using checkboxes for the 'Adding products to cart' option "
+"above"
+msgstr ""
+"Aplicável apenas se estiver usando \"Caixa de Seleção\" ou \"Botão + Caixa "
+"de Seleção\" para os botões de adicionar ao carrinho"
+
+#: includes/Admin/Settings_Page.php:474
+#, fuzzy
+#| msgid "'Add Selected' button text"
+msgid "Multi-select button text"
+msgstr "Texto do botão 'Adicionar Selecionados'"
+
+#: includes/Admin/Settings_Page.php:477
+#, fuzzy
+#| msgid "The text for the 'Add Selected To Cart' button."
+msgid "The text for the multi-select add to cart button."
+msgstr "O texto do botão \"Adicionar Selecionados ao Carrinho\"."
+
+#: includes/Admin/Settings_Page.php:488
+msgid "Table controls"
+msgstr "Controles da tabela"
+
+#: includes/Admin/Settings_Page.php:493
+msgid "Product filters"
+msgstr "Filtros ativos"
+
+#: includes/Admin/Settings_Page.php:497
+msgid "Disabled"
+msgstr "Desabilitados"
+
+#: includes/Admin/Settings_Page.php:498
+#, fuzzy
+#| msgid "The font used for the table contents."
+msgid "Show based on table content"
+msgstr "A fonte usada para os conteúdos da tabela."
+
+#: includes/Admin/Settings_Page.php:501
+#, fuzzy
+#| msgid ""
+#| "Dropdown lists to filter the table by category, tag, attribute, or custom "
+#| "taxonomy."
+msgid ""
+"Display dropdown lists to filter the table by category, tag, attribute or "
+"taxonomy."
+msgstr ""
+"Listas suspensas para filtrar a tabela por categoria, tag, atributo ou "
+"taxonomia personalizada."
+
+#: includes/Admin/Settings_Page.php:510
+msgid "Custom filters"
+msgstr "Filtros personalizados"
+
+#: includes/Admin/Settings_Page.php:513
+#, fuzzy
+#| msgid "Enter filters as a comma-separated list."
+msgid "Enter the filters as a comma-separated list."
+msgstr "Insira filtros como uma lista separada por vírgulas."
+
+#: includes/Admin/Settings_Page.php:514
+msgid "E.g. categories,tags,att:color"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:518
+msgid "Search box"
+msgstr "Caixa de pesquisa"
+
+#: includes/Admin/Settings_Page.php:525 includes/Admin/Settings_Page.php:545
+#: includes/Admin/Settings_Page.php:559 includes/Admin/Settings_Page.php:572
+msgid "Hidden"
+msgstr "Escondido"
+
+#: includes/Admin/Settings_Page.php:531
+#, fuzzy
+#| msgid "Reset"
+msgid "Reset link"
+msgstr "Redefinir"
+
+#: includes/Admin/Settings_Page.php:534
+#, fuzzy
+#| msgid "Show the reset button above the table"
+msgid "Show the reset link above the table"
+msgstr "Mostrar o botão de redefinir acima da tabela"
+
+#: includes/Admin/Settings_Page.php:538
+msgid "Page length"
+msgstr "Comprimento da página"
+
+#: includes/Admin/Settings_Page.php:547
+#, fuzzy
+#| msgid "The position of the 'Show [x] products' dropdown list."
+msgid "The position of the 'Show [x] per page' option."
+msgstr "A posição da lista suspensa \"Exibir [x] produtos\"."
+
+#: includes/Admin/Settings_Page.php:552
+msgid "Product totals"
+msgstr "Total de produtos"
+
+#: includes/Admin/Settings_Page.php:565
+#, fuzzy
+#| msgid "Pagination type"
+msgid "Pagination"
+msgstr "Tipo de paginação"
+
+#: includes/Admin/Settings_Page.php:585
+msgid "Advanced"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:590
+msgid "Pagination type"
+msgstr "Tipo de paginação"
+
+#: includes/Admin/Settings_Page.php:594
+#, fuzzy
+#| msgid "Prev/next + numbers"
+msgid "Page numbers"
+msgstr "Anterior/próximo + números"
+
+#: includes/Admin/Settings_Page.php:595
+#, fuzzy
+#| msgid "Prev/next"
+msgid "Prev - Next"
+msgstr "Anterior/próximo"
+
+#: includes/Admin/Settings_Page.php:596
+msgid "Prev - Page numbers - Next"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:597
+msgid "First - Prev - Next - Last"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:598
+msgid "First - Prev - Page numbers - Next - Last"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:604
+msgid "AJAX"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:607
+#, fuzzy
+#| msgid "Use AJAX when adding to the to the cart"
+msgid "Use AJAX when adding to the cart"
+msgstr "Usar AJAX ao adicionar para o carrinho"
+
+#: includes/Admin/Settings_Page.php:611
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: includes/Admin/Settings_Page.php:614
+#, fuzzy
+#| msgid ""
+#| "Display shortcodes, HTML and other formatting inside the table content"
+msgid "Show shortcodes, HTML and other formatting in the table"
+msgstr ""
+"Exibir shortcodes, HTML e outras formatações dentro do conteúdo da tabela"
+
+#: includes/Admin/Settings_Page.php:618
+msgid "Caching"
+msgstr "Caching"
+
+#: includes/Admin/Settings_Page.php:621
+#, fuzzy
+#| msgid "Cache table contents to improve load times"
+msgid "Cache table contents to improve load times"
+msgstr "Conteúdo da tabela em cache para melhorar o tempo de carregamento"
+
+#: includes/Admin/Settings_Page.php:629
+#, fuzzy
+#| msgid "Cache expires after"
+msgid "Cache expiration"
+msgstr "Cache expira depois de"
+
+#: includes/Admin/Settings_Page.php:632
+msgid "hours"
+msgstr "horas"
+
+#: includes/Admin/Settings_Page.php:633
+#, fuzzy
+#| msgid "Your table data will be refreshed after this length of time."
+msgid "Your data will be refreshed after this length of time."
+msgstr "Os dados da sua tabela serão atualizados após esse período de tempo."
+
+#: includes/Admin/Settings_Page.php:651
+msgid "Quick View Pro"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:659
+msgid "Replace links to the product page with a Quick View"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:661
+#, php-format
+msgid "%sLearn how%s to correctly configure this option."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:677
+#, fuzzy
+#| msgid "Product add-ons"
+msgid "Product Addons"
+msgstr "Complementos de produto"
+
+#: includes/Admin/Settings_Page.php:682
+#, fuzzy
+#| msgid "Add-on groups layout"
+msgid "Addons layout"
+msgstr "Layout de grupos de complementos"
+
+#: includes/Admin/Settings_Page.php:685 includes/Admin/Settings_Page.php:697
+msgid "Vertical"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:686 includes/Admin/Settings_Page.php:698
+msgid "Horizontal"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:689
+#, fuzzy
+#| msgid "Should the product add-on groups display horizontally or vertically?"
+msgid ""
+"Should product addons display horizontally or vertically within the table?"
+msgstr ""
+"Os grupos de complementos do produto devem ser exibidos horizontalmente ou "
+"verticalmente?"
+
+#: includes/Admin/Settings_Page.php:694
+#, fuzzy
+#| msgid "Add-on options layout"
+msgid "Addon options layout"
+msgstr "Layout de opções complementares"
+
+#: includes/Admin/Settings_Page.php:701
+#, fuzzy
+#| msgid ""
+#| "Should the individual options for each add-on display horizontally or "
+#| "vertically?"
+msgid ""
+"Should individual options for each addon display horizontally or vertically?"
+msgstr ""
+"As opções individuais de cada complemento devem ser exibidas horizontalmente "
+"ou verticalmente?"
+
+#: includes/Admin/Settings_Page.php:804
+msgid ""
+"The columns option is invalid. Please check you have entered valid column "
+"names."
+msgstr ""
+
+#: includes/Ajax_Handler.php:179
+msgid "View Cart"
+msgstr "Ver Carrinho"
+
+#: includes/Ajax_Handler.php:204
+msgid "There was an error adding to the cart. Please try again."
+msgstr "Houve erro ao adicionar ao carrinho. Tente novamente."
+
+#: includes/Cart_Handler.php:48 includes/Frontend_Scripts.php:144
+msgid "Please select one or more products."
+msgstr "Selecione um ou mais produtos."
+
+#: includes/Cart_Handler.php:106
+msgid "No product selected. Please try again."
+msgstr "Nenhum produto selecionado. Por favor, tente novamente."
+
+#: includes/Cart_Handler.php:113
+#, fuzzy
+#| msgid "Please enter a quantity of 1 or greater."
+msgid "Please enter a quantity greater than 0."
+msgstr "Digite uma quantidade igual ou superior a 1."
+
+#: includes/Cart_Handler.php:122
+msgid "This product is no longer available. Please select an alternative."
+msgstr "Esse produto não está mais disponível. Selecione uma alternativa."
+
+#: includes/Config_Builder.php:74
+msgctxt "show all products option"
+msgid "All"
+msgstr "Tudo"
+
+#: includes/Data/Product_Custom_Field.php:144
+msgid "True"
+msgstr "Verdadeiro"
+
+#: includes/Data/Product_Custom_Field.php:144
+msgid "False"
+msgstr "Falso"
+
+#: includes/Data/Product_Reviews.php:20
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:102
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Avaliação %s de 5"
+
+#: includes/Data/Product_Reviews.php:23
+#, php-format
+msgid "out of %s5%s"
+msgstr "de %s5%s"
+
+#: includes/Data/Product_Reviews.php:24
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] "baseado na avaliação de %s cliente"
+msgstr[1] "baseado nas avaliações de %s clientes"
+
+#: includes/Data/Product_Stock.php:18
+msgid "In stock"
+msgstr "Em estoque"
+
+#: includes/Frontend_Scripts.php:119
+#, fuzzy
+#| msgid "Showing 0 products"
+msgid "Showing _TOTAL_ products"
+msgstr "Mostrando 0 produtos"
+
+#: includes/Frontend_Scripts.php:120
+#, fuzzy
+#| msgid "Buy product"
+msgid "0 products"
+msgstr "Comprar produto"
+
+#: includes/Frontend_Scripts.php:121
+#, fuzzy
+#| msgid "(_MAX_ products in total)"
+msgid "(_MAX_ in total)"
+msgstr "(_MAX_ produtos no total)"
+
+#: includes/Frontend_Scripts.php:122
+#, fuzzy
+#| msgid "Show _MENU_ products"
+msgid "Show _MENU_ per page"
+msgstr "Mostrar _MENU_ produtos"
+
+#: includes/Frontend_Scripts.php:123 includes/Frontend_Scripts.php:124
+#, fuzzy
+#| msgid "No matching products found."
+msgid "No matching products"
+msgstr "Nenhum produto correspondente encontrado."
+
+#: includes/Frontend_Scripts.php:125
+msgid "Search:"
+msgstr "Procurar:"
+
+#: includes/Frontend_Scripts.php:127
+msgid "First"
+msgstr "Primeira"
+
+#: includes/Frontend_Scripts.php:128
+msgid "Last"
+msgstr "Última"
+
+#: includes/Frontend_Scripts.php:129
+msgid "Next"
+msgstr "Próxima"
+
+#: includes/Frontend_Scripts.php:130
+msgid "Previous"
+msgstr "Anterior"
+
+#: includes/Frontend_Scripts.php:132
+msgctxt "thousands separator"
+msgid ","
+msgstr "."
+
+#: includes/Frontend_Scripts.php:133
+msgctxt "decimal mark"
+msgid "."
+msgstr ","
+
+#: includes/Frontend_Scripts.php:136
+msgid ": activate to sort column ascending"
+msgstr ": ativar para classificar coluna ascendente"
+
+#: includes/Frontend_Scripts.php:138
+msgid ": activate to sort column descending"
+msgstr ": ativar para classificar coluna descendente"
+
+#: includes/Frontend_Scripts.php:142
+msgid "Reset"
+msgstr "Redefinir"
+
+#: includes/Hook_Manager.php:300
+msgid "Buy product"
+msgstr "Comprar produto"
+
+#: includes/Hook_Manager.php:338
+msgid "This product is currently out of stock and unavailable."
+msgstr "Este produto está atualmente fora de estoque e indisponível."
+
+#: includes/Table_Args.php:470
+msgid "Show details"
+msgstr "Mostrar Detalhes"
+
+#: includes/Util/Columns_Util.php:32
+msgid "Description"
+msgstr "Descrição"
+
+#: includes/Util/Columns_Util.php:33
+msgid "Summary"
+msgstr "Resumo"
+
+#: includes/Util/Columns_Util.php:34
+msgid "Date"
+msgstr "Data"
+
+#: includes/Util/Columns_Util.php:35
+msgid "Categories"
+msgstr "Categorias"
+
+#: includes/Util/Columns_Util.php:36
+msgid "Tags"
+msgstr "Marcadores"
+
+#: includes/Util/Columns_Util.php:37
+msgid "Image"
+msgstr "Imagem"
+
+#: includes/Util/Columns_Util.php:38
+msgid "Stock"
+msgstr "Em estoque"
+
+#: includes/Util/Columns_Util.php:39
+msgid "Reviews"
+msgstr "Avaliações"
+
+#: includes/Util/Columns_Util.php:40
+msgid "Weight"
+msgstr "Peso"
+
+#: includes/Util/Columns_Util.php:41
+msgid "Dimensions"
+msgstr "Dimensões"
+
+#: includes/Util/Columns_Util.php:43
+msgid "Buy"
+msgstr "Compra"
+
+#: includes/Util/Columns_Util.php:44
+msgid "Details"
+msgstr "Detalhes"
+
+#: includes/Util/Settings.php:72
+#, fuzzy
+#| msgid "Add Selected To Cart"
+msgid "Add To Cart"
+msgstr "Adicionar Selecionados ao Carrinho"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:24
+msgid "Display a list of active filters for your product table."
+msgstr "Exibe uma lista de filtros ativos para sua tabela de produtos."
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:26
+msgid "Product Table: Active Filters"
+msgstr "Product Table: Filtros ativos"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:30
+msgid "Active filters"
+msgstr "Filtros ativos"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:31
+#: includes/widgets/class-wcpt-widget-layered-nav.php:76
+#: includes/widgets/class-wcpt-widget-price-filter.php:31
+#: includes/widgets/class-wcpt-widget-rating-filter.php:31
+msgid "Title"
+msgstr "Título"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:83
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:90
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:95
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:102
+msgid "Remove filter"
+msgstr "Remover filtro"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:90
+#, php-format
+msgid "Min %s"
+msgstr "Mín %s"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:95
+#, php-format
+msgid "Max %s"
+msgstr "Máx %s"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:24
+msgid "Display a list of attributes to filter products in your product table."
+msgstr ""
+"Mostre um filtro de atributo do produto para restringir a lista de produtos "
+"na tabela de produtos."
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:26
+msgid "Product Table: Filter by Attribute"
+msgstr "Product Table: Filtro por atributo"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:75
+msgid "Filter by"
+msgstr "Filtrar por"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:81
+msgid "Attribute"
+msgstr "Atributo"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:87
+msgid "Display type"
+msgstr "Tipo de visualização"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:89
+msgid "List"
+msgstr "Lista"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:90
+msgid "Dropdown"
+msgstr "Menu Suspenso"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:96
+msgid "Query type"
+msgstr "Tipo de Consulta"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:98
+msgid "AND"
+msgstr "E"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:99
+msgid "OR"
+msgstr "OU"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:203
+#, php-format
+msgid "Any %s"
+msgstr "Qualquer %s"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:242
+msgid "Apply"
+msgstr "Aplicar"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:275
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr "Nenhuma ocorrência encontrada"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:24
+msgid "Display a slider to filter your product table by price."
+msgstr ""
+"Exibir um controle deslizante para filtrar sua tabela de produtos por preço."
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:26
+msgid "Product Table: Filter by Price"
+msgstr "Product Table: Filtro de preço"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:30
+msgid "Filter by price"
+msgstr "Filtrar por preço"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:96
+msgid "Min price"
+msgstr "Preço Mínimo"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:97
+msgid "Max price"
+msgstr "Preço Máximo"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:98
+msgid "Filter"
+msgstr "Filtro"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:100
+msgid "Price:"
+msgstr "Preço:"
+
+#: includes/widgets/class-wcpt-widget-rating-filter.php:24
+msgid ""
+"Display a list of star ratings to filter products in your product table."
+msgstr ""
+"Exibe uma lista de avaliações por estrelas para filtrar produtos em sua "
+"tabela de produtos."
+
+#: includes/widgets/class-wcpt-widget-rating-filter.php:26
+msgid "Product Table: Filter by Rating"
+msgstr "Product Table: Filtro por classificação"
+
+#: includes/widgets/class-wcpt-widget-rating-filter.php:30
+msgid "Average rating"
+msgstr "Classificação média"
+
+#: lib/Plugin/Admin/Admin_Links.php:52
+msgid "Settings"
+msgstr "Configurações"
+
+#: lib/Plugin/Admin/Admin_Links.php:70
+#, fuzzy, php-format
+#| msgid "Documentation and Support"
+msgid "View %s documentation"
+msgstr "Documentação e Suporte:"
+
+#: lib/Plugin/Admin/Admin_Links.php:71
+msgid "Docs"
+msgstr "Documentos"
+
+#: lib/Plugin/Admin/Plugin_Updater.php:121
+#, php-format
+msgid "Activate %1$syour license key%2$s to enable updates."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:63
+msgid "License key successfully activated."
+msgstr "Chave de licença ativada com sucesso."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:64
+#, fuzzy
+#| msgid "There was an error activating your license, please try again."
+msgid "There was an error activating your license key."
+msgstr "Houve um erro ao ativar sua licença, tente novamente."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:72
+#, fuzzy
+#| msgid "License key successfully activated."
+msgid "License key successfully deactivated."
+msgstr "Chave de licença ativada com sucesso."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:73
+msgid "There was an error deactivating your license key, please try again."
+msgstr "Ocorreu um erro ao salvar sua chave de licença, tente novamente."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:80
+msgid "The license key looks good!"
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:81
+#, fuzzy
+#| msgid "Please enter your license key."
+msgid "There's a problem with your license key."
+msgstr "Informe sua chave de licença."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:89
+msgid "License key"
+msgstr "Chave de Licença"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:97
+msgid "The licence key is contained in your order confirmation email."
+msgstr ""
+"A chave da licença está contida no e-mail de confirmação do seu pedido."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:100
+#, fuzzy
+#| msgid "License key"
+msgid "License Key"
+msgstr "Chave de Licença"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:241
+#, fuzzy
+#| msgid "Deactivate"
+msgid "Activate"
+msgstr "Desativar"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:242
+msgid "Deactivate"
+msgstr "Desativar"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:253
+#, fuzzy
+#| msgid "License key successfully activated."
+msgid "License key deactivated."
+msgstr "Chave de licença ativada com sucesso."
+
+#: lib/Plugin/License/Admin/License_Notices.php:90
+#, php-format
+msgid ""
+"Thank you for installing %1$s. To get started, please %2$senter your license "
+"key%3$s."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Notices.php:107
+#, php-format
+msgid ""
+"Your license key for %1$s has expired. %2$sClick here to renew for 20%% "
+"discount%3$s."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Notices.php:124
+#, php-format
+msgid ""
+"You no longer have a valid license for %1$s. Please %2$spurchase a new "
+"license key%3$s to continue using the plugin."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Notices.php:145
+#, php-format
+msgid ""
+"%1$s - your site has moved to a new domain. Please %2$sreactivate your "
+"license key%3$s."
+msgstr ""
+
+#: lib/Plugin/License/EDD_Licensing.php:184
+msgid "An error has occurred, please try again."
+msgstr "Ocorreu um erro, por favor, tente novamente."
+
+#: lib/Plugin/License/Plugin_License.php:93
+#, fuzzy
+#| msgid "Your license key is invalid."
+msgid "Your license key is active."
+msgstr "A sua chave de licença é inválida."
+
+#: lib/Plugin/License/Plugin_License.php:113
+msgid "Please enter your license key."
+msgstr "Informe sua chave de licença."
+
+#: lib/Plugin/License/Plugin_License.php:115
+#: lib/Plugin/License/Plugin_License.php:380
+msgid "Your license key is invalid."
+msgstr "A sua chave de licença é inválida."
+
+#: lib/Plugin/License/Plugin_License.php:319
+#, fuzzy, php-format
+#| msgid "The licence key is contained in your order confirmation email."
+msgid ""
+"Invalid license key - please check your order confirmation email or "
+"%1$sAccount%2$s."
+msgstr ""
+"A chave da licença está contida no e-mail de confirmação do seu pedido."
+
+#: lib/Plugin/License/Plugin_License.php:325
+msgid "No URL was supplied for activation, please contact support."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:328
+msgid "License key mismatch, please contact support."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:331
+msgid "This license is for a bundled product and cannot be activated."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:335
+#, fuzzy
+#| msgid "Your license is not active for this URL."
+msgid "Your license key is not valid for this plugin."
+msgstr "A sua licença não está ativa para este URL."
+
+#: lib/Plugin/License/Plugin_License.php:341
+#, php-format
+msgid "%s site active"
+msgid_plural "%s sites active"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/Plugin/License/Plugin_License.php:344
+#, fuzzy, php-format
+#| msgid "Your license key has reached its activation limit."
+msgid "Your license key has reached its activation limit (%s)."
+msgstr "A sua licença atingiu o limite de ativações."
+
+#: lib/Plugin/License/Plugin_License.php:345 lib/Util.php:38
+msgid "Read more"
+msgstr "Ler mais"
+
+#: lib/Plugin/License/Plugin_License.php:348
+#: lib/Plugin/License/Plugin_License.php:369
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:362
+#, php-format
+msgid "Your license key expired on %s."
+msgstr "A sua licença expirou em %s."
+
+#: lib/Plugin/License/Plugin_License.php:366
+#, php-format
+msgid "Renew now for 20% discount."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:617
+#, fuzzy
+#| msgid "Your license is not active for this URL."
+msgid "Your license key is not active. Please reactivate or save the settings."
+msgstr "A sua licença não está ativa para este URL."
+
+#: lib/Plugin/License/Plugin_License.php:621
+#, fuzzy
+#| msgid "Your license key expired on %s."
+msgid "Your license key expired has expired."
+msgstr "A sua licença expirou em %s."
+
+#: lib/Plugin/License/Plugin_License.php:626
+#, php-format
+msgid ""
+"Your license key has been disabled. Please %1$spurchase a new license key"
+"%2$s to continue using the plugin."
+msgstr ""
+
+#: lib/WooCommerce/Admin/Custom_Settings_Fields.php:91
+msgid "Size"
+msgstr "Tamanho"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Product Table"
+msgstr "WooCommerce Product Table"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+#| msgid "https://barn2.co.uk/wordpress-plugins/woocommerce-product-table/"
+msgid "https://barn2.com/wordpress-plugins/woocommerce-product-table/"
+msgstr "https://barn2.co.uk/WordPress-plugins/WooCommerce-Product-Table/"
+
+#. Description of the plugin/theme
+msgid ""
+"Display and purchase WooCommerce products from a searchable and sortable "
+"table. Filter by anything."
+msgstr ""
+"Exiba e compre produtos do WooCommerce em uma tabela pesquisável e "
+"classificável. Filtre por qualquer coisa."
+
+#. Author of the plugin/theme
+msgid "Barn2 Plugins"
+msgstr ""
+
+#. Author URI of the plugin/theme
+#, fuzzy
+#| msgid "https://barn2.co.uk"
+msgid "https://barn2.com"
+msgstr "https://barn2.co.uk"
+
+#, fuzzy
+#~| msgid "Table design"
+#~ msgid "Table display"
+#~ msgstr "Design da Tabela"
+
+#, fuzzy
+#~| msgid "Loading products"
+#~ msgid "_TOTAL_ products"
+#~ msgstr "Carregando produtos"
+
+#~ msgid "Show based on columns in table"
+#~ msgstr "Mostrar com base nas colunas na tabela"
+
+#~ msgid "Pagination buttons"
+#~ msgstr "Botões de paginação"
+
+#, fuzzy
+#~| msgid "Table design"
+#~ msgid "Table reset"
+#~ msgstr "Design da Tabela"
+
+#~ msgid "View WooCommerce Product Table documentation"
+#~ msgstr "Ver documentação do WooCommerce Product Table"
+
+#~ msgid ""
+#~ "Enable this if you have many products or experience slow page load times."
+#~ "<br/><strong>Warning:</strong> Lazy load has some limitations - it limits "
+#~ "the search, sorting, and display of variations. Only use it if you "
+#~ "definitely need it."
+#~ msgstr ""
+#~ "Habilite se você tiver muitos produtos ou tiver um tempo de carregamento "
+#~ "de página lento.<br/><strong>Aviso:</ strong> Lazy load tem algumas "
+#~ "limitações - ele limita a pesquisa, a classificação e a exibição de "
+#~ "variações. Use-o somente se você realmente precisar."
+
+#~ msgid "This option is ignored if lazy load is enabled."
+#~ msgstr "Esta opção é ignorada se o Lazy Load estiver ativado."
+
+#~ msgid "Button only"
+#~ msgstr "Apenas botão"
+
+#~ msgid "Checkbox only"
+#~ msgstr "Apenas Caixa de Seleção"
+
+#~ msgid "How 'Add to Cart' buttons are displayed in the table."
+#~ msgstr "Como os botões \"Adicionar ao carrinho\" são exibidos na tabela."
+
+#~ msgid "Add to cart behavior"
+#~ msgstr "Comportamento do Adicionar ao carrinho"
+
+#~ msgid "Show quantity selectors in the Add to Cart column"
+#~ msgstr "Mostrar seletores de quantidade na coluna Adicionar ao carrinho"
+
+#~ msgid "Link to product page"
+#~ msgstr "Link para página do produto"
+
+#, fuzzy
+#~| msgid "Show quantity selectors in the Add to Cart column"
+#~ msgid "Dropdown lists in add to cart column"
+#~ msgstr "Mostrar seletores de quantidade na coluna Adicionar ao carrinho"
+
+#, fuzzy
+#~| msgid "Show as separate rows (1 per variation)"
+#~ msgid "Separate rows in table (one per variation)"
+#~ msgstr "Mostrar como linhas separadas (1 por variação)"
+
+#~ msgid "'Add Selected' position"
+#~ msgstr "Posição do ‘Adicionar Selecionados’"
+
+#~ msgid "The position of the product search box."
+#~ msgstr "A posição da caixa de pesquisa de produtos."
+
+#~ msgid ""
+#~ "The position of the product totals, e.g. 'Showing 1 to 5 of 10 products'."
+#~ msgstr ""
+#~ "A posição do total de produtos, por ex. \"Mostrando de 1 a 5 de 10 "
+#~ "produtos\"."
+
+#~ msgid "The position of the paging buttons which scroll between results."
+#~ msgstr "A posição dos botões de paginação que rolam entre os resultados."
+
+#~ msgid "Numbers only"
+#~ msgstr "Apenas números"
+
+#~ msgid "Prev/next/first/last"
+#~ msgstr "Anterior/próximo/primeira/última"
+
+#~ msgid "Prev/next/first/last + numbers"
+#~ msgstr "Anterior/próximo/primeira/última + números"
+
+#~ msgid "Reset button"
+#~ msgstr "Botão redefinir"
+
+#, php-format
+#~ msgid ""
+#~ "Please see the Knowledge Base for the %sfull list of shortcode options%s."
+#~ msgstr ""
+#~ "Veja a Base de Conhecimento para a %slista completa de opções de shortcode"
+#~ "%s."
+
+#~ msgid "Getting Started Guide"
+#~ msgstr "Começando a Usar"
+
+#~ msgid "Knowledge Base"
+#~ msgstr "Base de Conhecimento"
+
+#~ msgid "This product cannot be purchased."
+#~ msgstr "Este produto não pode ser comprado."
+
+#~ msgid "Showing _START_ to _END_ of _TOTAL_ products"
+#~ msgstr "Mostrando de _START_ a _END_ de _TOTAL_ dos produtos"
+
+#~ msgid "Filter:"
+#~ msgstr "Filtro:"
+
+#, php-format
+#~ msgid "Rated %1$s out of 5 based on %2$s customer rating"
+#~ msgid_plural "Rated %1$s out of 5 based on %2$s customer ratings"
+#~ msgstr[0] "Nota %1$s de 5 baseada em %2$s avaliação de cliente"
+#~ msgstr[1] "Nota %1$s de 5 baseada em %2$s avaliações de clientes"
+
+#, fuzzy
+#~| msgctxt "license key error message"
+#~| msgid "Error: %s"
+#~ msgid "Error"
+#~ msgstr "Erro: %s"
+
+#, fuzzy
+#~| msgid "Your license key has been disabled."
+#~ msgid "Your license key has been disabled, please contact support,"
+#~ msgstr "A sua licença foi desativada."
+
+#~ msgid "License key successfully deactivated. Click Save to reactivate."
+#~ msgstr ""
+#~ "Chave de licença desativada com sucesso. Clique em Salvar para reativá-la."
+
+#~ msgid "Barn2 Media"
+#~ msgstr "Barn2 Media"
+
+#~ msgid "Choosing your products"
+#~ msgstr "Escolhendo seus produtos"
+
+#~ msgid ""
+#~ "The tables will display all products by default, or you can select "
+#~ "products based on category, tag, custom field, taxonomy, or individual "
+#~ "products."
+#~ msgstr ""
+#~ "As tabelas exibirão todos os produtos por padrão, ou você poderá "
+#~ "selecionar produtos com base em categoria, tag, campo personalizado, "
+#~ "taxonomia ou produtos individuais."
+
+#, fuzzy
+#~| msgid "%1$sHow to select your products%2$s."
+#~ msgid "Learn how to select your products"
+#~ msgstr "%1$sComo selecionar seus produtos%2$s."
+
+#~ msgid "Stacked (vertically)"
+#~ msgstr "Empilhado (verticalmente)"
+
+#~ msgid "Inline (horizontally)"
+#~ msgstr "Em linha (horizontalmente)"
+
+#~ msgid "None"
+#~ msgstr "Nenhum"
+
+#~ msgctxt "help text for custom search filters"
+#~ msgid "For taxonomies use %1$s, and for product attributes use %2$s"
+#~ msgstr "Para taxonomias use %1$s e para atributos de produto use %2$s"
+
+#~ msgid "W x H in pixels. Sets the image size when using the 'image' column."
+#~ msgstr ""
+#~ "L x A em pixels. Define o tamanho da imagem ao usar a coluna \"imagem\"."
+
+#~ msgid "Product name"
+#~ msgstr "Nome do produto"
+
+#~ msgid "Product ID"
+#~ msgstr "ID do produto"
+
+#~ msgid "Other column"
+#~ msgstr "Outra coluna"
+
+#~ msgid ""
+#~ "Enter a column name in the same format used in the columns option. e.g. "
+#~ "\"sku\" or \"cf:date_field\""
+#~ msgstr ""
+#~ "Digite um nome de coluna no mesmo formato usado na opção de colunas. Por "
+#~ "exemplo: \"sku\" ou \"cf:campo_dado\""
+
+#~ msgid "This controls how variable products are displayed in the table."
+#~ msgstr "Isso controla como os produtos variáveis ​​são exibidos na tabela."
+
+#, fuzzy
+#~| msgid "Product tables"
+#~ msgid "Product totals message"
+#~ msgstr "Tabelas de Produto"
+
+#, fuzzy
+#~| msgid "Show details"
+#~ msgid "Show links"
+#~ msgstr "Mostrar Detalhes"
+
+#~ msgid "Docs &amp; support"
+#~ msgstr "Documentação &amp; Suporte"
+
+#~ msgid ""
+#~ "Shows active filters for the product table so users can see and "
+#~ "deactivate them."
+#~ msgstr ""
+#~ "Mostra filtros ativos para a tabela de produtos para que os usuários "
+#~ "possam vê-los e desativá-los."
+
+#~ msgid "Product Table layered nav filters"
+#~ msgstr "Filtros de navegação em camadas da Tabela de Produtos"
+
+#~ msgid ""
+#~ "Shows a price filter slider which lets you narrow down the list of "
+#~ "products in the product table."
+#~ msgstr ""
+#~ "Mostra um controle deslizante de filtro de preço que permite que você "
+#~ "reduza a lista de produtos na tabela de produtos."
+
+#~ msgid "Filter products by average rating when viewing product tables."
+#~ msgstr ""
+#~ "Filtre produtos por classificação média ao visualizar Tabelas de Produtos."
+
+#~ msgid "Product Table average rating filter"
+#~ msgstr "Filtro de classificação média da Tabela de Produtos"
+
+#~ msgid "Get help with WooCommerce Product Table"
+#~ msgstr "Obter ajuda com WooCommerce Product Table"
+
+#~ msgid "Get Support"
+#~ msgstr "Obter Ajuda"

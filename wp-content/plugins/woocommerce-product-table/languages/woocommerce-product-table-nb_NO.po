@@ -1,0 +1,1575 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Product Table\n"
+"POT-Creation-Date: 2021-09-23 18:17+0200\n"
+"PO-Revision-Date: 2021-09-23 18:17+0200\n"
+"Last-Translator: Andrew Keith <andy@barn2.co.uk>\n"
+"Language-Team: \n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-product-table.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/Admin/Admin_Controller.php:46
+#, fuzzy
+#| msgid "Product tables"
+msgid "Product Table"
+msgstr "Produkttabeller"
+
+#: includes/Admin/Settings_Page.php:60 includes/Admin/Settings_Page.php:83
+msgid "Product tables"
+msgstr "Produkttabeller"
+
+#: includes/Admin/Settings_Page.php:86
+msgid "The following options control the WooCommerce Product Table extension."
+msgstr "De følgende valgene styrer WooCommerce Produkttabeller tillegg."
+
+#: includes/Admin/Settings_Page.php:88
+msgid "Documentation"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:89
+msgid "Support"
+msgstr "Støtte"
+
+#: includes/Admin/Settings_Page.php:103
+msgid "Table design"
+msgstr "Tabell design"
+
+#: includes/Admin/Settings_Page.php:104
+#, fuzzy
+#| msgid ""
+#| "Choose whether to use the default design or customize it to suit your "
+#| "requirements."
+msgid "You can customize the table design to suit your requirements."
+msgstr ""
+"Velg om du vil bruke standard design eller tilpasse denne for å passe dine "
+"ønsker."
+
+#: includes/Admin/Settings_Page.php:109
+msgid "Design"
+msgstr "Design"
+
+#: includes/Admin/Settings_Page.php:113
+msgid "Default"
+msgstr "Standard"
+
+#: includes/Admin/Settings_Page.php:114 includes/Admin/Settings_Page.php:499
+msgid "Custom"
+msgstr "Tilpasset"
+
+#: includes/Admin/Settings_Page.php:125
+msgid ""
+"Choose your custom table styles below. Any settings you leave blank will "
+"default to your theme styles."
+msgstr ""
+"Velg din stil på tilpasset utseende nedenfor. Enhver innstilling du lar være "
+"blank, vil bli være standard for ditt tema-utseende."
+
+#: includes/Admin/Settings_Page.php:129
+msgid "Borders"
+msgstr "Marger"
+
+#: includes/Admin/Settings_Page.php:132
+msgid "External border icon"
+msgstr "Yttre marg ikon"
+
+#: includes/Admin/Settings_Page.php:132
+msgid "External"
+msgstr "Yttre"
+
+#: includes/Admin/Settings_Page.php:133
+msgid "The border for the outer edges of the table."
+msgstr "Den yttre kanlinjen for tabellen."
+
+#: includes/Admin/Settings_Page.php:140
+msgid "Header border icon"
+msgstr "Ikon for header"
+
+#: includes/Admin/Settings_Page.php:140
+msgid "Header"
+msgstr "Header"
+
+#: includes/Admin/Settings_Page.php:141
+msgid "The border for the bottom of the header row."
+msgstr "Linjen for den nederste del av header rad."
+
+#: includes/Admin/Settings_Page.php:148
+msgid "Cell border icon"
+msgstr "Ikon for celle"
+
+#: includes/Admin/Settings_Page.php:148
+msgid "Cell"
+msgstr "Celle"
+
+#: includes/Admin/Settings_Page.php:149
+msgid "The border between cells in your table."
+msgstr "Linjen mellom cellene i din tabell."
+
+#: includes/Admin/Settings_Page.php:153
+msgid "Header background"
+msgstr "Bakgrunn for header"
+
+#: includes/Admin/Settings_Page.php:156
+msgid "The header background color."
+msgstr "Fargen til header bakgrunn."
+
+#: includes/Admin/Settings_Page.php:157 includes/Admin/Settings_Page.php:166
+#: lib/WooCommerce/Admin/Custom_Settings_Fields.php:80
+msgid "Color"
+msgstr "Farge"
+
+#: includes/Admin/Settings_Page.php:162
+msgid "Cell background"
+msgstr "Cellens bakgrunn"
+
+#: includes/Admin/Settings_Page.php:165
+msgid "The main background color used for the table contents."
+msgstr "Hovedfarge for bakrunn brukt i tabellens innhold."
+
+#: includes/Admin/Settings_Page.php:171
+msgid "Header font"
+msgstr "Header font"
+
+#: includes/Admin/Settings_Page.php:174
+msgid "The font used in the table header."
+msgstr "Font benyttet i tabell header."
+
+#: includes/Admin/Settings_Page.php:179
+msgid "Cell font"
+msgstr "Celle font"
+
+#: includes/Admin/Settings_Page.php:182
+msgid "The font used for the table contents."
+msgstr "Font benyttet i tabellens innhold."
+
+#: includes/Admin/Settings_Page.php:194
+msgid ""
+"The following options replace the standard WooCommerce template with a "
+"product table. You can also add the [product_table] shortcode to any post or "
+"page."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:199
+#, fuzzy
+#| msgid "Rows per page"
+msgid "Shop integration"
+msgstr "Rader pr side"
+
+#: includes/Admin/Settings_Page.php:205
+#, fuzzy
+#| msgid "The default columns for your product tables."
+msgid "Where to display product tables"
+msgstr "Standard kolonnene for produkttabellene dine."
+
+#: includes/Admin/Settings_Page.php:208
+#, fuzzy
+#| msgid "Rows per page"
+msgid "Shop page"
+msgstr "Rader pr side"
+
+#: includes/Admin/Settings_Page.php:215
+#, fuzzy
+#| msgid "Product Table: Filter by Price"
+msgid "Product search results"
+msgstr "Produkttabell: Filtrér etter pris"
+
+#: includes/Admin/Settings_Page.php:222
+#, fuzzy
+#| msgid "Product Table: Filter by Price"
+msgid "Product categories"
+msgstr "Produkttabell: Filtrér etter pris"
+
+#: includes/Admin/Settings_Page.php:229
+#, fuzzy
+#| msgid "Product tables"
+msgid "Product tags"
+msgstr "Produkttabeller"
+
+#: includes/Admin/Settings_Page.php:236
+#, fuzzy
+#| msgid "Product tables"
+msgid "Product attributes"
+msgstr "Produkttabeller"
+
+#: includes/Admin/Settings_Page.php:252
+msgid "Table content"
+msgstr "Tabellinnhold"
+
+#: includes/Admin/Settings_Page.php:255
+#, fuzzy
+#| msgid ""
+#| "These options set defaults for the [product_table] shortcode. They can be "
+#| "overridden for individual tables when you add the shortcode to the page. "
+#| "%1$sFull list of shortcode options%2$s."
+msgid ""
+"These options set defaults for all product tables. You can override them in "
+"the shortcode for individual tables."
+msgstr ""
+"Disse valgene setter standard for [product_table] hurtigkode. De kan "
+"overstyres for individuelle tabeller når du legger til hurtigkode på siden. "
+"%1$sHel liste av hurtigkodevalg%2$s."
+
+#: includes/Admin/Settings_Page.php:256
+#, fuzzy
+#| msgid ""
+#| "Please see the Knowledge Base for the %sfull list of shortcode options%s."
+msgid "See the full list of shortcode options"
+msgstr "Vennligst se Kunnskapsbasen for %sfull liste av hurtigkode valg%s."
+
+#: includes/Admin/Settings_Page.php:259
+msgid "Columns"
+msgstr "Kolonne"
+
+#: includes/Admin/Settings_Page.php:262
+#, fuzzy
+#| msgid "The default columns for your product tables."
+msgid "Enter the columns for your product tables."
+msgstr "Standard kolonnene for produkttabellene dine."
+
+#: includes/Admin/Settings_Page.php:267
+msgid "Image size"
+msgstr "Bilde størrelse"
+
+#: includes/Admin/Settings_Page.php:270
+msgid "W x H in pixels, e.g. 70x50"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:271
+#, fuzzy
+#| msgid ""
+#| "You can also enter standard image sizes here such as thumbnail, "
+#| "shop_thumbnail, medium, etc."
+msgid ""
+"You can also enter a standard image size such as thumbnail, shop_thumbnail, "
+"medium, etc."
+msgstr ""
+"Du kan også legge inn standard størrelse for bilder, slik som minibilde, "
+"butikk_minibilde, medium, etc."
+
+#: includes/Admin/Settings_Page.php:276
+msgid "Image lightbox"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:279
+msgid "Show product images in a lightbox"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:283
+msgid "Description length"
+msgstr "Beskrivelselengde"
+
+#: includes/Admin/Settings_Page.php:286
+msgid "words"
+msgstr "ord"
+
+#: includes/Admin/Settings_Page.php:287
+#, fuzzy
+#| msgid ""
+#| "Enter -1 to display the full product description including formatting."
+msgid "Enter -1 to show the full product description including formatting."
+msgstr "Legg inn -1 for å vise hele produktbeskrivelsen inklusive format."
+
+#: includes/Admin/Settings_Page.php:295 includes/Admin/Settings_Page.php:656
+msgid "Product links"
+msgstr "Produktlinker"
+
+#: includes/Admin/Settings_Page.php:298
+msgid "Include links to the relevant product, category, tag, or attribute."
+msgstr ""
+"Inkludér linker til relevante produkter, kategori, tag, eller egenskap."
+
+#: includes/Admin/Settings_Page.php:299
+msgid ""
+"Enter all, none, or a combination of: sku, name, image, tags, categories, "
+"terms, or attributes as a comma-separated list."
+msgstr ""
+"Legg inn alle, ingen eller en kombinasjon av: SKU-ID, navn, bilde, tag, "
+"kategori, vilkår eller egenskaper som en komma-separert liste."
+
+#: includes/Admin/Settings_Page.php:311
+#, fuzzy
+#| msgid "Loading products"
+msgid "Loading"
+msgstr "Laster produkter"
+
+#: includes/Admin/Settings_Page.php:316
+msgid "Lazy load"
+msgstr "Treg lastiing"
+
+#: includes/Admin/Settings_Page.php:319
+msgid "Load products one page at a time"
+msgstr "Last produkter en side om gangen"
+
+#: includes/Admin/Settings_Page.php:320
+msgid ""
+"Enable this if you have many products or experience slow page load times."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:322
+#, php-format
+msgid ""
+"Warning: Lazy load has %1$ssome limitations%2$s &mdash; it limits the "
+"search, sorting, dropdown filters, and variations."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:334
+msgid "Product limit"
+msgstr "Produktbegrensning"
+
+#: includes/Admin/Settings_Page.php:337
+#, fuzzy
+#| msgid "The maximum total number of products to display in one table."
+msgid "The maximum number of products in one table."
+msgstr "Maksimalt antall produkter som vises i en tabell."
+
+#: includes/Admin/Settings_Page.php:338
+msgid "Enter -1 to show all products."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:347
+msgid "Rows per page"
+msgstr "Rader pr side"
+
+#: includes/Admin/Settings_Page.php:350
+msgid "The number of products per page of results."
+msgstr "Antall produkter pr side ved søk."
+
+#: includes/Admin/Settings_Page.php:351
+#, fuzzy
+#| msgid "Use '-1' to display all products on one page of results."
+msgid "Enter -1 to show all products on a single page."
+msgstr "Bruk '-1' for å vise alle produktene på en side ved søk."
+
+#: includes/Admin/Settings_Page.php:366
+msgid "Sorting"
+msgstr "Sortering"
+
+#: includes/Admin/Settings_Page.php:371
+msgid "Sort by"
+msgstr "Sortér etter"
+
+#: includes/Admin/Settings_Page.php:375
+msgid "As listed in the Products screen (menu order)"
+msgstr "Som listet på Produkt oversikten (meny rekkefølge)"
+
+#: includes/Admin/Settings_Page.php:376 includes/Util/Columns_Util.php:30
+msgid "SKU"
+msgstr "SKU"
+
+#: includes/Admin/Settings_Page.php:377 includes/Util/Columns_Util.php:31
+msgid "Name"
+msgstr "Navn"
+
+#: includes/Admin/Settings_Page.php:378 includes/Util/Columns_Util.php:29
+msgid "ID"
+msgstr "ID"
+
+#: includes/Admin/Settings_Page.php:379 includes/Util/Columns_Util.php:42
+msgid "Price"
+msgstr "Pris"
+
+#: includes/Admin/Settings_Page.php:380
+msgid "Number of sales"
+msgstr "Antall salg"
+
+#: includes/Admin/Settings_Page.php:381
+msgid "Average reviews"
+msgstr "Gjennomsnitt kommentar"
+
+#: includes/Admin/Settings_Page.php:382
+msgid "Date added"
+msgstr "Dato registrert"
+
+#: includes/Admin/Settings_Page.php:383
+#, fuzzy
+#| msgid "Date last modified"
+msgid "Date modified"
+msgstr "Dato for siste endring"
+
+#: includes/Admin/Settings_Page.php:384
+msgid "Other"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:386
+msgid "The initial sort order applied to the table."
+msgstr "Standard sortering er aktiv på tabellen."
+
+#: includes/Admin/Settings_Page.php:395
+msgid "Sort column"
+msgstr "Sortér kolonne"
+
+#: includes/Admin/Settings_Page.php:399
+#, fuzzy
+#| msgid ""
+#| "Please note: column sorting will only work when lazy load is disabled."
+msgid ""
+"Enter a column name, e.g. description, att:size, etc. Will only work when "
+"lazy load is disabled."
+msgstr "Merk: kolonnesortering vil kun vises når Lazy Load ikke er aktivisert."
+
+#: includes/Admin/Settings_Page.php:403
+msgid "Sort direction"
+msgstr "Sorteringsretning"
+
+#: includes/Admin/Settings_Page.php:407
+msgid "Automatic"
+msgstr "Automatisk"
+
+#: includes/Admin/Settings_Page.php:408
+msgid "Ascending (A to Z, 1 to 99)"
+msgstr "Stigende sortering (A-Å, 1-99)"
+
+#: includes/Admin/Settings_Page.php:409
+msgid "Descending (Z to A, 99 to 1)"
+msgstr "Synkende sortering (Å - A, 99 til 1)"
+
+#: includes/Admin/Settings_Page.php:422
+#, fuzzy
+#| msgid "Add to cart column"
+msgid "Add to cart"
+msgstr "Legg i kurv kolonne"
+
+#: includes/Admin/Settings_Page.php:427
+#, fuzzy
+#| msgid "Loading products"
+msgid "Adding products to cart"
+msgstr "Laster produkter"
+
+#: includes/Admin/Settings_Page.php:431
+#, fuzzy
+#| msgid "Add to cart button"
+msgid "Add to cart buttons"
+msgstr "Knapp for legg i handlekurv"
+
+#: includes/Admin/Settings_Page.php:432
+#, fuzzy
+#| msgid "Add to cart column"
+msgid "Add to cart checkboxes"
+msgstr "Legg i kurv kolonne"
+
+#: includes/Admin/Settings_Page.php:433
+#, fuzzy
+#| msgid "Button and checkbox"
+msgid "Buttons and checkboxes"
+msgstr "Knapp og avkryssingsboks"
+
+#: includes/Admin/Settings_Page.php:435
+#, fuzzy
+#| msgid "The initial sort order applied to the table."
+msgid "How a customer orders products from the table."
+msgstr "Standard sortering er aktiv på tabellen."
+
+#: includes/Admin/Settings_Page.php:440
+msgid "Quantities"
+msgstr "Antall"
+
+#: includes/Admin/Settings_Page.php:443
+msgid "Show a quantity box for each product"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:447
+msgid "Variations"
+msgstr "Variasjoner"
+
+#: includes/Admin/Settings_Page.php:451
+#, fuzzy
+#| msgid "Show as dropdown list"
+msgid "Show as dropdown lists"
+msgstr "Vis som nedtrekksmeny"
+
+#: includes/Admin/Settings_Page.php:452
+msgid "Show one variation per row"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:453
+msgid "Show a Read More button linking to product page"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:455
+msgid "How to display options for variable products."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:460
+#, fuzzy
+#| msgid "Add to cart button"
+msgid "Multi-select cart button"
+msgstr "Knapp for legg i handlekurv"
+
+#: includes/Admin/Settings_Page.php:464 includes/Admin/Settings_Page.php:522
+#: includes/Admin/Settings_Page.php:542 includes/Admin/Settings_Page.php:556
+#: includes/Admin/Settings_Page.php:569
+msgid "Above table"
+msgstr "Over tabell"
+
+#: includes/Admin/Settings_Page.php:465 includes/Admin/Settings_Page.php:523
+#: includes/Admin/Settings_Page.php:543 includes/Admin/Settings_Page.php:557
+#: includes/Admin/Settings_Page.php:570
+msgid "Below table"
+msgstr "Under tabell"
+
+#: includes/Admin/Settings_Page.php:466 includes/Admin/Settings_Page.php:524
+#: includes/Admin/Settings_Page.php:544 includes/Admin/Settings_Page.php:558
+#: includes/Admin/Settings_Page.php:571
+msgid "Above and below table"
+msgstr "Over og under tabell"
+
+#: includes/Admin/Settings_Page.php:468
+#, fuzzy
+#| msgid ""
+#| "The position of the 'Add Selected To Cart' button for adding multiple "
+#| "products."
+msgid ""
+"The position of the 'Add To Cart' button to add multiple products from the "
+"table."
+msgstr ""
+"Plassering av \"Legg til valgte til handlekurv\" knapp for å legge til flere "
+"produkter."
+
+#: includes/Admin/Settings_Page.php:469
+#, fuzzy
+#| msgid ""
+#| "Only applicable if using 'Checkbox' or 'Button + checkbox' for the add to "
+#| "cart buttons"
+msgid ""
+"Only applicable if using checkboxes for the 'Adding products to cart' option "
+"above"
+msgstr ""
+"Gjelder kun hvis 'Avkryssingboks' eller 'Knapp + Avkryssingsboks' for legg "
+"til handlekurv-knapp"
+
+#: includes/Admin/Settings_Page.php:474
+#, fuzzy
+#| msgid "'Add Selected' button text"
+msgid "Multi-select button text"
+msgstr "Tekst for knappen ‘Legg til Valgte’"
+
+#: includes/Admin/Settings_Page.php:477
+#, fuzzy
+#| msgid "The text for the 'Add Selected To Cart' button."
+msgid "The text for the multi-select add to cart button."
+msgstr "Tekst for knappen 'Legg til Valgte til Handlekurven'"
+
+#: includes/Admin/Settings_Page.php:488
+msgid "Table controls"
+msgstr "Tabellinstillinger"
+
+#: includes/Admin/Settings_Page.php:493
+msgid "Product filters"
+msgstr "Produktfiltre"
+
+#: includes/Admin/Settings_Page.php:497
+msgid "Disabled"
+msgstr "Ikke aktiv"
+
+#: includes/Admin/Settings_Page.php:498
+#, fuzzy
+#| msgid "The font used for the table contents."
+msgid "Show based on table content"
+msgstr "Font benyttet i tabellens innhold."
+
+#: includes/Admin/Settings_Page.php:501
+#, fuzzy
+#| msgid ""
+#| "Dropdown lists to filter the table by category, tag, attribute, or custom "
+#| "taxonomy."
+msgid ""
+"Display dropdown lists to filter the table by category, tag, attribute or "
+"taxonomy."
+msgstr ""
+"Nedtrekksmeny for å filtrere tabell etter kategori, knagg, egenskap eller "
+"tilpassede valg."
+
+#: includes/Admin/Settings_Page.php:510
+msgid "Custom filters"
+msgstr "Tilpasset valg"
+
+#: includes/Admin/Settings_Page.php:513
+#, fuzzy
+#| msgid "Enter filters as a comma-separated list."
+msgid "Enter the filters as a comma-separated list."
+msgstr "Legg inn filtre som komma-separert liste."
+
+#: includes/Admin/Settings_Page.php:514
+msgid "E.g. categories,tags,att:color"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:518
+msgid "Search box"
+msgstr "Søkefelt"
+
+#: includes/Admin/Settings_Page.php:525 includes/Admin/Settings_Page.php:545
+#: includes/Admin/Settings_Page.php:559 includes/Admin/Settings_Page.php:572
+msgid "Hidden"
+msgstr "Skjult"
+
+#: includes/Admin/Settings_Page.php:531
+#, fuzzy
+#| msgid "Reset"
+msgid "Reset link"
+msgstr "Tilbakestill"
+
+#: includes/Admin/Settings_Page.php:534
+#, fuzzy
+#| msgid "Show the reset button above the table"
+msgid "Show the reset link above the table"
+msgstr "Vis nullstillingsknapp over tabellen"
+
+#: includes/Admin/Settings_Page.php:538
+msgid "Page length"
+msgstr "Sidelengde"
+
+#: includes/Admin/Settings_Page.php:547
+#, fuzzy
+#| msgid "The position of the 'Show [x] products' dropdown list."
+msgid "The position of the 'Show [x] per page' option."
+msgstr "Posisjon for \"vis [x] produkters nedtrekksliste."
+
+#: includes/Admin/Settings_Page.php:552
+msgid "Product totals"
+msgstr "Produkttotaler"
+
+#: includes/Admin/Settings_Page.php:565
+#, fuzzy
+#| msgid "Pagination type"
+msgid "Pagination"
+msgstr "Sidestørrelsetype"
+
+#: includes/Admin/Settings_Page.php:585
+msgid "Advanced"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:590
+msgid "Pagination type"
+msgstr "Sidestørrelsetype"
+
+#: includes/Admin/Settings_Page.php:594
+#, fuzzy
+#| msgid "Prev/next + numbers"
+msgid "Page numbers"
+msgstr "Forrige/neste + nummer"
+
+#: includes/Admin/Settings_Page.php:595
+#, fuzzy
+#| msgid "Prev/next"
+msgid "Prev - Next"
+msgstr "Forrige/neste"
+
+#: includes/Admin/Settings_Page.php:596
+msgid "Prev - Page numbers - Next"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:597
+msgid "First - Prev - Next - Last"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:598
+msgid "First - Prev - Page numbers - Next - Last"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:604
+msgid "AJAX"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:607
+#, fuzzy
+#| msgid "Use AJAX when adding to the to the cart"
+msgid "Use AJAX when adding to the cart"
+msgstr "Bruke AJAX når varer legges i handlekurv"
+
+#: includes/Admin/Settings_Page.php:611
+msgid "Shortcodes"
+msgstr "Hurtigkoder"
+
+#: includes/Admin/Settings_Page.php:614
+#, fuzzy
+#| msgid ""
+#| "Display shortcodes, HTML and other formatting inside the table content"
+msgid "Show shortcodes, HTML and other formatting in the table"
+msgstr "Vis hurtigkoder, HTML og andre formatkoder inne i tabellinnhold"
+
+#: includes/Admin/Settings_Page.php:618
+msgid "Caching"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:621
+msgid "Cache table contents to improve load times"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:629
+msgid "Cache expiration"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:632
+msgid "hours"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:633
+msgid "Your data will be refreshed after this length of time."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:651
+msgid "Quick View Pro"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:659
+msgid "Replace links to the product page with a Quick View"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:661
+#, php-format
+msgid "%sLearn how%s to correctly configure this option."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:677
+#, fuzzy
+#| msgid "Product add-ons"
+msgid "Product Addons"
+msgstr "Produkt tilvalg"
+
+#: includes/Admin/Settings_Page.php:682
+#, fuzzy
+#| msgid "Add-on groups layout"
+msgid "Addons layout"
+msgstr "Layout for tilvalgsgrupper"
+
+#: includes/Admin/Settings_Page.php:685 includes/Admin/Settings_Page.php:697
+msgid "Vertical"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:686 includes/Admin/Settings_Page.php:698
+msgid "Horizontal"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:689
+#, fuzzy
+#| msgid "Should the product add-on groups display horizontally or vertically?"
+msgid ""
+"Should product addons display horizontally or vertically within the table?"
+msgstr "Skal produktenes tilvalg vises horisontalt eller vertikalt?"
+
+#: includes/Admin/Settings_Page.php:694
+#, fuzzy
+#| msgid "Add-on options layout"
+msgid "Addon options layout"
+msgstr "Legg til tilvalgs layout"
+
+#: includes/Admin/Settings_Page.php:701
+#, fuzzy
+#| msgid ""
+#| "Should the individual options for each add-on display horizontally or "
+#| "vertically?"
+msgid ""
+"Should individual options for each addon display horizontally or vertically?"
+msgstr ""
+"Skal individuelle valg for hvert tilvalg vises horisontalt eller vertikalt?"
+
+#: includes/Admin/Settings_Page.php:804
+msgid ""
+"The columns option is invalid. Please check you have entered valid column "
+"names."
+msgstr ""
+
+#: includes/Ajax_Handler.php:179
+msgid "View Cart"
+msgstr "Se handlekurv"
+
+#: includes/Ajax_Handler.php:204
+msgid "There was an error adding to the cart. Please try again."
+msgstr ""
+"Det oppstod en feil ved lagringen av din lisensnøkkel, vennligst prøv på "
+"nytt."
+
+#: includes/Cart_Handler.php:48 includes/Frontend_Scripts.php:144
+msgid "Please select one or more products."
+msgstr "Vennligst velg ett eller flere produkter."
+
+#: includes/Cart_Handler.php:106
+msgid "No product selected. Please try again."
+msgstr "Ingen produkter er valgt. Vær så snill, prøv på nytt."
+
+#: includes/Cart_Handler.php:113
+#, fuzzy
+#| msgid "Please enter a quantity of 1 or greater."
+msgid "Please enter a quantity greater than 0."
+msgstr "Vennligst velg et antall som er 1 eller større."
+
+#: includes/Cart_Handler.php:122
+msgid "This product is no longer available. Please select an alternative."
+msgstr ""
+"Dette produktet er ikke lenger tilgjengelig. Vennligst velg et alternativ."
+
+#: includes/Config_Builder.php:74
+msgctxt "show all products option"
+msgid "All"
+msgstr "Alle"
+
+#: includes/Data/Product_Custom_Field.php:144
+msgid "True"
+msgstr "Sant"
+
+#: includes/Data/Product_Custom_Field.php:144
+msgid "False"
+msgstr "Usant"
+
+#: includes/Data/Product_Reviews.php:20
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:102
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Vurdert %s ut av 5"
+
+#: includes/Data/Product_Reviews.php:23
+#, php-format
+msgid "out of %s5%s"
+msgstr "ut av %s5%s"
+
+#: includes/Data/Product_Reviews.php:24
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] "basert på %s kundevurdering"
+msgstr[1] "basert på %s kundevurderinger"
+
+#: includes/Data/Product_Stock.php:18
+msgid "In stock"
+msgstr "På lager"
+
+#: includes/Frontend_Scripts.php:119
+#, fuzzy
+#| msgid "Showing 0 products"
+msgid "Showing _TOTAL_ products"
+msgstr "Viser 0 produkter"
+
+#: includes/Frontend_Scripts.php:120
+#, fuzzy
+#| msgid "Buy product"
+msgid "0 products"
+msgstr "Kjøp produkt"
+
+#: includes/Frontend_Scripts.php:121
+#, fuzzy
+#| msgid "(_MAX_ products in total)"
+msgid "(_MAX_ in total)"
+msgstr "(filtrert fra _MAX_ totalt antall produkter)"
+
+#: includes/Frontend_Scripts.php:122
+#, fuzzy
+#| msgid "Show _MENU_ products"
+msgid "Show _MENU_ per page"
+msgstr "Vis _MENU_ produkter"
+
+#: includes/Frontend_Scripts.php:123 includes/Frontend_Scripts.php:124
+#, fuzzy
+#| msgid "No matching products found."
+msgid "No matching products"
+msgstr "Ingen produkter matcher s&oslash;ket."
+
+#: includes/Frontend_Scripts.php:125
+msgid "Search:"
+msgstr "S&oslash;k:"
+
+#: includes/Frontend_Scripts.php:127
+msgid "First"
+msgstr "F&oslash;rste"
+
+#: includes/Frontend_Scripts.php:128
+msgid "Last"
+msgstr "Siste"
+
+#: includes/Frontend_Scripts.php:129
+msgid "Next"
+msgstr "Neste"
+
+#: includes/Frontend_Scripts.php:130
+msgid "Previous"
+msgstr "Forrige"
+
+#: includes/Frontend_Scripts.php:132
+msgctxt "thousands separator"
+msgid ","
+msgstr "&#8201;"
+
+#: includes/Frontend_Scripts.php:133
+msgctxt "decimal mark"
+msgid "."
+msgstr ","
+
+#: includes/Frontend_Scripts.php:136
+msgid ": activate to sort column ascending"
+msgstr ": aktiver for å sortere kolonnen stigende"
+
+#: includes/Frontend_Scripts.php:138
+msgid ": activate to sort column descending"
+msgstr ": aktiver for å sortere kolonnen synkende"
+
+#: includes/Frontend_Scripts.php:142
+msgid "Reset"
+msgstr "Tilbakestill"
+
+#: includes/Hook_Manager.php:300
+msgid "Buy product"
+msgstr "Kjøp produkt"
+
+#: includes/Hook_Manager.php:338
+msgid "This product is currently out of stock and unavailable."
+msgstr "Dette produktet er for øyeblikket ikke på lager og er utilgjengelig."
+
+#: includes/Table_Args.php:470
+msgid "Show details"
+msgstr "Vis detaljer"
+
+#: includes/Util/Columns_Util.php:32
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: includes/Util/Columns_Util.php:33
+msgid "Summary"
+msgstr "Sammendrag"
+
+#: includes/Util/Columns_Util.php:34
+msgid "Date"
+msgstr "Dato"
+
+#: includes/Util/Columns_Util.php:35
+msgid "Categories"
+msgstr "Kategorier"
+
+#: includes/Util/Columns_Util.php:36
+msgid "Tags"
+msgstr "Merkelapper"
+
+#: includes/Util/Columns_Util.php:37
+msgid "Image"
+msgstr "Bilde"
+
+#: includes/Util/Columns_Util.php:38
+msgid "Stock"
+msgstr "Lager"
+
+#: includes/Util/Columns_Util.php:39
+msgid "Reviews"
+msgstr "Anmeldelser"
+
+#: includes/Util/Columns_Util.php:40
+msgid "Weight"
+msgstr "Vekt"
+
+#: includes/Util/Columns_Util.php:41
+msgid "Dimensions"
+msgstr "Størrelse"
+
+#: includes/Util/Columns_Util.php:43
+msgid "Buy"
+msgstr "Kjøp"
+
+#: includes/Util/Columns_Util.php:44
+msgid "Details"
+msgstr "Detaljer"
+
+#: includes/Util/Settings.php:72
+#, fuzzy
+#| msgid "Add Selected To Cart"
+msgid "Add To Cart"
+msgstr "Legg til Valgte til Handlekurven"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:24
+msgid "Display a list of active filters for your product table."
+msgstr "Vennligst vis en liste av aktive filtré for din produktliste."
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:26
+msgid "Product Table: Active Filters"
+msgstr "Produkttabell: Aktive filtré"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:30
+msgid "Active filters"
+msgstr "Aktive filtré"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:31
+#: includes/widgets/class-wcpt-widget-layered-nav.php:76
+#: includes/widgets/class-wcpt-widget-price-filter.php:31
+#: includes/widgets/class-wcpt-widget-rating-filter.php:31
+msgid "Title"
+msgstr "Tittel"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:83
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:90
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:95
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:102
+msgid "Remove filter"
+msgstr "Ta bort filtré"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:90
+#, php-format
+msgid "Min %s"
+msgstr "Min %s"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:95
+#, php-format
+msgid "Max %s"
+msgstr "Maks %s"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:24
+msgid "Display a list of attributes to filter products in your product table."
+msgstr ""
+"Vis en liste av egenskaper for å filtrere produkter i din produkttabell."
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:26
+msgid "Product Table: Filter by Attribute"
+msgstr "Produkttabell: Filtrér per egenskap"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:75
+msgid "Filter by"
+msgstr "Filtrér ved"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:81
+msgid "Attribute"
+msgstr "Egenskap"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:87
+msgid "Display type"
+msgstr "Vis type"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:89
+msgid "List"
+msgstr "Liste"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:90
+msgid "Dropdown"
+msgstr "Nedtrekk"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:96
+msgid "Query type"
+msgstr "Spørsmålstype"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:98
+msgid "AND"
+msgstr "OG"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:99
+msgid "OR"
+msgstr "ELLER"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:203
+#, php-format
+msgid "Any %s"
+msgstr "Enhver %s"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:242
+msgid "Apply"
+msgstr "Aktivér"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:275
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr "Ingen produkter matcher s&oslash;ket"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:24
+msgid "Display a slider to filter your product table by price."
+msgstr "Vis en skyvebryter for å filtrere din produkttabell etter pris."
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:26
+msgid "Product Table: Filter by Price"
+msgstr "Produkttabell: Filtrér etter pris"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:30
+msgid "Filter by price"
+msgstr "Filtrér etter pris"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:96
+msgid "Min price"
+msgstr "Min pris"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:97
+msgid "Max price"
+msgstr "Maks pris"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:98
+msgid "Filter"
+msgstr "Filter"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:100
+msgid "Price:"
+msgstr "Pris:"
+
+#: includes/widgets/class-wcpt-widget-rating-filter.php:24
+msgid ""
+"Display a list of star ratings to filter products in your product table."
+msgstr ""
+"Vis en liste av stjerner vurderinger for å filtrere produkter i din "
+"produkttabell."
+
+#: includes/widgets/class-wcpt-widget-rating-filter.php:26
+msgid "Product Table: Filter by Rating"
+msgstr "Produkttabell: Filtrer etter Tilbakemelding"
+
+#: includes/widgets/class-wcpt-widget-rating-filter.php:30
+msgid "Average rating"
+msgstr "Gjennomstnitt tilbakemelding"
+
+#: lib/Plugin/Admin/Admin_Links.php:52
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: lib/Plugin/Admin/Admin_Links.php:70
+#, php-format
+msgid "View %s documentation"
+msgstr ""
+
+#: lib/Plugin/Admin/Admin_Links.php:71
+msgid "Docs"
+msgstr "Dokumenter"
+
+#: lib/Plugin/Admin/Plugin_Updater.php:121
+#, php-format
+msgid "Activate %1$syour license key%2$s to enable updates."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:63
+msgid "License key successfully activated."
+msgstr "Aktivering av lisensnøkkel vellykket."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:64
+#, fuzzy
+#| msgid "There was an error activating your license, please try again."
+msgid "There was an error activating your license key."
+msgstr ""
+"Det oppstod en feil ved lagringen av din lisensnøkkel, vennligst prøv på "
+"nytt."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:72
+#, fuzzy
+#| msgid "License key successfully activated."
+msgid "License key successfully deactivated."
+msgstr "Aktivering av lisensnøkkel vellykket."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:73
+msgid "There was an error deactivating your license key, please try again."
+msgstr ""
+"Det oppstod en feil ved lagringen av din lisensnøkkel, vennligst prøv på "
+"nytt."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:80
+msgid "The license key looks good!"
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:81
+#, fuzzy
+#| msgid "Please enter your license key."
+msgid "There's a problem with your license key."
+msgstr "Vennligst legg inn din lisensnøkkel."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:89
+msgid "License key"
+msgstr "Lisensnøkkel"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:97
+msgid "The licence key is contained in your order confirmation email."
+msgstr "Lisensnøkkelen er å finne i ordrebekreftelsen du har fått på e-post."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:100
+#, fuzzy
+#| msgid "License key"
+msgid "License Key"
+msgstr "Lisensnøkkel"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:241
+#, fuzzy
+#| msgid "Deactivate"
+msgid "Activate"
+msgstr "Deaktiver"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:242
+msgid "Deactivate"
+msgstr "Deaktiver"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:253
+#, fuzzy
+#| msgid "License key successfully activated."
+msgid "License key deactivated."
+msgstr "Aktivering av lisensnøkkel vellykket."
+
+#: lib/Plugin/License/Admin/License_Notices.php:90
+#, php-format
+msgid ""
+"Thank you for installing %1$s. To get started, please %2$senter your license "
+"key%3$s."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Notices.php:107
+#, php-format
+msgid ""
+"Your license key for %1$s has expired. %2$sClick here to renew for 20%% "
+"discount%3$s."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Notices.php:124
+#, php-format
+msgid ""
+"You no longer have a valid license for %1$s. Please %2$spurchase a new "
+"license key%3$s to continue using the plugin."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Notices.php:145
+#, php-format
+msgid ""
+"%1$s - your site has moved to a new domain. Please %2$sreactivate your "
+"license key%3$s."
+msgstr ""
+
+#: lib/Plugin/License/EDD_Licensing.php:184
+msgid "An error has occurred, please try again."
+msgstr "En feil har oppstått, vennligst prøv på nytt."
+
+#: lib/Plugin/License/Plugin_License.php:93
+#, fuzzy
+#| msgid "Your license key is invalid."
+msgid "Your license key is active."
+msgstr "Lisensnøkkelen din er ugyldig."
+
+#: lib/Plugin/License/Plugin_License.php:113
+msgid "Please enter your license key."
+msgstr "Vennligst legg inn din lisensnøkkel."
+
+#: lib/Plugin/License/Plugin_License.php:115
+#: lib/Plugin/License/Plugin_License.php:380
+msgid "Your license key is invalid."
+msgstr "Lisensnøkkelen din er ugyldig."
+
+#: lib/Plugin/License/Plugin_License.php:319
+#, fuzzy, php-format
+#| msgid "The licence key is contained in your order confirmation email."
+msgid ""
+"Invalid license key - please check your order confirmation email or "
+"%1$sAccount%2$s."
+msgstr "Lisensnøkkelen er å finne i ordrebekreftelsen du har fått på e-post."
+
+#: lib/Plugin/License/Plugin_License.php:325
+msgid "No URL was supplied for activation, please contact support."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:328
+msgid "License key mismatch, please contact support."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:331
+msgid "This license is for a bundled product and cannot be activated."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:335
+#, fuzzy
+#| msgid "Your license is not active for this URL."
+msgid "Your license key is not valid for this plugin."
+msgstr "Din lisens er ikke aktiv for denne URL’en."
+
+#: lib/Plugin/License/Plugin_License.php:341
+#, php-format
+msgid "%s site active"
+msgid_plural "%s sites active"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/Plugin/License/Plugin_License.php:344
+#, fuzzy, php-format
+#| msgid "Your license key has reached its activation limit."
+msgid "Your license key has reached its activation limit (%s)."
+msgstr "Din lisensnøkkel har nådd sin aktiverinsgrense."
+
+#: lib/Plugin/License/Plugin_License.php:345 lib/Util.php:38
+msgid "Read more"
+msgstr "Les mer"
+
+#: lib/Plugin/License/Plugin_License.php:348
+#: lib/Plugin/License/Plugin_License.php:369
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:362
+#, php-format
+msgid "Your license key expired on %s."
+msgstr "Din lisensnøkkel utgikk den %s."
+
+#: lib/Plugin/License/Plugin_License.php:366
+#, php-format
+msgid "Renew now for 20% discount."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:617
+#, fuzzy
+#| msgid "Your license is not active for this URL."
+msgid "Your license key is not active. Please reactivate or save the settings."
+msgstr "Din lisens er ikke aktiv for denne URL’en."
+
+#: lib/Plugin/License/Plugin_License.php:621
+#, fuzzy
+#| msgid "Your license key expired on %s."
+msgid "Your license key expired has expired."
+msgstr "Din lisensnøkkel utgikk den %s."
+
+#: lib/Plugin/License/Plugin_License.php:626
+#, php-format
+msgid ""
+"Your license key has been disabled. Please %1$spurchase a new license key"
+"%2$s to continue using the plugin."
+msgstr ""
+
+#: lib/WooCommerce/Admin/Custom_Settings_Fields.php:91
+msgid "Size"
+msgstr "Størrelse"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Product Table"
+msgstr "WooCommerce Product Table"
+
+#. Plugin URI of the plugin/theme
+#, fuzzy
+#| msgid "https://barn2.co.uk/wordpress-plugins/woocommerce-product-table/"
+msgid "https://barn2.com/wordpress-plugins/woocommerce-product-table/"
+msgstr "https://barn2.co.uk/wordpress-plugins/woocommerce-product-table/"
+
+#. Description of the plugin/theme
+msgid ""
+"Display and purchase WooCommerce products from a searchable and sortable "
+"table. Filter by anything."
+msgstr ""
+"Vis en hurtigkode for å vise en liste av dine WooCommerceprodukter i en "
+"søkbar og sortérbar tabell."
+
+#. Author of the plugin/theme
+msgid "Barn2 Plugins"
+msgstr ""
+
+#. Author URI of the plugin/theme
+#, fuzzy
+#| msgid "https://barn2.co.uk"
+msgid "https://barn2.com"
+msgstr "https://barn2.co.uk"
+
+#, fuzzy
+#~| msgid "Table design"
+#~ msgid "Table display"
+#~ msgstr "Tabell design"
+
+#, fuzzy
+#~| msgid "Loading products"
+#~ msgid "_TOTAL_ products"
+#~ msgstr "Laster produkter"
+
+#~ msgid "Show based on columns in table"
+#~ msgstr "Vises basert på kolonner i tabell"
+
+#~ msgid "Pagination buttons"
+#~ msgstr "Knapp for sideoppdeling"
+
+#, fuzzy
+#~| msgid "Table design"
+#~ msgid "Table reset"
+#~ msgstr "Tabell design"
+
+#~ msgid "View WooCommerce Product Table documentation"
+#~ msgstr "Se WooCommerce Product Table dokumentasjon"
+
+#~ msgid ""
+#~ "Enable this if you have many products or experience slow page load times."
+#~ "<br/><strong>Warning:</strong> Lazy load has some limitations - it limits "
+#~ "the search, sorting, and display of variations. Only use it if you "
+#~ "definitely need it."
+#~ msgstr ""
+#~ "Aktivér denne om du har mange produkter eller erfarer treg lasting av "
+#~ "sider, <br/><strong>Advvarsel::</strong> Lazy load has some limitations - "
+#~ "it limits the search, sorting, and display of variations. Only use it if "
+#~ "you definitely need it."
+
+#~ msgid "This option is ignored if lazy load is enabled."
+#~ msgstr "Dette valget tas ikke hensyn til hvis Lazy Load er aktivert."
+
+#~ msgid "Button only"
+#~ msgstr "Kun knapp"
+
+#~ msgid "Checkbox only"
+#~ msgstr "Kun avkryssingsboks"
+
+#~ msgid "How 'Add to Cart' buttons are displayed in the table."
+#~ msgstr "Hvordan \"Legg til handlekurv\" knappen vises i tabell."
+
+#~ msgid "Add to cart behavior"
+#~ msgstr "Legg til Valgte til Handlekurv rutine"
+
+#~ msgid "Show quantity selectors in the Add to Cart column"
+#~ msgstr "Vis antallsvelger i \"Legg til handlekurv\" kolonnen"
+
+#~ msgid "Link to product page"
+#~ msgstr "Lenke til produktsiden"
+
+#, fuzzy
+#~| msgid "Show quantity selectors in the Add to Cart column"
+#~ msgid "Dropdown lists in add to cart column"
+#~ msgstr "Vis antallsvelger i \"Legg til handlekurv\" kolonnen"
+
+#, fuzzy
+#~| msgid "Show as separate rows (1 per variation)"
+#~ msgid "Separate rows in table (one per variation)"
+#~ msgstr "Vis som separate rader (1 per variant)"
+
+#~ msgid "'Add Selected' position"
+#~ msgstr "Posisjonen til ‘Legg til Valgte til Handlekurven’"
+
+#~ msgid "The position of the product search box."
+#~ msgstr "Posisjon for søkefelt."
+
+#~ msgid ""
+#~ "The position of the product totals, e.g. 'Showing 1 to 5 of 10 products'."
+#~ msgstr "Posisjon for produkttotal, f eks 'Vis 1 til 5 av 10 produkter'."
+
+#~ msgid "The position of the paging buttons which scroll between results."
+#~ msgstr "Posisjon for side-størrelse som blar i resultat."
+
+#~ msgid "Numbers only"
+#~ msgstr "Kun nummer"
+
+#~ msgid "Prev/next/first/last"
+#~ msgstr "Forrige/neste/første/siste"
+
+#~ msgid "Prev/next/first/last + numbers"
+#~ msgstr "Forrige/neste/første/siste + nummer"
+
+#~ msgid "Reset button"
+#~ msgstr "Nullstillingsknapp"
+
+#, php-format
+#~ msgid ""
+#~ "Please see the Knowledge Base for the %sfull list of shortcode options%s."
+#~ msgstr "Vennligst se Kunnskapsbasen for %sfull liste av hurtigkode valg%s."
+
+#~ msgid "Getting Started Guide"
+#~ msgstr "Hurtigstartguide"
+
+#~ msgid "Knowledge Base"
+#~ msgstr "Kunnskapsbase"
+
+#~ msgid "Showing _START_ to _END_ of _TOTAL_ products"
+#~ msgstr "Viser _START_ til _END_ av _TOTAL_ produkter"
+
+#~ msgid "Filter:"
+#~ msgstr "Filter:"
+
+#, php-format
+#~ msgid "Rated %1$s out of 5 based on %2$s customer rating"
+#~ msgid_plural "Rated %1$s out of 5 based on %2$s customer ratings"
+#~ msgstr[0] "Vurdert til %1$s ut av 5 basert på %2$s tilbakemelding fra kunde"
+#~ msgstr[1] "Vurdert til %1$s av 5 basert på %2$s tilbakemeldinger fra kunder"
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s."
+#~ msgstr "Det finnes en ny versjon av %1$s. %2$sSe versjon %3$s detaljer%4$s."
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s or %5$supdate now%6$s."
+#~ msgstr ""
+#~ "Det finnes en ny versjon av %1$s. %2$sSe versjon %3$s detaljer%4$s. eller "
+#~ "%5$s oppdatér nå %6$s."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr ""
+#~ "Du har ikke nødvendige rettigheter til å installere plugin oppdateringer."
+
+#~ msgid "Error"
+#~ msgstr "Feil"
+
+#, fuzzy
+#~| msgid "Your license key has been disabled."
+#~ msgid "Your license key has been disabled, please contact support,"
+#~ msgstr "Lisensnøkkelen din har blitt deaktivert."
+
+#~ msgid "License key successfully deactivated. Click Save to reactivate."
+#~ msgstr "Lisensnøkkelen er deaktivert. Klikk Lagre reaktivere."
+
+#~ msgid "Barn2 Media"
+#~ msgstr "Barn2 Media"
+
+#~ msgid "Choosing your products"
+#~ msgstr "Velg dine produkter"
+
+#~ msgid ""
+#~ "The tables will display all products by default, or you can select "
+#~ "products based on category, tag, custom field, taxonomy, or individual "
+#~ "products."
+#~ msgstr ""
+#~ "Tabellen vil vise alle produktene som standard, eller du kan velge "
+#~ "produkter basert på kategori, tag, tilpasset felt, verdi, eller "
+#~ "individuelle produkter."
+
+#, fuzzy
+#~| msgid "%1$sHow to select your products%2$s."
+#~ msgid "Learn how to select your products"
+#~ msgstr "%1$sHvordan velge dine produkter%2$s."
+
+#~ msgid "Stacked (vertically)"
+#~ msgstr "Stablet (vertikalt)"
+
+#~ msgid "Inline (horizontally)"
+#~ msgstr "I linje (horisontalt)"
+
+#~ msgid "None"
+#~ msgstr "Ingen"
+
+#~ msgctxt "help text for custom search filters"
+#~ msgid "For taxonomies use %1$s, and for product attributes use %2$s"
+#~ msgstr "For tilpassede valg, bruk %1$s, og for produktegenskaper bruk %2$s"
+
+#~ msgid "W x H in pixels. Sets the image size when using the 'image' column."
+#~ msgstr ""
+#~ "B x H i piksler. Velg bildestørrelse når man bruker 'image' kolonne."
+
+#~ msgid "Product name"
+#~ msgstr "Produktnavn"
+
+#~ msgid "Product ID"
+#~ msgstr "Produkt ID"
+
+#~ msgid "Other column"
+#~ msgstr "Andre kolonner"
+
+#~ msgid ""
+#~ "Enter a column name in the same format used in the columns option. e.g. "
+#~ "\"sku\" or \"cf:date_field\""
+#~ msgstr ""
+#~ "Skriv inn kolonnenavn i samme format som benyttet i kolonnevalg. f eks. "
+#~ "\"sku\" eller \"cf:date_field\""
+
+#~ msgid "This controls how variable products are displayed in the table."
+#~ msgstr "Denne bestemmer hvordan produktvariasjoner vises i tabellen."
+
+#~ msgctxt "license key error message"
+#~ msgid "Error: %s"
+#~ msgstr "Feil: %s"
+
+#, fuzzy
+#~| msgid "Product Tables"
+#~ msgid "Product totals message"
+#~ msgstr "Produkttabeller"
+
+#, fuzzy
+#~| msgid "Show details"
+#~ msgid "Show links"
+#~ msgstr "Vis detaljer"
+
+#~ msgid "Get Support"
+#~ msgstr "Be om hjelp"
+
+#~ msgid "Troubleshooting Tips"
+#~ msgstr "Feilsøkingstips"

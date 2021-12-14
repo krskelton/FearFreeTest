@@ -1,0 +1,50 @@
+
+#{$wrapper-class} {
+
+	.single-product & {
+		margin-bottom: 2em;
+	}
+
+}
+
+#{$table-class} {
+
+	tr.product {
+		float: none !important;
+		display: table-row !important;
+
+		&::before,
+		&::after {
+			content: none !important;
+		}
+	}
+
+	// Image column
+	.product-thumbnail-wrapper:focus {
+		outline: none;
+	}
+
+	// Stock column
+	.stock.in-stock {
+		color: #0f834d;
+	}
+
+	.out-of-stock {
+		color: #e2401c;
+	}
+
+	@media screen and (min-width: $medium-breakpoint) {
+		.stock {
+			white-space: nowrap;
+		}
+	}
+
+	// Price column
+	.col-price ins,
+	.cart .price ins {
+		font-size: inherit !important;
+		text-decoration: none;
+		color: inherit;
+	}
+
+}

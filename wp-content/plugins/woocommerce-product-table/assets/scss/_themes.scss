@@ -1,0 +1,322 @@
+// AppArt
+#{$table-class} .no-quantity .product-qty {
+	display: none !important;
+}
+
+// Astra
+.astra #{$table-class} a.button,
+.astra #{$table-class} .single_add_to_cart_button {
+	padding-left: 18px !important;
+	padding-right: 18px !important;
+}
+
+// Buddyboss / OneSocial
+#{$wrapper-class} .buddyboss-select-inner {
+	display: inline-block;
+	padding-right: 0;
+
+	> span {
+		display: none;
+	}
+
+	select {
+		position: static;
+		border: 1px solid #a6a6a6;
+		opacity: 1;
+	}
+
+	&::after {
+		content: "";
+	}
+}
+
+// Croma
+.croma #{$table-class} .col-buy .single_variation .price {
+	text-align: right;
+	margin-bottom: 0 !important;
+}
+
+// Divi
+.divi #{$table-class} a.button:after,
+.divi #{$table-class} .cart .single_add_to_cart_button:after {
+	content: "";
+}
+
+.divi #{$table-class} .cart .quantity .qty {
+	font-size: 1em !important;
+}
+
+// Enfold
+.enfold #{$table-class} .cart .button {
+	border: none;
+}
+
+#top .enfold #{$table-class} .cart .button:disabled {
+	opacity: 1;
+}
+
+// Flatsome
+.flatsome {
+
+	#{$table-class} {
+		.woocommerce-variation-price {
+			border-top: none;
+		}
+
+		.cart .variations select {
+			padding-right: 1.8em;
+		}
+	}
+
+}
+
+// Hestia
+.hestia #{$table-class} .added_to_cart.wc-forward:hover {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	color: inherit;
+}
+
+#{$table-class} .hestia-view-cart-wrapper {
+	position: static;
+}
+
+// Jevelin
+#{$table-class} .sh-increase-numbers span {
+	font-size: 12px;
+	width: 28px !important;
+	height: 28px;
+	border-radius: 28px;
+}
+
+#{$table-class} .sh-increase-numbers i {
+	line-height: 28px;
+}
+
+// Jupiter
+.jupiter #{$table-class} {
+
+	.product_loop_button .mk-svg-icon {
+		// Magnifying glass icon
+		margin-right: 5px;
+		position: relative;
+		top: 2px;
+	}
+
+	.button.single_add_to_cart_button {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+	}
+}
+
+// Nielsen
+.nielsen #{$table-class} .sbHolder {
+	display: none;
+}
+
+.nielsen #{$table-class} .multi-cart .multi-cart-check {
+	top: 0.35rem;
+}
+
+// Nuvo 3
+.wp_nuvo3 #{$table-class} .cart .quantity {
+	width: 110px;
+	background-color: #efeff0;
+}
+
+.wp_nuvo3 #{$table-class} .cart .quantity .qty {
+	left: 33px !important;
+	margin-top: 0 !important;
+	border: 2px solid #efeff0 !important;
+}
+
+.wp_nuvo3 #{$table-class} .cart .quantity .minus {
+	left: 17px !important;
+}
+
+.wp_nuvo3 #{$table-class} .cart .quantity .plus {
+	right: 12px !important;
+}
+
+// Porto
+.porto #{$table-class} .cart .quantity {
+	.minus, .plus {
+		position: inherit !important;
+	}
+
+	.minus ~ .qty {
+		width: 2.5em !important;
+	}
+}
+
+// Ronneby
+.ronneby #{$table-class} .cart .quantity {
+	width: 77px;
+}
+
+.ronneby #{$table-class} .add-to-cart-wrapper .button,
+.ronneby #{$table-class} .cart .single_add_to_cart_button,
+.ronneby #{$table-class} .product-details-button {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.ronneby #{$table-class} .col-buy.addons-inline .wc-pao-addon input[type="checkbox"],
+.ronneby #{$table-class} .col-buy .addons-options-inline .wc-pao-addon input[type="checkbox"] {
+	margin-right: 8px;
+}
+
+// Salient
+.salient #{$controls-class} .multi-cart-form input[type="submit"] {
+	padding: 0.8em 1.5em !important;
+}
+
+.salient #{$table-class} .cart .quantity {
+
+	.minimal-form-input {
+		height: 28px !important;
+		padding: 0;
+	}
+
+	input.qty {
+		font-size: inherit !important;
+	}
+
+}
+
+.salient #{$table-class} .cart .single_add_to_cart_button {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.salient#{$wrapper-class} a.added_to_cart {
+	position: static !important;
+	text-indent: 0;
+	padding-top: 0;
+}
+
+// Savoy
+#{$table-class} .no-quantity .nm-quantity-wrap {
+	display: none !important;
+}
+
+#{$table-class} .nm-quantity-wrap {
+	display: inline-block;
+	width: auto;
+	vertical-align: top;
+	border: none;
+
+	.quantity .nm-qty-minus,
+	.quantity .nm-qty-plus {
+		display: none;
+	}
+
+	.quantity .qty {
+		border: 1px solid;
+		width: 50px;
+	}
+}
+
+.savoy #{$controls-class} select,
+.savoy #{$table-class} .cart .variations select {
+	padding-right: 20px !important;
+	background-position-x: 95%;
+}
+
+.savoy #{$table-class} .single_variation > div {
+	padding-bottom: 2px;
+}
+
+// Shopkeeper
+.shopkeeper .multi-cart-form input[type="submit"] {
+	min-width: 0 !important;
+}
+
+.shopkeeper .multi-cart-message .product_notification_wrapper {
+	.wc-forward {
+		display: none;
+	}
+}
+
+.shopkeeper #{$table-class} .cart {
+	select {
+		padding-right: 1.5em;
+	}
+}
+
+.shopkeeper #{$table-class} .cart .single_add_to_cart_button,
+.shopkeeper #{$table-class} a.button.alt,
+.shopkeeper #{$table-class} a.product-details-button {
+	height: 2.6em !important;
+	line-height: 2.6 !important;
+}
+
+.shopkeeper #{$table-class} .cart .quantity .qty {
+	font-weight: normal;
+}
+
+// The7
+.dt-the7 #{$table-class} .cart select {
+	padding-right: 30px;
+}
+
+.dt-the7 #{$table-class} .cart input.qty {
+	float: none;
+}
+
+// Twenty Seventeen
+.twentyseventeen #{$table-class} .cart .single_add_to_cart_button,
+.twentyseventeen #{$table-class} .add-to-cart-wrapper a.button,
+.twentyseventeen #{$table-class} .product-details-button {
+	padding-left: 18px;
+	padding-right: 18px;
+}
+
+// Uncode
+.uncode #{$table-class} {
+
+	.cart .single_add_to_cart_button,
+	.add-to-cart-wrapper a.button,
+	.product-details-button {
+		span {
+			font-size: 13px;
+			opacity: 1 !important;
+		}
+
+		span.view-cart {
+			display: none;
+		}
+	}
+
+	.cart .quantity .qty {
+		padding-left: 5px !important;
+		padding-right: 5px !important;
+		width: 60px;
+	}
+}
+
+// XStore
+.xstore #{$table-class} {
+
+	.cart .quantity input {
+		border: 1px solid #e1e1e1;
+
+		&::-webkit-inner-spin-button,
+		&::-webkit-outer-spin-button {
+			opacity: 1;
+		}
+	}
+
+}
+
+// X
+.x #{$table-class} .cart .quantity .qty {
+	width: 55px;
+}
+
+// Vantage
+.vantage #{$table-class} .cart .quantity .qty {
+	margin-top: 0 !important;
+	margin-right: 0 !important;
+}

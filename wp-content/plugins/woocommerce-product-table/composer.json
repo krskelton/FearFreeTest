@@ -1,0 +1,37 @@
+{
+    "name": "barn2/woocommerce-product-table",
+    "description": "WooCommerce Product Table plugin for WordPress.",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Barn2 Plugins",
+            "email": "support@barn2.com"
+        }
+    ],
+    "require-dev": {
+        "barn2/php-standards": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:barn2plugins/php-standards.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Barn2\\Plugin\\WC_Product_Table\\": "includes",
+            "Barn2\\WPT_Lib\\": "lib",
+            "WPTRT\\AdminNotices\\": "lib/vendor/admin-notices/src"
+        },
+        "classmap": [
+            "includes/widgets/"
+        ],
+        "files": [
+            "lib/class-html-data-table.php",
+            "lib/class-wp-scoped-hooks.php",
+            "lib/class-wc-settings-plugin-promo.php",
+            "includes/deprecated.php"
+        ]
+    }
+}

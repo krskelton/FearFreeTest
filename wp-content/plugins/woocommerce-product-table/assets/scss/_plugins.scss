@@ -1,0 +1,181 @@
+// WooCommerce Product Addons
+#{$table-class} .wc-pao-addon-container,
+#{$table-class} .wc-pao-addon-container .form-row {
+	vertical-align: top;
+	white-space: normal;
+}
+
+#{$table-class} .wc-pao-addon-container {
+	margin: 0 0 6px;
+
+	.form-row {
+		width: auto;
+		padding: 0 !important;
+		margin: 0;
+
+		label {
+			line-height: 1.6;
+			font-weight: inherit;
+
+			&:not(:only-child) {
+				margin-top: 4px;
+			}
+
+			+ input {
+				// e.g. text box input
+				margin-top: 1px;
+			}
+		}
+	}
+
+	span.amount {
+		font-weight: inherit;
+	}
+
+	> label,
+	.form-row label {
+		display: block;
+		padding: 0;
+		margin-top: 0;
+		margin-bottom: 1px;
+	}
+
+	p {
+		margin: 0;
+		padding: 0;
+	}
+
+	.wc-pao-addon-name {
+		font-size: 1em;
+		color: inherit;
+		font-weight: normal;
+		margin: 0;
+		padding: 0;
+		border: none;
+		display: block;
+		line-height: 1.5;
+	}
+
+	.wc-pao-addon-description {
+		margin-bottom: 4px;
+		line-height: 1.4;
+	}
+
+	input,
+	textarea {
+		margin: 0;
+		box-sizing: border-box !important;
+		font-size: inherit !important;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	input[type="number"] {
+		@include reset-form-input;
+		@include normalize-product-input;
+		max-width: 500px;
+	}
+
+	input[type="checkbox"],
+	input[type="radio"] {
+		width: auto !important;
+		margin-right: 1px;
+	}
+
+	input[type="file"] {
+		display: block;
+	}
+
+	.wc-pao-addon-image-swatch-select {
+		display: none;
+	}
+
+}
+
+#{$table-class} {
+
+	.addons-inline {
+
+		.wc-pao-addons-container {
+			display: inline-block;
+
+			+ .add-to-cart-button {
+				margin-left: 3px;
+			}
+		}
+
+		.wc-pao-addon-container {
+			display: inline-block;
+			margin-left: 8px;
+			text-align: left;
+		}
+	}
+
+	.addons-options-inline .wc-pao-addon-container .form-row {
+		display: inline-block;
+
+		+ .form-row {
+			margin-left: 10px;
+		}
+
+		label {
+			margin-top: 0;
+		}
+	}
+
+	.addons-inline .wc-pao-addon-container input[type="checkbox"],
+	.addons-options-inline .wc-pao-addon-container input[type="checkbox"] {
+		margin-right: 4px;
+	}
+
+	.addons-block.addons-options-block .wc-pao-addon-container {
+
+		input[type="checkbox"],
+		input[type="radio"] {
+			margin-left: 7px;
+			margin-right: 0;
+			position: relative;
+			top: 5px;
+			float: right;
+		}
+
+	}
+
+	#product-addons-total {
+		display: none;
+	}
+
+}
+
+// WOOF filters
+.page.woof_search_is_going nav.woocommerce-breadcrumb,
+.single.woof_search_is_going nav.woocommerce-breadcrumb {
+	display: block;
+}
+
+.woof_shortcode_output .storefront-sorting {
+	margin-bottom: 0;
+}
+
+// WooCommerce Variations and Swatches
+#{$table-class} {
+
+	.cart .swatch-control select {
+		display: none !important;
+	}
+
+	.cart .swatch-anchor {
+		text-align: left;
+	}
+
+	.swatch-control.radio-select li {
+		display: inline-block;
+		margin-right: 10px;
+		margin-left: 0;
+	}
+
+	.swatch-control.radio-select li label {
+		margin: 0;
+	}
+
+}

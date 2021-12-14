@@ -1,0 +1,1469 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Product Table\n"
+"POT-Creation-Date: 2021-09-23 18:17+0200\n"
+"PO-Revision-Date: 2021-09-24 11:20+0200\n"
+"Last-Translator: Andy Keith <support@barn2.com>\n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-product-table.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/Admin/Admin_Controller.php:46
+msgid "Product Table"
+msgstr "Producttabel"
+
+#: includes/Admin/Settings_Page.php:60 includes/Admin/Settings_Page.php:83
+msgid "Product tables"
+msgstr "Product tabellen"
+
+#: includes/Admin/Settings_Page.php:86
+msgid "The following options control the WooCommerce Product Table extension."
+msgstr "De volgende opties beheren de WooCommerce Product Tabellen toevoeging."
+
+#: includes/Admin/Settings_Page.php:88
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: includes/Admin/Settings_Page.php:89
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: includes/Admin/Settings_Page.php:103
+msgid "Table design"
+msgstr "Tabelontwerp"
+
+#: includes/Admin/Settings_Page.php:104
+msgid "You can customize the table design to suit your requirements."
+msgstr "U kunt het tafelontwerp aanpassen aan uw wensen."
+
+#: includes/Admin/Settings_Page.php:109
+msgid "Design"
+msgstr "Ontwerp"
+
+#: includes/Admin/Settings_Page.php:113
+msgid "Default"
+msgstr "Standaard"
+
+#: includes/Admin/Settings_Page.php:114 includes/Admin/Settings_Page.php:499
+msgid "Custom"
+msgstr "Aangepast"
+
+#: includes/Admin/Settings_Page.php:125
+msgid ""
+"Choose your custom table styles below. Any settings you leave blank will "
+"default to your theme styles."
+msgstr ""
+"Kies hieronder uw aangepaste tabelstijlen. Alle instellingen die u leeg "
+"laat, worden standaard ingesteld op uw themastijlen."
+
+#: includes/Admin/Settings_Page.php:129
+msgid "Borders"
+msgstr "Randen"
+
+#: includes/Admin/Settings_Page.php:132
+msgid "External border icon"
+msgstr "Externe rand-icoon"
+
+#: includes/Admin/Settings_Page.php:132
+msgid "External"
+msgstr "Externe"
+
+#: includes/Admin/Settings_Page.php:133
+msgid "The border for the outer edges of the table."
+msgstr "De buitenste rand van de tabel."
+
+#: includes/Admin/Settings_Page.php:140
+msgid "Header border icon"
+msgstr "Koprand icoon"
+
+#: includes/Admin/Settings_Page.php:140
+msgid "Header"
+msgstr "Kop"
+
+#: includes/Admin/Settings_Page.php:141
+msgid "The border for the bottom of the header row."
+msgstr "De rand voor de onderkant van de koprij."
+
+#: includes/Admin/Settings_Page.php:148
+msgid "Cell border icon"
+msgstr "Icoon celrand"
+
+#: includes/Admin/Settings_Page.php:148
+msgid "Cell"
+msgstr "Cel"
+
+#: includes/Admin/Settings_Page.php:149
+msgid "The border between cells in your table."
+msgstr "De randen tussen cellen in uw tabel."
+
+#: includes/Admin/Settings_Page.php:153
+msgid "Header background"
+msgstr "Kop achtergrond"
+
+#: includes/Admin/Settings_Page.php:156
+msgid "The header background color."
+msgstr "Achtergrondkleur van de kop."
+
+#: includes/Admin/Settings_Page.php:157 includes/Admin/Settings_Page.php:166
+#: lib/WooCommerce/Admin/Custom_Settings_Fields.php:80
+msgid "Color"
+msgstr "Kleur"
+
+#: includes/Admin/Settings_Page.php:162
+msgid "Cell background"
+msgstr "Cel achtergrond"
+
+#: includes/Admin/Settings_Page.php:165
+msgid "The main background color used for the table contents."
+msgstr ""
+"De belangrijkste achtergrondkleur die wordt gebruikt voor de inhoud van de "
+"tabel."
+
+#: includes/Admin/Settings_Page.php:171
+msgid "Header font"
+msgstr "Lettertype kop"
+
+#: includes/Admin/Settings_Page.php:174
+msgid "The font used in the table header."
+msgstr "Het lettertype dat wordt gebruikt in de tabelkop."
+
+#: includes/Admin/Settings_Page.php:179
+msgid "Cell font"
+msgstr "Cel lettertype"
+
+#: includes/Admin/Settings_Page.php:182
+msgid "The font used for the table contents."
+msgstr "Het lettertype dat wordt gebruikt voor de inhoud van de tabel."
+
+#: includes/Admin/Settings_Page.php:194
+msgid ""
+"The following options replace the standard WooCommerce template with a "
+"product table. You can also add the [product_table] shortcode to any post or "
+"page."
+msgstr ""
+"De volgende opties vervangen de standaard WooCommerce-sjabloon door een "
+"producttabel. Je kunt de shortcode [product_table] ook toevoegen aan elk "
+"bericht of elke pagina."
+
+#: includes/Admin/Settings_Page.php:199
+msgid "Shop integration"
+msgstr "Winkelintegratie"
+
+#: includes/Admin/Settings_Page.php:205
+msgid "Where to display product tables"
+msgstr "Waar producttabellen weergeven"
+
+#: includes/Admin/Settings_Page.php:208
+msgid "Shop page"
+msgstr "Winkelpagina"
+
+#: includes/Admin/Settings_Page.php:215
+msgid "Product search results"
+msgstr "Product zoekresultaten"
+
+#: includes/Admin/Settings_Page.php:222
+msgid "Product categories"
+msgstr "Productcategorieën"
+
+#: includes/Admin/Settings_Page.php:229
+msgid "Product tags"
+msgstr "Product tags"
+
+#: includes/Admin/Settings_Page.php:236
+msgid "Product attributes"
+msgstr "Product kenmerken"
+
+#: includes/Admin/Settings_Page.php:252
+msgid "Table content"
+msgstr "Tabelinhoud"
+
+#: includes/Admin/Settings_Page.php:255
+msgid ""
+"These options set defaults for all product tables. You can override them in "
+"the shortcode for individual tables."
+msgstr ""
+"Met deze opties worden standaardwaarden ingesteld voor alle producttabellen. "
+"U kunt ze overschrijven in de shortcode voor afzonderlijke tabellen."
+
+#: includes/Admin/Settings_Page.php:256
+msgid "See the full list of shortcode options"
+msgstr "Raadpleeg naslagwerk voor de volledige lijst met shortcode-opties"
+
+#: includes/Admin/Settings_Page.php:259
+msgid "Columns"
+msgstr "Kolommen"
+
+#: includes/Admin/Settings_Page.php:262
+msgid "Enter the columns for your product tables."
+msgstr "Voer de kolommen voor uw producttabellen in."
+
+#: includes/Admin/Settings_Page.php:267
+msgid "Image size"
+msgstr "Afbeeldingsgrootte"
+
+#: includes/Admin/Settings_Page.php:270
+msgid "W x H in pixels, e.g. 70x50"
+msgstr "B x H in pixels, bijv. 70x50"
+
+#: includes/Admin/Settings_Page.php:271
+msgid ""
+"You can also enter a standard image size such as thumbnail, shop_thumbnail, "
+"medium, etc."
+msgstr ""
+"U kunt ook een standaard afbeeldingsgrootte invoeren, zoals miniatuur, "
+"shop_thumbnail, medium, enz."
+
+#: includes/Admin/Settings_Page.php:276
+msgid "Image lightbox"
+msgstr "Afbeelding lightbox"
+
+#: includes/Admin/Settings_Page.php:279
+msgid "Show product images in a lightbox"
+msgstr "Productafbeeldingen weergeven in een lightbox"
+
+#: includes/Admin/Settings_Page.php:283
+msgid "Description length"
+msgstr "Beschrijvingslengte"
+
+#: includes/Admin/Settings_Page.php:286
+msgid "words"
+msgstr "woorden"
+
+#: includes/Admin/Settings_Page.php:287
+msgid "Enter -1 to show the full product description including formatting."
+msgstr ""
+"Voer -1 in om de volledige productbeschrijving inclusief opmaak weer te "
+"geven."
+
+#: includes/Admin/Settings_Page.php:295 includes/Admin/Settings_Page.php:656
+msgid "Product links"
+msgstr "Productkoppelingen"
+
+#: includes/Admin/Settings_Page.php:298
+msgid "Include links to the relevant product, category, tag, or attribute."
+msgstr ""
+"Voeg links toe naar het relevante product, categorie, tag of attribuut."
+
+#: includes/Admin/Settings_Page.php:299
+msgid ""
+"Enter all, none, or a combination of: sku, name, image, tags, categories, "
+"terms, or attributes as a comma-separated list."
+msgstr ""
+"Voer alles, geen of een combinatie van: sku, naam, afbeelding, tags, "
+"categorieën, termen of attributen in als een door komma’s gescheiden lijst."
+
+#: includes/Admin/Settings_Page.php:311
+msgid "Loading"
+msgstr "Laden"
+
+#: includes/Admin/Settings_Page.php:316
+msgid "Lazy load"
+msgstr "Langzaam laden (Lazy load)"
+
+#: includes/Admin/Settings_Page.php:319
+msgid "Load products one page at a time"
+msgstr "Laad producten één pagina per keer"
+
+#: includes/Admin/Settings_Page.php:320
+msgid ""
+"Enable this if you have many products or experience slow page load times."
+msgstr ""
+"Schakel dit in als u veel producten hebt of trage laadtijden van pagina's "
+"ervaart."
+
+#: includes/Admin/Settings_Page.php:322
+#, php-format
+msgid ""
+"Warning: Lazy load has %1$ssome limitations%2$s &mdash; it limits the "
+"search, sorting, dropdown filters, and variations."
+msgstr ""
+"Waarschuwing: Lazy load heeft %1$senkele beperkingen%2$s - het beperkt het "
+"zoeken, sorteren, vervolgkeuzelijstfilters en variaties."
+
+#: includes/Admin/Settings_Page.php:334
+msgid "Product limit"
+msgstr "Productlimiet"
+
+#: includes/Admin/Settings_Page.php:337
+msgid "The maximum number of products in one table."
+msgstr "Het maximum aantal producten in één tabel."
+
+#: includes/Admin/Settings_Page.php:338
+msgid "Enter -1 to show all products."
+msgstr "Voer -1 in om alle producten weer te geven."
+
+#: includes/Admin/Settings_Page.php:347
+msgid "Rows per page"
+msgstr "Rijen per pagina"
+
+#: includes/Admin/Settings_Page.php:350
+msgid "The number of products per page of results."
+msgstr "Het aantal producten per resultaatpagina."
+
+#: includes/Admin/Settings_Page.php:351
+msgid "Enter -1 to show all products on a single page."
+msgstr "Voer -1 in om alle producten op één pagina weer te geven."
+
+#: includes/Admin/Settings_Page.php:366
+msgid "Sorting"
+msgstr "Sortering"
+
+#: includes/Admin/Settings_Page.php:371
+msgid "Sort by"
+msgstr "Sorteer per"
+
+#: includes/Admin/Settings_Page.php:375
+msgid "As listed in the Products screen (menu order)"
+msgstr "Zoals vermeld op het scherm Producten (menuvolgorde)"
+
+#: includes/Admin/Settings_Page.php:376 includes/Util/Columns_Util.php:30
+msgid "SKU"
+msgstr "SKU"
+
+#: includes/Admin/Settings_Page.php:377 includes/Util/Columns_Util.php:31
+msgid "Name"
+msgstr "Naam"
+
+#: includes/Admin/Settings_Page.php:378 includes/Util/Columns_Util.php:29
+msgid "ID"
+msgstr "ID"
+
+#: includes/Admin/Settings_Page.php:379 includes/Util/Columns_Util.php:42
+msgid "Price"
+msgstr "Prijs"
+
+#: includes/Admin/Settings_Page.php:380
+msgid "Number of sales"
+msgstr "Verkoopcijfers"
+
+#: includes/Admin/Settings_Page.php:381
+msgid "Average reviews"
+msgstr "Gemiddelde beoordelingen"
+
+#: includes/Admin/Settings_Page.php:382
+msgid "Date added"
+msgstr "Plaatsingsdatum"
+
+#: includes/Admin/Settings_Page.php:383
+msgid "Date modified"
+msgstr "Datum gewijzigd"
+
+#: includes/Admin/Settings_Page.php:384
+msgid "Other"
+msgstr "Andere"
+
+#: includes/Admin/Settings_Page.php:386
+msgid "The initial sort order applied to the table."
+msgstr "De oorspronkelijke sorteervolgorde toegepast op de tabel."
+
+#: includes/Admin/Settings_Page.php:395
+msgid "Sort column"
+msgstr "Kolomvolgorde"
+
+#: includes/Admin/Settings_Page.php:399
+msgid ""
+"Enter a column name, e.g. description, att:size, etc. Will only work when "
+"lazy load is disabled."
+msgstr ""
+"Voer een kolom naam in, bijvoorbeeld beschrijving. Let op: kolom sorteren "
+"werkt alleen als langzaam laden (Lazy load) is uitgeschakeld."
+
+#: includes/Admin/Settings_Page.php:403
+msgid "Sort direction"
+msgstr "Sorteervolgorde"
+
+#: includes/Admin/Settings_Page.php:407
+msgid "Automatic"
+msgstr "Automatisch"
+
+#: includes/Admin/Settings_Page.php:408
+msgid "Ascending (A to Z, 1 to 99)"
+msgstr "Oplopend (van A tot Z, van 1 tot 99)"
+
+#: includes/Admin/Settings_Page.php:409
+msgid "Descending (Z to A, 99 to 1)"
+msgstr "Aflopend (van Z naar A, van 99 naar 1)"
+
+#: includes/Admin/Settings_Page.php:422
+msgid "Add to cart"
+msgstr "Voeg toe aan winkelkar"
+
+#: includes/Admin/Settings_Page.php:427
+msgid "Adding products to cart"
+msgstr "Producten toevoegen aan winkelwagen"
+
+#: includes/Admin/Settings_Page.php:431
+msgid "Add to cart buttons"
+msgstr "Knoppen toevoegen aan winkelwagen"
+
+#: includes/Admin/Settings_Page.php:432
+msgid "Add to cart checkboxes"
+msgstr "Selectievakjes toevoegen aan winkelwagentje"
+
+#: includes/Admin/Settings_Page.php:433
+msgid "Buttons and checkboxes"
+msgstr "Knoppen en selectievakjes"
+
+#: includes/Admin/Settings_Page.php:435
+msgid "How a customer orders products from the table."
+msgstr "Hoe een klant producten uit de tabel bestelt."
+
+#: includes/Admin/Settings_Page.php:440
+msgid "Quantities"
+msgstr "Hoeveelheden"
+
+#: includes/Admin/Settings_Page.php:443
+msgid "Show a quantity box for each product"
+msgstr "Een hoeveelheidsvak voor elk product weergeven"
+
+#: includes/Admin/Settings_Page.php:447
+msgid "Variations"
+msgstr "Variaties"
+
+#: includes/Admin/Settings_Page.php:451
+msgid "Show as dropdown lists"
+msgstr "Weergeven als vervolgkeuzelijsten"
+
+#: includes/Admin/Settings_Page.php:452
+msgid "Show one variation per row"
+msgstr "Eén variatie per rij weergeven"
+
+#: includes/Admin/Settings_Page.php:453
+msgid "Show a Read More button linking to product page"
+msgstr "Een knop Meer lezen weergeven die naar de productpagina linkt"
+
+#: includes/Admin/Settings_Page.php:455
+msgid "How to display options for variable products."
+msgstr "Opties voor variabele producten weergeven."
+
+#: includes/Admin/Settings_Page.php:460
+msgid "Multi-select cart button"
+msgstr "Multi-select winkelwagen knop"
+
+#: includes/Admin/Settings_Page.php:464 includes/Admin/Settings_Page.php:522
+#: includes/Admin/Settings_Page.php:542 includes/Admin/Settings_Page.php:556
+#: includes/Admin/Settings_Page.php:569
+msgid "Above table"
+msgstr "Boven de tabel"
+
+#: includes/Admin/Settings_Page.php:465 includes/Admin/Settings_Page.php:523
+#: includes/Admin/Settings_Page.php:543 includes/Admin/Settings_Page.php:557
+#: includes/Admin/Settings_Page.php:570
+msgid "Below table"
+msgstr "Onder de tabel"
+
+#: includes/Admin/Settings_Page.php:466 includes/Admin/Settings_Page.php:524
+#: includes/Admin/Settings_Page.php:544 includes/Admin/Settings_Page.php:558
+#: includes/Admin/Settings_Page.php:571
+msgid "Above and below table"
+msgstr "Onder en boven de tabel"
+
+#: includes/Admin/Settings_Page.php:468
+msgid ""
+"The position of the 'Add To Cart' button to add multiple products from the "
+"table."
+msgstr ""
+"De positie van de knop 'Toevoegen aan winkelwagentje' om meerdere producten "
+"uit de tabel toe te voegen."
+
+#: includes/Admin/Settings_Page.php:469
+msgid ""
+"Only applicable if using checkboxes for the 'Adding products to cart' option "
+"above"
+msgstr ""
+"Alleen van toepassing als u selectievakjes gebruikt voor de optie 'Producten "
+"toevoegen aan winkelwagen' hierboven"
+
+#: includes/Admin/Settings_Page.php:474
+msgid "Multi-select button text"
+msgstr "Tekst meerkeuzeknop"
+
+#: includes/Admin/Settings_Page.php:477
+msgid "The text for the multi-select add to cart button."
+msgstr ""
+"De tekst voor de knop Toevoegen aan winkelwagentje met meerdere selecties."
+
+#: includes/Admin/Settings_Page.php:488
+msgid "Table controls"
+msgstr "Tabelbedieningen"
+
+#: includes/Admin/Settings_Page.php:493
+msgid "Product filters"
+msgstr "Productfilters"
+
+#: includes/Admin/Settings_Page.php:497
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: includes/Admin/Settings_Page.php:498
+msgid "Show based on table content"
+msgstr "Weergeven op basis van tabelinhoud"
+
+#: includes/Admin/Settings_Page.php:501
+msgid ""
+"Display dropdown lists to filter the table by category, tag, attribute or "
+"taxonomy."
+msgstr ""
+"Vervolgkeuzelijsten weergeven om de tabel te filteren op categorie, tag, "
+"kenmerk of taxonomie."
+
+#: includes/Admin/Settings_Page.php:510
+msgid "Custom filters"
+msgstr "Aangepaste filters"
+
+#: includes/Admin/Settings_Page.php:513
+msgid "Enter the filters as a comma-separated list."
+msgstr "Voer de filters in als een door komma's gescheiden lijst."
+
+#: includes/Admin/Settings_Page.php:514
+msgid "E.g. categories,tags,att:color"
+msgstr "B.v. categorieën,tags,att:color"
+
+#: includes/Admin/Settings_Page.php:518
+msgid "Search box"
+msgstr "Zoekveld"
+
+#: includes/Admin/Settings_Page.php:525 includes/Admin/Settings_Page.php:545
+#: includes/Admin/Settings_Page.php:559 includes/Admin/Settings_Page.php:572
+msgid "Hidden"
+msgstr "Verborgen"
+
+#: includes/Admin/Settings_Page.php:531
+msgid "Reset link"
+msgstr "Koppeling resetten"
+
+#: includes/Admin/Settings_Page.php:534
+msgid "Show the reset link above the table"
+msgstr "De resetlink boven de tabel weergeven"
+
+#: includes/Admin/Settings_Page.php:538
+msgid "Page length"
+msgstr "Paginalengte"
+
+#: includes/Admin/Settings_Page.php:547
+msgid "The position of the 'Show [x] per page' option."
+msgstr "De positie van de optie ‘[x] per pagina weergeven’."
+
+#: includes/Admin/Settings_Page.php:552
+msgid "Product totals"
+msgstr "Producttotalen"
+
+#: includes/Admin/Settings_Page.php:565
+msgid "Pagination"
+msgstr "Paginering"
+
+#: includes/Admin/Settings_Page.php:585
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: includes/Admin/Settings_Page.php:590
+msgid "Pagination type"
+msgstr "Pagineringstype"
+
+#: includes/Admin/Settings_Page.php:594
+msgid "Page numbers"
+msgstr "Paginanummers"
+
+#: includes/Admin/Settings_Page.php:595
+msgid "Prev - Next"
+msgstr "Prev - Volgende"
+
+#: includes/Admin/Settings_Page.php:596
+msgid "Prev - Page numbers - Next"
+msgstr "Prev - Paginanummers - Volgende"
+
+#: includes/Admin/Settings_Page.php:597
+msgid "First - Prev - Next - Last"
+msgstr "Eerste - Prev - Volgende - Laatste"
+
+#: includes/Admin/Settings_Page.php:598
+msgid "First - Prev - Page numbers - Next - Last"
+msgstr "Eerste - Prev - Paginanummers - Volgende - Laatste"
+
+#: includes/Admin/Settings_Page.php:604
+msgid "AJAX"
+msgstr "AJAX"
+
+#: includes/Admin/Settings_Page.php:607
+msgid "Use AJAX when adding to the cart"
+msgstr "Ajax gebruiken bij het toevoegen aan de winkelwagen"
+
+#: includes/Admin/Settings_Page.php:611
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: includes/Admin/Settings_Page.php:614
+msgid "Show shortcodes, HTML and other formatting in the table"
+msgstr "Shortcodes, HTML en andere opmaak weergeven in de tabel"
+
+#: includes/Admin/Settings_Page.php:618
+msgid "Caching"
+msgstr "Caching"
+
+#: includes/Admin/Settings_Page.php:621
+msgid "Cache table contents to improve load times"
+msgstr "Tabelinhoud cachen om laadtijden te verbeteren"
+
+#: includes/Admin/Settings_Page.php:629
+msgid "Cache expiration"
+msgstr "Cache verval"
+
+#: includes/Admin/Settings_Page.php:632
+msgid "hours"
+msgstr "uren"
+
+#: includes/Admin/Settings_Page.php:633
+msgid "Your data will be refreshed after this length of time."
+msgstr "Uw gegevens worden na deze tijdsduur vernieuwd."
+
+#: includes/Admin/Settings_Page.php:651
+msgid "Quick View Pro"
+msgstr "Quick View Pro"
+
+#: includes/Admin/Settings_Page.php:659
+msgid "Replace links to the product page with a Quick View"
+msgstr "Koppelingen naar de productpagina vervangen door een snelle weergave"
+
+#: includes/Admin/Settings_Page.php:661
+#, php-format
+msgid "%sLearn how%s to correctly configure this option."
+msgstr "%sMeer informatie over hoe%s deze optie correct kunt configureren."
+
+#: includes/Admin/Settings_Page.php:677
+msgid "Product Addons"
+msgstr "Product Addons"
+
+#: includes/Admin/Settings_Page.php:682
+msgid "Addons layout"
+msgstr "Addons lay-out"
+
+#: includes/Admin/Settings_Page.php:685 includes/Admin/Settings_Page.php:697
+msgid "Vertical"
+msgstr "Verticaal"
+
+#: includes/Admin/Settings_Page.php:686 includes/Admin/Settings_Page.php:698
+msgid "Horizontal"
+msgstr "Horizontaal"
+
+#: includes/Admin/Settings_Page.php:689
+msgid ""
+"Should product addons display horizontally or vertically within the table?"
+msgstr ""
+"Moeten product add-ons horizontaal of verticaal in de tabel worden "
+"weergegeven?"
+
+#: includes/Admin/Settings_Page.php:694
+msgid "Addon options layout"
+msgstr "Indeling add-on-opties"
+
+#: includes/Admin/Settings_Page.php:701
+msgid ""
+"Should individual options for each addon display horizontally or vertically?"
+msgstr ""
+"Moeten afzonderlijke opties voor elke add-on horizontaal of verticaal worden "
+"weergegeven?"
+
+#: includes/Admin/Settings_Page.php:804
+msgid ""
+"The columns option is invalid. Please check you have entered valid column "
+"names."
+msgstr ""
+"De optie kolommen is ongeldig. Controleer of u geldige kolomnamen hebt "
+"ingevoerd."
+
+#: includes/Ajax_Handler.php:179
+msgid "View Cart"
+msgstr "Bekijk winkelwagen"
+
+#: includes/Ajax_Handler.php:204
+msgid "There was an error adding to the cart. Please try again."
+msgstr ""
+"Er trad een fout op tijdens het opslaan van uw bestelling, probeer a.u.b. "
+"opnieuw."
+
+#: includes/Cart_Handler.php:48 includes/Frontend_Scripts.php:144
+msgid "Please select one or more products."
+msgstr "Selecteer a.u.b. één of meerdere producten."
+
+#: includes/Cart_Handler.php:106
+msgid "No product selected. Please try again."
+msgstr "Geen product geselecteerd. Probeer het opnieuw."
+
+#: includes/Cart_Handler.php:113
+msgid "Please enter a quantity greater than 0."
+msgstr "Voer een hoeveelheid van 1 of meer in."
+
+#: includes/Cart_Handler.php:122
+msgid "This product is no longer available. Please select an alternative."
+msgstr ""
+"Het product is niet meer beschikbaar. Selecteer a.u.b. een alternatief."
+
+#: includes/Config_Builder.php:74
+msgctxt "show all products option"
+msgid "All"
+msgstr "Alle"
+
+#: includes/Data/Product_Custom_Field.php:144
+msgid "True"
+msgstr "Waar"
+
+#: includes/Data/Product_Custom_Field.php:144
+msgid "False"
+msgstr "Niet waar"
+
+#: includes/Data/Product_Reviews.php:20
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:102
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Gewaardeerd met %s van de 5"
+
+#: includes/Data/Product_Reviews.php:23
+#, php-format
+msgid "out of %s5%s"
+msgstr "van de %s5%s"
+
+#: includes/Data/Product_Reviews.php:24
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] "gebaseerd op %s klantenbeoordeling"
+msgstr[1] "gebaseerd op %s klantenbeoordelingen"
+
+#: includes/Data/Product_Stock.php:18
+msgid "In stock"
+msgstr "Op voorraad"
+
+#: includes/Frontend_Scripts.php:119
+msgid "Showing _TOTAL_ products"
+msgstr "_TOTAL_-producten weergeven"
+
+#: includes/Frontend_Scripts.php:120
+msgid "0 products"
+msgstr "0 producten"
+
+#: includes/Frontend_Scripts.php:121
+msgid "(_MAX_ in total)"
+msgstr "(_MAX_ in totaal)"
+
+#: includes/Frontend_Scripts.php:122
+msgid "Show _MENU_ per page"
+msgstr "_MENU_ per pagina weergeven"
+
+#: includes/Frontend_Scripts.php:123 includes/Frontend_Scripts.php:124
+msgid "No matching products"
+msgstr "Geen bijpassende producten"
+
+#: includes/Frontend_Scripts.php:125
+msgid "Search:"
+msgstr "Zoek:"
+
+#: includes/Frontend_Scripts.php:127
+msgid "First"
+msgstr "Eerste"
+
+#: includes/Frontend_Scripts.php:128
+msgid "Last"
+msgstr "Laatste"
+
+#: includes/Frontend_Scripts.php:129
+msgid "Next"
+msgstr "Volgende"
+
+#: includes/Frontend_Scripts.php:130
+msgid "Previous"
+msgstr "Vorige"
+
+#: includes/Frontend_Scripts.php:132
+msgctxt "thousands separator"
+msgid ","
+msgstr "."
+
+#: includes/Frontend_Scripts.php:133
+msgctxt "decimal mark"
+msgid "."
+msgstr ","
+
+#: includes/Frontend_Scripts.php:136
+msgid ": activate to sort column ascending"
+msgstr ": activeren om de kolom oplopend te sorteren"
+
+#: includes/Frontend_Scripts.php:138
+msgid ": activate to sort column descending"
+msgstr ": activeren om de kolom aflopend te sorteren"
+
+#: includes/Frontend_Scripts.php:142
+msgid "Reset"
+msgstr "Reset"
+
+#: includes/Hook_Manager.php:300
+msgid "Buy product"
+msgstr "Koop product"
+
+#: includes/Hook_Manager.php:338
+msgid "This product is currently out of stock and unavailable."
+msgstr "Dit product is op het moment niet op voorraad en niet beschikbaar."
+
+#: includes/Table_Args.php:470
+msgid "Show details"
+msgstr "Toon details"
+
+#: includes/Util/Columns_Util.php:32
+msgid "Description"
+msgstr "Beschrijving"
+
+#: includes/Util/Columns_Util.php:33
+msgid "Summary"
+msgstr "Samenvatting"
+
+#: includes/Util/Columns_Util.php:34
+msgid "Date"
+msgstr "Datum"
+
+#: includes/Util/Columns_Util.php:35
+msgid "Categories"
+msgstr "Categorieën"
+
+#: includes/Util/Columns_Util.php:36
+msgid "Tags"
+msgstr "Tags"
+
+#: includes/Util/Columns_Util.php:37
+msgid "Image"
+msgstr "Afbeelding"
+
+#: includes/Util/Columns_Util.php:38
+msgid "Stock"
+msgstr "Voorraad"
+
+#: includes/Util/Columns_Util.php:39
+msgid "Reviews"
+msgstr "Beoordelingen"
+
+#: includes/Util/Columns_Util.php:40
+msgid "Weight"
+msgstr "Gewicht"
+
+#: includes/Util/Columns_Util.php:41
+msgid "Dimensions"
+msgstr "Afmetingen"
+
+#: includes/Util/Columns_Util.php:43
+msgid "Buy"
+msgstr "Koop"
+
+#: includes/Util/Columns_Util.php:44
+msgid "Details"
+msgstr "Details"
+
+#: includes/Util/Settings.php:72
+msgid "Add To Cart"
+msgstr "Voeg toe aan winkelkar"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:24
+msgid "Display a list of active filters for your product table."
+msgstr "Toon een lijst met actieve filters voor uw productentabel."
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:26
+msgid "Product Table: Active Filters"
+msgstr "Producttabel: Actieve filters"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:30
+msgid "Active filters"
+msgstr "Actieve filters"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:31
+#: includes/widgets/class-wcpt-widget-layered-nav.php:76
+#: includes/widgets/class-wcpt-widget-price-filter.php:31
+#: includes/widgets/class-wcpt-widget-rating-filter.php:31
+msgid "Title"
+msgstr "Titel"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:83
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:90
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:95
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:102
+msgid "Remove filter"
+msgstr "Filter verwijderen"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:90
+#, php-format
+msgid "Min %s"
+msgstr "Min %s"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:95
+#, php-format
+msgid "Max %s"
+msgstr "Max %s"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:24
+msgid "Display a list of attributes to filter products in your product table."
+msgstr ""
+"Geef een lijst met kenmerken weer om producten in uw producttabel te "
+"filteren."
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:26
+msgid "Product Table: Filter by Attribute"
+msgstr "Producttabel: filter op kenmerk"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:75
+msgid "Filter by"
+msgstr "Filteren op"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:81
+msgid "Attribute"
+msgstr "Kenmerk"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:87
+msgid "Display type"
+msgstr "Type weergave"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:89
+msgid "List"
+msgstr "Lijst"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:90
+msgid "Dropdown"
+msgstr "Dropdown"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:96
+msgid "Query type"
+msgstr "Zoekopdracht"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:98
+msgid "AND"
+msgstr "EN"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:99
+msgid "OR"
+msgstr "OF"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:203
+#, php-format
+msgid "Any %s"
+msgstr "Elke %s"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:242
+msgid "Apply"
+msgstr "Toepassen"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:275
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr "Geen overeenkomsten gevonden"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:24
+msgid "Display a slider to filter your product table by price."
+msgstr ""
+"Geef een schuifregelaar weer om uw productentabel op prijs te filteren."
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:26
+msgid "Product Table: Filter by Price"
+msgstr "Producttabel: filter op prijs"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:30
+msgid "Filter by price"
+msgstr "Filter op prijs"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:96
+msgid "Min price"
+msgstr "Minimumprijs"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:97
+msgid "Max price"
+msgstr "Maximumprijs"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:98
+msgid "Filter"
+msgstr "Filter"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:100
+msgid "Price:"
+msgstr "Prijs:"
+
+#: includes/widgets/class-wcpt-widget-rating-filter.php:24
+msgid ""
+"Display a list of star ratings to filter products in your product table."
+msgstr ""
+"Geef een lijst met sterbeoordelingen weer om producten in uw productentabel "
+"te filteren."
+
+#: includes/widgets/class-wcpt-widget-rating-filter.php:26
+msgid "Product Table: Filter by Rating"
+msgstr "Producttabel: filteren op beoordeling"
+
+#: includes/widgets/class-wcpt-widget-rating-filter.php:30
+msgid "Average rating"
+msgstr "Gemiddelde beoordeling"
+
+#: lib/Plugin/Admin/Admin_Links.php:52
+msgid "Settings"
+msgstr "Instellingen"
+
+#: lib/Plugin/Admin/Admin_Links.php:70
+#, php-format
+msgid "View %s documentation"
+msgstr "%s documentatie bekijken"
+
+#: lib/Plugin/Admin/Admin_Links.php:71
+msgid "Docs"
+msgstr "Documenten"
+
+#: lib/Plugin/Admin/Plugin_Updater.php:121
+#, php-format
+msgid "Activate %1$syour license key%2$s to enable updates."
+msgstr "Activeer %1$suw licentiesleutel%2$s om updates in te schakelen."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:63
+msgid "License key successfully activated."
+msgstr "Licentiesleutel succesvol geactiveerd."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:64
+msgid "There was an error activating your license key."
+msgstr "Er is een fout opgetreden bij het activeren van uw licentiesleutel."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:72
+msgid "License key successfully deactivated."
+msgstr "Licentiekey is succesvol uitgeschakeld."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:73
+msgid "There was an error deactivating your license key, please try again."
+msgstr ""
+"Er trad een fout op tijdens het opslaan van uw licentiesleutel, probeer a.u."
+"b. opnieuw."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:80
+msgid "The license key looks good!"
+msgstr "De licentiesleutel ziet er goed uit!"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:81
+msgid "There's a problem with your license key."
+msgstr "Er is een probleem met je licentiesleutel."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:89
+msgid "License key"
+msgstr "Licentiesleutel"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:97
+msgid "The licence key is contained in your order confirmation email."
+msgstr ""
+"De licentiesleutel is opgenomen in de bevestingsmail van uw bestelling."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:100
+msgid "License Key"
+msgstr "Licentiesleutel"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:241
+msgid "Activate"
+msgstr "Activeren"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:242
+msgid "Deactivate"
+msgstr "Uitschakelen"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:253
+msgid "License key deactivated."
+msgstr "Licentiesleutel gedeactiveerd."
+
+#: lib/Plugin/License/Admin/License_Notices.php:90
+#, php-format
+msgid ""
+"Thank you for installing %1$s. To get started, please %2$senter your license "
+"key%3$s."
+msgstr ""
+"Bedankt voor het installeren van %1$s. Om te beginnen %2$suw licentiesleutel"
+"%3$s."
+
+#: lib/Plugin/License/Admin/License_Notices.php:107
+#, php-format
+msgid ""
+"Your license key for %1$s has expired. %2$sClick here to renew for 20%% "
+"discount%3$s."
+msgstr ""
+"Uw licentiesleutel voor %1$s is verlopen. %2$sKlik hier om te verlengen voor "
+"20%% korting%3$s."
+
+#: lib/Plugin/License/Admin/License_Notices.php:124
+#, php-format
+msgid ""
+"You no longer have a valid license for %1$s. Please %2$spurchase a new "
+"license key%3$s to continue using the plugin."
+msgstr ""
+"Je hebt geen geldige licentie meer voor %1$s. Gelieve %2$saankoop een nieuwe "
+"licentiesleutel%3$s om de plug-in te blijven gebruiken."
+
+#: lib/Plugin/License/Admin/License_Notices.php:145
+#, php-format
+msgid ""
+"%1$s - your site has moved to a new domain. Please %2$sreactivate your "
+"license key%3$s."
+msgstr ""
+"%1$s - uw site is verhuisd naar een nieuw domein. %2$sActiveer uw "
+"licentiesleutel%3$s."
+
+#: lib/Plugin/License/EDD_Licensing.php:184
+msgid "An error has occurred, please try again."
+msgstr "Er heeft zich een fout voorgedaan, probeer a.u.b. opnieuw."
+
+#: lib/Plugin/License/Plugin_License.php:93
+msgid "Your license key is active."
+msgstr "Uw licentiesleutel is actief."
+
+#: lib/Plugin/License/Plugin_License.php:113
+msgid "Please enter your license key."
+msgstr "Voer a.u.b. uw licentiesleutel in."
+
+#: lib/Plugin/License/Plugin_License.php:115
+#: lib/Plugin/License/Plugin_License.php:380
+msgid "Your license key is invalid."
+msgstr "Uw licentiesleutel is ongeldig."
+
+#: lib/Plugin/License/Plugin_License.php:319
+#, php-format
+msgid ""
+"Invalid license key - please check your order confirmation email or "
+"%1$sAccount%2$s."
+msgstr ""
+"Ongeldige licentiesleutel - controleer uw e-mail met de orderbevestiging of "
+"%1$sAccount%2$s."
+
+#: lib/Plugin/License/Plugin_License.php:325
+msgid "No URL was supplied for activation, please contact support."
+msgstr ""
+"Er is geen URL opgegeven voor activering, neem contact op met de "
+"ondersteuning."
+
+#: lib/Plugin/License/Plugin_License.php:328
+msgid "License key mismatch, please contact support."
+msgstr ""
+"Licentiesleutel komt niet overeen, neem contact op met de ondersteuning."
+
+#: lib/Plugin/License/Plugin_License.php:331
+msgid "This license is for a bundled product and cannot be activated."
+msgstr ""
+"Deze licentie is voor een gebundeld product en kan niet worden geactiveerd."
+
+#: lib/Plugin/License/Plugin_License.php:335
+msgid "Your license key is not valid for this plugin."
+msgstr "Uw licentiesleutel is niet geldig voor deze plug-in."
+
+#: lib/Plugin/License/Plugin_License.php:341
+#, php-format
+msgid "%s site active"
+msgid_plural "%s sites active"
+msgstr[0] "%s site actief"
+msgstr[1] "%s sites actief"
+
+#: lib/Plugin/License/Plugin_License.php:344
+#, php-format
+msgid "Your license key has reached its activation limit (%s)."
+msgstr "Uw licentiesleutel heeft de activeringslimiet bereikt (%s)."
+
+#: lib/Plugin/License/Plugin_License.php:345 lib/Util.php:38
+msgid "Read more"
+msgstr "Lees verder"
+
+#: lib/Plugin/License/Plugin_License.php:348
+#: lib/Plugin/License/Plugin_License.php:369
+#, php-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: lib/Plugin/License/Plugin_License.php:362
+#, php-format
+msgid "Your license key expired on %s."
+msgstr "Uw licentiesleutel is verlopen op %s."
+
+#: lib/Plugin/License/Plugin_License.php:366
+#, php-format
+msgid "Renew now for 20% discount."
+msgstr "Verleng nu voor 20% discount."
+
+#: lib/Plugin/License/Plugin_License.php:617
+msgid "Your license key is not active. Please reactivate or save the settings."
+msgstr ""
+"Uw licentiesleutel is niet actief. Activeer of sla de instellingen opnieuw "
+"op."
+
+#: lib/Plugin/License/Plugin_License.php:621
+msgid "Your license key expired has expired."
+msgstr "Uw licentiesleutel is verlopen."
+
+#: lib/Plugin/License/Plugin_License.php:626
+#, php-format
+msgid ""
+"Your license key has been disabled. Please %1$spurchase a new license key"
+"%2$s to continue using the plugin."
+msgstr ""
+"Uw licentiesleutel is uitgeschakeld. Gelieve een %1$snieuwe licentiesleutel "
+"%2$s aan te kopen om de plug-in te blijven gebruiken."
+
+#: lib/WooCommerce/Admin/Custom_Settings_Fields.php:91
+msgid "Size"
+msgstr "Afmeting"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Product Table"
+msgstr "WooCommerce Product Table"
+
+#. Plugin URI of the plugin/theme
+msgid "https://barn2.com/wordpress-plugins/woocommerce-product-table/"
+msgstr "https://barn2.com/wordpress-plugins/woocommerce-product-table/"
+
+#. Description of the plugin/theme
+msgid ""
+"Display and purchase WooCommerce products from a searchable and sortable "
+"table. Filter by anything."
+msgstr ""
+"Toon en koop WooCommerce-producten van een doorzoekbare en sorteerbare "
+"tabel. Filter op alles."
+
+#. Author of the plugin/theme
+msgid "Barn2 Plugins"
+msgstr "Barn2 Plugins"
+
+#. Author URI of the plugin/theme
+msgid "https://barn2.com"
+msgstr "https://barn2.com"
+
+#, fuzzy
+#~| msgid "Table design"
+#~ msgid "Table display"
+#~ msgstr "Tabelontwerp"
+
+#, fuzzy
+#~| msgid "Loading products"
+#~ msgid "_TOTAL_ products"
+#~ msgstr "Producten laden"
+
+#~ msgid "Show based on columns in table"
+#~ msgstr "Weergeven op basis van kolommen in tabel"
+
+#~ msgid "Pagination buttons"
+#~ msgstr "Paginaknoppen"
+
+#, fuzzy
+#~| msgid "Table design"
+#~ msgid "Table reset"
+#~ msgstr "Tabelontwerp"
+
+#~ msgid "View WooCommerce Product Table documentation"
+#~ msgstr "Bekijk de WooCommerce Product Table-documentatie"
+
+#~ msgid ""
+#~ "Enable this if you have many products or experience slow page load times."
+#~ "<br/><strong>Warning:</strong> Lazy load has some limitations - it limits "
+#~ "the search, sorting, and display of variations. Only use it if you "
+#~ "definitely need it."
+#~ msgstr ""
+#~ "Schakel dit in als u veel producten heeft of als de pagina er lang over "
+#~ "doet om te laden. <br/> <strong> Waarschuwing: </ strong> langzaam laden "
+#~ "(Lazy load) heeft een aantal beperkingen: het beperkt het zoeken, "
+#~ "sorteren en weergeven van variaties. Gebruik het alleen als je het zeker "
+#~ "nodig hebt."
+
+#~ msgid "This option is ignored if lazy load is enabled."
+#~ msgstr ""
+#~ "Deze optie wordt genegeerd als langzaam laden (Lazy load) is ingeschakeld."
+
+#~ msgid "Button only"
+#~ msgstr "Alleen knop"
+
+#~ msgid "Checkbox only"
+#~ msgstr "Alleen selectievakje"
+
+#~ msgid "How 'Add to Cart' buttons are displayed in the table."
+#~ msgstr ""
+#~ "Hoe de knoppen ‘Toevoegen aan winkelwagentje’ in de tabel worden "
+#~ "weergegeven."
+
+#~ msgid "Add to cart behavior"
+#~ msgstr "Voeg toe aan winkelwagen-gedrag"
+
+#~ msgid "Show quantity selectors in the Add to Cart column"
+#~ msgstr "Toon aantalselectoren in de kolom Toevoegen aan winkelwagen"
+
+#~ msgid "Link to product page"
+#~ msgstr "Koppeling naar productenpagina"
+
+#, fuzzy
+#~| msgid "Show quantity selectors in the Add to Cart column"
+#~ msgid "Dropdown lists in add to cart column"
+#~ msgstr "Toon aantalselectoren in de kolom Toevoegen aan winkelwagen"
+
+#, fuzzy
+#~| msgid "Show as separate rows (1 per variation)"
+#~ msgid "Separate rows in table (one per variation)"
+#~ msgstr "Weergeven als afzonderlijke rijen (1 per variant)"
+
+#~ msgid "'Add Selected' position"
+#~ msgstr "‘Geselecteerde’ positie toevoegen"
+
+#~ msgid "The position of the product search box."
+#~ msgstr "De positie van het zoekveld van het product."
+
+#~ msgid ""
+#~ "The position of the product totals, e.g. 'Showing 1 to 5 of 10 products'."
+#~ msgstr ""
+#~ "De positie van de producttotalen, bijv. ‘Bekijk 1 tot 5 van de 10 "
+#~ "producten’."
+
+#~ msgid "The position of the paging buttons which scroll between results."
+#~ msgstr "De positie van de pagina-knoppen die tussen de resultaten scrollen."
+
+#~ msgid "Numbers only"
+#~ msgstr "Alleen nummers"
+
+#~ msgid "Prev/next/first/last"
+#~ msgstr "Vorige/volgende/eerste/laatste"
+
+#~ msgid "Prev/next/first/last + numbers"
+#~ msgstr "Vorige/volgende/eerste/laatste + nummers"
+
+#~ msgid "Reset button"
+#~ msgstr "Reset knop"
+
+#, php-format
+#~ msgid ""
+#~ "Please see the Knowledge Base for the %sfull list of shortcode options%s."
+#~ msgstr ""
+#~ "Raadpleeg naslagwerk voor de %svolledige lijst met shortcode-opties%s."
+
+#~ msgid "Getting Started Guide"
+#~ msgstr "Aan de slag-gids"
+
+#~ msgid "Knowledge Base"
+#~ msgstr "Naslagwerk"
+
+#~ msgid "Showing _START_ to _END_ of _TOTAL_ products"
+#~ msgstr "Toont _START_ tot _END_ van _TOTAL_ producten"
+
+#~ msgid "Filter:"
+#~ msgstr "Filter:"
+
+#, php-format
+#~ msgid "Rated %1$s out of 5 based on %2$s customer rating"
+#~ msgid_plural "Rated %1$s out of 5 based on %2$s customer ratings"
+#~ msgstr[0] "%1$s uit 5 beoordeeld op basis van de klantwaardering van %2$s"
+#~ msgstr[1] "%1$s uit 5 beoordeeld op basis van de klantwaarderingen van %2$s"
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s."
+#~ msgstr ""
+#~ "Er is een nieuwe versie van %1$s beschikbaar. %2$s Bekijk versie%3$s "
+#~ "details%4$s."
+
+#, php-format
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s or %5$supdate now%6$s."
+#~ msgstr ""
+#~ "Er is een nieuwe versie van %1$s beschikbaar. %2$s Bekijk versie %3$s "
+#~ "details%4$s of %5$s updaten%6$s."
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "U bent niet gemachtigd om plugin-updates te installeren"
+
+#~ msgid "Error"
+#~ msgstr "Fout"
+
+#, fuzzy
+#~| msgid "Your license key has been disabled."
+#~ msgid "Your license key has been disabled, please contact support,"
+#~ msgstr "Uw licentiesleutel is uitgeschakeld."
+
+#, fuzzy
+#~| msgid "License key successfully deactivated."
+#~ msgid "License key successfully deactivated. Click Save to reactivate."
+#~ msgstr "Uw licentiesleutel is succesvol uitgeschakeld."
+
+#~ msgid "Barn2 Media"
+#~ msgstr "Barn2 Media"
+
+#~ msgid "Choosing your products"
+#~ msgstr "Kies jouw producten"
+
+#~ msgid ""
+#~ "The tables will display all products by default, or you can select "
+#~ "products based on category, tag, custom field, taxonomy, or individual "
+#~ "products."
+#~ msgstr ""
+#~ "Standaard worden alle producten weergegeven in de tabellen. Of u kunt "
+#~ "producten selecteren op basis van categorie, label, aangepast veld, "
+#~ "taxonomie of afzonderlijke producten."
+
+#, fuzzy
+#~| msgid "%1$sHow to select your products%2$s."
+#~ msgid "Learn how to select your products"
+#~ msgstr "%1$sHoe u uw producten selecteert%2$s."
+
+#~ msgid "Stacked (vertically)"
+#~ msgstr "Gestapeld (verticaal)"
+
+#~ msgid "Inline (horizontally)"
+#~ msgstr "Op een lijn (horizontaal)"
+
+#~ msgid "None"
+#~ msgstr "Geen"
+
+#~ msgctxt "help text for custom search filters"
+#~ msgid "For taxonomies use %1$s, and for product attributes use %2$s"
+#~ msgstr ""
+#~ "Gebruik voor taxonomieën %1$s, en gebruik voor productkenmerken %2$s"
+
+#~ msgid "W x H in pixels. Sets the image size when using the 'image' column."
+#~ msgstr ""
+#~ "B x H in pixels. Stelt de afbeeldingsgrootte in bij gebruik van de kolom "
+#~ "‘afbeelding’."
+
+#~ msgid "Product name"
+#~ msgstr "Productnaam"
+
+#~ msgid "Product ID"
+#~ msgstr "Product ID"
+
+#~ msgid "Other column"
+#~ msgstr "Andere kolom"
+
+#~ msgid ""
+#~ "Enter a column name in the same format used in the columns option. e.g. "
+#~ "\"sku\" or \"cf:date_field\""
+#~ msgstr ""
+#~ "Voer een kolomnaam in met dezelfde indeling die wordt gebruikt in de "
+#~ "kolomoptie. bijv. “sku” of “cf: date_field”"
+
+#~ msgid "This controls how variable products are displayed in the table."
+#~ msgstr "Dit bepaalt hoe variabele producten in de tabel worden weergegeven."
+
+#~ msgctxt "license key error message"
+#~ msgid "Error: %s"
+#~ msgstr "Fout: %s"
+
+#, fuzzy
+#~| msgid "Product tables"
+#~ msgid "Product totals message"
+#~ msgstr "Product tabellen"
+
+#, fuzzy
+#~| msgid "Show details"
+#~ msgid "Show links"
+#~ msgstr "Toon details"
+
+#~ msgid "Get Support"
+#~ msgstr "Krijg ondersteuning"
+
+#~ msgid "Troubleshooting Tips"
+#~ msgstr "Probleemoplossing tips"

@@ -1,0 +1,1590 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Product Table\n"
+"POT-Creation-Date: 2021-09-23 18:17+0200\n"
+"PO-Revision-Date: 2021-09-23 18:17+0200\n"
+"Last-Translator: Andrew Keith <andy@barn2.co.uk>\n"
+"Language-Team: \n"
+"Language: fi_FI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-product-table.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: includes/license/EDD_SL_Plugin_Updater.php\n"
+
+#: includes/Admin/Admin_Controller.php:46
+#, fuzzy
+#| msgid "Product tables"
+msgid "Product Table"
+msgstr "Tuotetaulukko"
+
+#: includes/Admin/Settings_Page.php:60 includes/Admin/Settings_Page.php:83
+msgid "Product tables"
+msgstr "Tuotetaulukko"
+
+#: includes/Admin/Settings_Page.php:86
+msgid "The following options control the WooCommerce Product Table extension."
+msgstr "Seuraavat asetukset koskevat WooCommercen Tuotetaulukko-lisäosaa."
+
+#: includes/Admin/Settings_Page.php:88
+#, fuzzy
+#| msgid "View Documentation"
+msgid "Documentation"
+msgstr "Näytä käyttöohjeet"
+
+#: includes/Admin/Settings_Page.php:89
+msgid "Support"
+msgstr "Tuki"
+
+#: includes/Admin/Settings_Page.php:103
+msgid "Table design"
+msgstr "Taulukon ulkoasu"
+
+#: includes/Admin/Settings_Page.php:104
+#, fuzzy
+#| msgid ""
+#| "Choose whether to use the default design or customize it to suit your "
+#| "requirements."
+msgid "You can customize the table design to suit your requirements."
+msgstr "Valitse käytetäänkö oletusmuotoilua vai haluatko muokata sitä."
+
+#: includes/Admin/Settings_Page.php:109
+msgid "Design"
+msgstr "Muotoilu"
+
+#: includes/Admin/Settings_Page.php:113
+msgid "Default"
+msgstr "Oletus"
+
+#: includes/Admin/Settings_Page.php:114 includes/Admin/Settings_Page.php:499
+msgid "Custom"
+msgstr "Mukautettu"
+
+#: includes/Admin/Settings_Page.php:125
+msgid ""
+"Choose your custom table styles below. Any settings you leave blank will "
+"default to your theme styles."
+msgstr ""
+"Valitse alla mukautetun taulukon taulukon tyyli. Tyhjäksi jätettyjen osalta "
+"käytetään teeman oletusarvoja."
+
+#: includes/Admin/Settings_Page.php:129
+msgid "Borders"
+msgstr "Kehykset"
+
+#: includes/Admin/Settings_Page.php:132
+msgid "External border icon"
+msgstr "Ulkoinen kehysikoni"
+
+#: includes/Admin/Settings_Page.php:132
+msgid "External"
+msgstr "Ulkoinen"
+
+#: includes/Admin/Settings_Page.php:133
+msgid "The border for the outer edges of the table."
+msgstr "Taulukon ulkoreunojen kehykset."
+
+#: includes/Admin/Settings_Page.php:140
+msgid "Header border icon"
+msgstr "Otsikon kehysikoni"
+
+#: includes/Admin/Settings_Page.php:140
+msgid "Header"
+msgstr "Otsikko"
+
+#: includes/Admin/Settings_Page.php:141
+msgid "The border for the bottom of the header row."
+msgstr "Otsikkorivin alakehys."
+
+#: includes/Admin/Settings_Page.php:148
+msgid "Cell border icon"
+msgstr "Solun kehysikoni"
+
+#: includes/Admin/Settings_Page.php:148
+msgid "Cell"
+msgstr "Solu"
+
+#: includes/Admin/Settings_Page.php:149
+msgid "The border between cells in your table."
+msgstr "Solujen välinen kehys taulukossa."
+
+#: includes/Admin/Settings_Page.php:153
+msgid "Header background"
+msgstr "Otsikon tausta"
+
+#: includes/Admin/Settings_Page.php:156
+msgid "The header background color."
+msgstr "Otsikon taustaväri."
+
+#: includes/Admin/Settings_Page.php:157 includes/Admin/Settings_Page.php:166
+#: lib/WooCommerce/Admin/Custom_Settings_Fields.php:80
+msgid "Color"
+msgstr "Väri"
+
+#: includes/Admin/Settings_Page.php:162
+msgid "Cell background"
+msgstr "Solun tausta"
+
+#: includes/Admin/Settings_Page.php:165
+msgid "The main background color used for the table contents."
+msgstr "Taulukon sisältöjen taustaväri."
+
+#: includes/Admin/Settings_Page.php:171
+msgid "Header font"
+msgstr "Otsikon fontti"
+
+#: includes/Admin/Settings_Page.php:174
+msgid "The font used in the table header."
+msgstr "Taulukon otsikon fontti."
+
+#: includes/Admin/Settings_Page.php:179
+msgid "Cell font"
+msgstr "Solun fontti"
+
+#: includes/Admin/Settings_Page.php:182
+msgid "The font used for the table contents."
+msgstr "Taulukon sisällöissä käytetty fontti."
+
+#: includes/Admin/Settings_Page.php:194
+msgid ""
+"The following options replace the standard WooCommerce template with a "
+"product table. You can also add the [product_table] shortcode to any post or "
+"page."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:199
+#, fuzzy
+#| msgid "Rows per page"
+msgid "Shop integration"
+msgstr "Rivejä sivua kohden"
+
+#: includes/Admin/Settings_Page.php:205
+#, fuzzy
+#| msgid "The default columns for your product tables."
+msgid "Where to display product tables"
+msgstr "Oletussarakkeet tuotetaulukolle."
+
+#: includes/Admin/Settings_Page.php:208
+#, fuzzy
+#| msgid "Rows per page"
+msgid "Shop page"
+msgstr "Rivejä sivua kohden"
+
+#: includes/Admin/Settings_Page.php:215
+#, fuzzy
+#| msgid "Product Table: Filter by Price"
+msgid "Product search results"
+msgstr "Tuotetaulukko: Suodata hinnan mukaan"
+
+#: includes/Admin/Settings_Page.php:222
+#, fuzzy
+#| msgid "Product Table: Filter by Price"
+msgid "Product categories"
+msgstr "Tuotetaulukko: Suodata hinnan mukaan"
+
+#: includes/Admin/Settings_Page.php:229
+#, fuzzy
+#| msgid "Product tables"
+msgid "Product tags"
+msgstr "Tuotetaulukko"
+
+#: includes/Admin/Settings_Page.php:236
+#, fuzzy
+#| msgid "Product tables"
+msgid "Product attributes"
+msgstr "Tuotetaulukko"
+
+#: includes/Admin/Settings_Page.php:252
+msgid "Table content"
+msgstr "Taulukon sisältö"
+
+#: includes/Admin/Settings_Page.php:255
+#, fuzzy
+#| msgid ""
+#| "These options set defaults for the [product_table] shortcode. They can be "
+#| "overridden for individual tables when you add the shortcode to the page. "
+#| "%1$sFull list of shortcode options%2$s."
+msgid ""
+"These options set defaults for all product tables. You can override them in "
+"the shortcode for individual tables."
+msgstr ""
+"Nämä asetukset määrittävät oletusarvot [product_table] lyhytkoodille. Ne "
+"voidaan korvata yksittäisille taulukoille, kun lisäät lyhytkoodin sivulle. "
+"%1$sKokonainen lista lyhytkoodeista%2$s."
+
+#: includes/Admin/Settings_Page.php:256
+#, fuzzy
+#| msgid ""
+#| "Please see the Knowledge Base for the %sfull list of shortcode options%s."
+msgid "See the full list of shortcode options"
+msgstr "Katso tietopankista %stäysi lista lyhytkoodeista%s."
+
+#: includes/Admin/Settings_Page.php:259
+msgid "Columns"
+msgstr "Sarakkeet"
+
+#: includes/Admin/Settings_Page.php:262
+#, fuzzy
+#| msgid "The default columns for your product tables."
+msgid "Enter the columns for your product tables."
+msgstr "Oletussarakkeet tuotetaulukolle."
+
+#: includes/Admin/Settings_Page.php:267
+msgid "Image size"
+msgstr "Kuvan koko"
+
+#: includes/Admin/Settings_Page.php:270
+msgid "W x H in pixels, e.g. 70x50"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:271
+#, fuzzy
+#| msgid ""
+#| "You can also enter standard image sizes here such as thumbnail, "
+#| "shop_thumbnail, medium, etc."
+msgid ""
+"You can also enter a standard image size such as thumbnail, shop_thumbnail, "
+"medium, etc."
+msgstr ""
+"Voit myös antaa standardikuvakoon kuten thumbnail, shop_thumbnail, medium, "
+"jne."
+
+#: includes/Admin/Settings_Page.php:276
+msgid "Image lightbox"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:279
+msgid "Show product images in a lightbox"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:283
+msgid "Description length"
+msgstr "Kuvauksen pituus"
+
+#: includes/Admin/Settings_Page.php:286
+msgid "words"
+msgstr "sanaa"
+
+#: includes/Admin/Settings_Page.php:287
+#, fuzzy
+#| msgid ""
+#| "Enter -1 to display the full product description including formatting."
+msgid "Enter -1 to show the full product description including formatting."
+msgstr "Syötä -1 näyttääksesi koko tuotekuvauksen muotoiluineen."
+
+#: includes/Admin/Settings_Page.php:295 includes/Admin/Settings_Page.php:656
+msgid "Product links"
+msgstr "Tuotelinkit"
+
+#: includes/Admin/Settings_Page.php:298
+msgid "Include links to the relevant product, category, tag, or attribute."
+msgstr ""
+"Sisällytä linkit soveltuviin tuotteisiin, kategorioihin, tageihin ja "
+"ominaisuuksiin."
+
+#: includes/Admin/Settings_Page.php:299
+msgid ""
+"Enter all, none, or a combination of: sku, name, image, tags, categories, "
+"terms, or attributes as a comma-separated list."
+msgstr ""
+"Syötä kaikki, ei mitään tai pilkuilla eroteltu lista seuraavista: sku, nimi, "
+"kuva, tagit, kategoriat, termit tai ominaisuudet."
+
+#: includes/Admin/Settings_Page.php:311
+#, fuzzy
+#| msgid "Loading products"
+msgid "Loading"
+msgstr "Ladataan tuotteita"
+
+#: includes/Admin/Settings_Page.php:316
+msgid "Lazy load"
+msgstr "Laiska lataus"
+
+#: includes/Admin/Settings_Page.php:319
+msgid "Load products one page at a time"
+msgstr "Lataa tuotteet sivu kerrallaan"
+
+#: includes/Admin/Settings_Page.php:320
+msgid ""
+"Enable this if you have many products or experience slow page load times."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:322
+#, php-format
+msgid ""
+"Warning: Lazy load has %1$ssome limitations%2$s &mdash; it limits the "
+"search, sorting, dropdown filters, and variations."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:334
+msgid "Product limit"
+msgstr "Tuoteraja"
+
+#: includes/Admin/Settings_Page.php:337
+#, fuzzy
+#| msgid "The maximum total number of products to display in one table."
+msgid "The maximum number of products in one table."
+msgstr "Suurin kokonaismäärä tuotteita yhdessä taulukossa."
+
+#: includes/Admin/Settings_Page.php:338
+msgid "Enter -1 to show all products."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:347
+msgid "Rows per page"
+msgstr "Rivejä sivua kohden"
+
+#: includes/Admin/Settings_Page.php:350
+msgid "The number of products per page of results."
+msgstr "Tulossivulla näkyvien tuotteiden määrä."
+
+#: includes/Admin/Settings_Page.php:351
+#, fuzzy
+#| msgid "Use '-1' to display all products on one page of results."
+msgid "Enter -1 to show all products on a single page."
+msgstr "Syötä ‘-1’ näyttääksesi kaikki tuotteet yhdellä tulossivulla."
+
+#: includes/Admin/Settings_Page.php:366
+msgid "Sorting"
+msgstr "Järjestely"
+
+#: includes/Admin/Settings_Page.php:371
+msgid "Sort by"
+msgstr "Järjestä"
+
+#: includes/Admin/Settings_Page.php:375
+msgid "As listed in the Products screen (menu order)"
+msgstr "Tuotenäkymän listaus (valikkojärjestys)"
+
+#: includes/Admin/Settings_Page.php:376 includes/Util/Columns_Util.php:30
+msgid "SKU"
+msgstr "SKU"
+
+#: includes/Admin/Settings_Page.php:377 includes/Util/Columns_Util.php:31
+msgid "Name"
+msgstr "Nimi"
+
+#: includes/Admin/Settings_Page.php:378 includes/Util/Columns_Util.php:29
+msgid "ID"
+msgstr "ID"
+
+#: includes/Admin/Settings_Page.php:379 includes/Util/Columns_Util.php:42
+msgid "Price"
+msgstr "Hinta"
+
+#: includes/Admin/Settings_Page.php:380
+msgid "Number of sales"
+msgstr "Myyntien määrä"
+
+#: includes/Admin/Settings_Page.php:381
+msgid "Average reviews"
+msgstr "Keskivertoarvio"
+
+#: includes/Admin/Settings_Page.php:382
+msgid "Date added"
+msgstr "Päivämäärä lisätty"
+
+#: includes/Admin/Settings_Page.php:383
+#, fuzzy
+#| msgid "Date last modified"
+msgid "Date modified"
+msgstr "Viimeksi muokattu"
+
+#: includes/Admin/Settings_Page.php:384
+msgid "Other"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:386
+msgid "The initial sort order applied to the table."
+msgstr "Taulukon oletusjärjestys."
+
+#: includes/Admin/Settings_Page.php:395
+msgid "Sort column"
+msgstr "Järjestyssarake"
+
+#: includes/Admin/Settings_Page.php:399
+#, fuzzy
+#| msgid ""
+#| "Please note: column sorting will only work when lazy load is disabled."
+msgid ""
+"Enter a column name, e.g. description, att:size, etc. Will only work when "
+"lazy load is disabled."
+msgstr ""
+"Tärkeää: sarakejärjestäminen toimii vain, kun laiska lataus ei ole "
+"toiminnassa."
+
+#: includes/Admin/Settings_Page.php:403
+msgid "Sort direction"
+msgstr "Järjestyssuunta"
+
+#: includes/Admin/Settings_Page.php:407
+msgid "Automatic"
+msgstr "Automaattinen"
+
+#: includes/Admin/Settings_Page.php:408
+msgid "Ascending (A to Z, 1 to 99)"
+msgstr "Nouseva (A -> Z, 1 -> 99)"
+
+#: includes/Admin/Settings_Page.php:409
+msgid "Descending (Z to A, 99 to 1)"
+msgstr "Laskeva (Z -> A, 99 -> 1)"
+
+#: includes/Admin/Settings_Page.php:422
+#, fuzzy
+#| msgid "Add to cart column"
+msgid "Add to cart"
+msgstr "Lisää koriin -sarake"
+
+#: includes/Admin/Settings_Page.php:427
+#, fuzzy
+#| msgid "Loading products"
+msgid "Adding products to cart"
+msgstr "Ladataan tuotteita"
+
+#: includes/Admin/Settings_Page.php:431
+#, fuzzy
+#| msgid "Add to cart button"
+msgid "Add to cart buttons"
+msgstr "Lisää koriin -nappi"
+
+#: includes/Admin/Settings_Page.php:432
+#, fuzzy
+#| msgid "Add to cart column"
+msgid "Add to cart checkboxes"
+msgstr "Lisää koriin -sarake"
+
+#: includes/Admin/Settings_Page.php:433
+#, fuzzy
+#| msgid "Button and checkbox"
+msgid "Buttons and checkboxes"
+msgstr "Nappi ja valintaruutu"
+
+#: includes/Admin/Settings_Page.php:435
+#, fuzzy
+#| msgid "The initial sort order applied to the table."
+msgid "How a customer orders products from the table."
+msgstr "Taulukon oletusjärjestys."
+
+#: includes/Admin/Settings_Page.php:440
+msgid "Quantities"
+msgstr "Määrät"
+
+#: includes/Admin/Settings_Page.php:443
+msgid "Show a quantity box for each product"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:447
+msgid "Variations"
+msgstr "Muunnelmat"
+
+#: includes/Admin/Settings_Page.php:451
+#, fuzzy
+#| msgid "Show as dropdown list"
+msgid "Show as dropdown lists"
+msgstr "Näytä alasvetovalikkona"
+
+#: includes/Admin/Settings_Page.php:452
+msgid "Show one variation per row"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:453
+msgid "Show a Read More button linking to product page"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:455
+msgid "How to display options for variable products."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:460
+#, fuzzy
+#| msgid "Add to cart button"
+msgid "Multi-select cart button"
+msgstr "Lisää koriin -nappi"
+
+#: includes/Admin/Settings_Page.php:464 includes/Admin/Settings_Page.php:522
+#: includes/Admin/Settings_Page.php:542 includes/Admin/Settings_Page.php:556
+#: includes/Admin/Settings_Page.php:569
+msgid "Above table"
+msgstr "Taulukon yläpuolella"
+
+#: includes/Admin/Settings_Page.php:465 includes/Admin/Settings_Page.php:523
+#: includes/Admin/Settings_Page.php:543 includes/Admin/Settings_Page.php:557
+#: includes/Admin/Settings_Page.php:570
+msgid "Below table"
+msgstr "Taulukon alapuolella"
+
+#: includes/Admin/Settings_Page.php:466 includes/Admin/Settings_Page.php:524
+#: includes/Admin/Settings_Page.php:544 includes/Admin/Settings_Page.php:558
+#: includes/Admin/Settings_Page.php:571
+msgid "Above and below table"
+msgstr "Taulukon ylä- ja alapuolella"
+
+#: includes/Admin/Settings_Page.php:468
+#, fuzzy
+#| msgid ""
+#| "The position of the 'Add Selected To Cart' button for adding multiple "
+#| "products."
+msgid ""
+"The position of the 'Add To Cart' button to add multiple products from the "
+"table."
+msgstr "Lisää valitut koriin -napin sijainti useiden tuotteiden lisäämiseen."
+
+#: includes/Admin/Settings_Page.php:469
+#, fuzzy
+#| msgid ""
+#| "Only applicable if using 'Checkbox' or 'Button + checkbox' for the add to "
+#| "cart buttons"
+msgid ""
+"Only applicable if using checkboxes for the 'Adding products to cart' option "
+"above"
+msgstr ""
+"Käytössä vain silloin kun Lisää koriin -napeille on valittu valintaruutu tai "
+"nappi + valintaruutu"
+
+#: includes/Admin/Settings_Page.php:474
+#, fuzzy
+#| msgid "'Add Selected' button text"
+msgid "Multi-select button text"
+msgstr "Lisää valitut -napin teksti"
+
+#: includes/Admin/Settings_Page.php:477
+#, fuzzy
+#| msgid "The text for the 'Add Selected To Cart' button."
+msgid "The text for the multi-select add to cart button."
+msgstr "Teksti Lisää valitut koriin -napille."
+
+#: includes/Admin/Settings_Page.php:488
+msgid "Table controls"
+msgstr "Taulukon hallinta"
+
+#: includes/Admin/Settings_Page.php:493
+msgid "Product filters"
+msgstr "Tuotesuotimet"
+
+#: includes/Admin/Settings_Page.php:497
+msgid "Disabled"
+msgstr "Ei käytössä"
+
+#: includes/Admin/Settings_Page.php:498
+#, fuzzy
+#| msgid "The font used for the table contents."
+msgid "Show based on table content"
+msgstr "Taulukon sisällöissä käytetty fontti."
+
+#: includes/Admin/Settings_Page.php:501
+#, fuzzy
+#| msgid ""
+#| "Dropdown lists to filter the table by category, tag, attribute, or custom "
+#| "taxonomy."
+msgid ""
+"Display dropdown lists to filter the table by category, tag, attribute or "
+"taxonomy."
+msgstr ""
+"Alasvetovalikot taulukon suodattamiseen kategorian, tagin tai luokittelun "
+"mukaan."
+
+#: includes/Admin/Settings_Page.php:510
+msgid "Custom filters"
+msgstr "Suotimet"
+
+#: includes/Admin/Settings_Page.php:513
+#, fuzzy
+#| msgid "Enter filters as a comma-separated list."
+msgid "Enter the filters as a comma-separated list."
+msgstr "Syötä suotimet pilkuilla erotettuina."
+
+#: includes/Admin/Settings_Page.php:514
+msgid "E.g. categories,tags,att:color"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:518
+msgid "Search box"
+msgstr "Hakukenttä"
+
+#: includes/Admin/Settings_Page.php:525 includes/Admin/Settings_Page.php:545
+#: includes/Admin/Settings_Page.php:559 includes/Admin/Settings_Page.php:572
+msgid "Hidden"
+msgstr "Piilotettu"
+
+#: includes/Admin/Settings_Page.php:531
+#, fuzzy
+#| msgid "Reset"
+msgid "Reset link"
+msgstr "Tyhjennä"
+
+#: includes/Admin/Settings_Page.php:534
+#, fuzzy
+#| msgid "Show the reset button above the table"
+msgid "Show the reset link above the table"
+msgstr "Näytä Tyhjennä-nappi taulukon yläpuolella"
+
+#: includes/Admin/Settings_Page.php:538
+msgid "Page length"
+msgstr "Sivun pituus"
+
+#: includes/Admin/Settings_Page.php:547
+#, fuzzy
+#| msgid "The position of the 'Show [x] products' dropdown list."
+msgid "The position of the 'Show [x] per page' option."
+msgstr "‘Näytä [x] tuotetta’ -alasvetovalikon sijainti."
+
+#: includes/Admin/Settings_Page.php:552
+msgid "Product totals"
+msgstr "Tuotteiden kokonaismäärä"
+
+#: includes/Admin/Settings_Page.php:565
+#, fuzzy
+#| msgid "Pagination type"
+msgid "Pagination"
+msgstr "Sivutustyyli"
+
+#: includes/Admin/Settings_Page.php:585
+msgid "Advanced"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:590
+msgid "Pagination type"
+msgstr "Sivutustyyli"
+
+#: includes/Admin/Settings_Page.php:594
+#, fuzzy
+#| msgid "Prev/next + numbers"
+msgid "Page numbers"
+msgstr "Edellinen/seuraava + numerot"
+
+#: includes/Admin/Settings_Page.php:595
+#, fuzzy
+#| msgid "Prev/next"
+msgid "Prev - Next"
+msgstr "Edellinen/seuraava"
+
+#: includes/Admin/Settings_Page.php:596
+msgid "Prev - Page numbers - Next"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:597
+msgid "First - Prev - Next - Last"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:598
+msgid "First - Prev - Page numbers - Next - Last"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:604
+msgid "AJAX"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:607
+#, fuzzy
+#| msgid "Use AJAX when adding to the to the cart"
+msgid "Use AJAX when adding to the cart"
+msgstr "Käytä AJAXia ostoskoriin lisäämisessä"
+
+#: includes/Admin/Settings_Page.php:611
+msgid "Shortcodes"
+msgstr "Lyhytkoodit"
+
+#: includes/Admin/Settings_Page.php:614
+#, fuzzy
+#| msgid ""
+#| "Display shortcodes, HTML and other formatting inside the table content"
+msgid "Show shortcodes, HTML and other formatting in the table"
+msgstr "Näytä lyhytkoodit, HTML ja muu muotoilu taulukon sisällössä"
+
+#: includes/Admin/Settings_Page.php:618
+msgid "Caching"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:621
+msgid "Cache table contents to improve load times"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:629
+msgid "Cache expiration"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:632
+msgid "hours"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:633
+msgid "Your data will be refreshed after this length of time."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:651
+msgid "Quick View Pro"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:659
+msgid "Replace links to the product page with a Quick View"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:661
+#, php-format
+msgid "%sLearn how%s to correctly configure this option."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:677
+#, fuzzy
+#| msgid "Product add-ons"
+msgid "Product Addons"
+msgstr "Tuotteen lisäosat"
+
+#: includes/Admin/Settings_Page.php:682
+#, fuzzy
+#| msgid "Add-on groups layout"
+msgid "Addons layout"
+msgstr "LIsäosaryhmien näkymä"
+
+#: includes/Admin/Settings_Page.php:685 includes/Admin/Settings_Page.php:697
+msgid "Vertical"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:686 includes/Admin/Settings_Page.php:698
+msgid "Horizontal"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:689
+#, fuzzy
+#| msgid "Should the product add-on groups display horizontally or vertically?"
+msgid ""
+"Should product addons display horizontally or vertically within the table?"
+msgstr "Listataanko tuotteen lisäosat pysty- vai vaakasuoraan?"
+
+#: includes/Admin/Settings_Page.php:694
+#, fuzzy
+#| msgid "Add-on options layout"
+msgid "Addon options layout"
+msgstr "Lisäosien asetusten näkymä"
+
+#: includes/Admin/Settings_Page.php:701
+#, fuzzy
+#| msgid ""
+#| "Should the individual options for each add-on display horizontally or "
+#| "vertically?"
+msgid ""
+"Should individual options for each addon display horizontally or vertically?"
+msgstr "Listataanko lisäosien asetukset vaaka- vai pystysuoraan?"
+
+#: includes/Admin/Settings_Page.php:804
+msgid ""
+"The columns option is invalid. Please check you have entered valid column "
+"names."
+msgstr ""
+
+#: includes/Ajax_Handler.php:179
+msgid "View Cart"
+msgstr "Näytä ostoskori"
+
+#: includes/Ajax_Handler.php:204
+#, fuzzy
+#| msgid "There was an error saving your license key, please try again."
+msgid "There was an error adding to the cart. Please try again."
+msgstr ""
+"Lisenssiavaimesi tallentaminen ei onnistunut. Ole hyvä ja yritä uudelleen."
+
+#: includes/Cart_Handler.php:48 includes/Frontend_Scripts.php:144
+msgid "Please select one or more products."
+msgstr "Valitse yksi tai useampi tuote."
+
+#: includes/Cart_Handler.php:106
+msgid "No product selected. Please try again."
+msgstr "Ei valittuja tuotteita. Ole hyvä ja yritä uudelleen."
+
+#: includes/Cart_Handler.php:113
+#, fuzzy
+#| msgid "Please enter a quantity of 1 or greater."
+msgid "Please enter a quantity greater than 0."
+msgstr "Syötä määräksi 1 tai enemmän."
+
+#: includes/Cart_Handler.php:122
+#, fuzzy
+#| msgid "That product is no longer available. Please select an alternative."
+msgid "This product is no longer available. Please select an alternative."
+msgstr "Tuote ei ole enää saatavilla. Ole hyvä ja valitse toinen tuote."
+
+#: includes/Config_Builder.php:74
+msgctxt "show all products option"
+msgid "All"
+msgstr "Kaikki"
+
+#: includes/Data/Product_Custom_Field.php:144
+msgid "True"
+msgstr "Kyllä"
+
+#: includes/Data/Product_Custom_Field.php:144
+msgid "False"
+msgstr "Ei"
+
+#: includes/Data/Product_Reviews.php:20
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:102
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Arvosana %s / 5"
+
+#: includes/Data/Product_Reviews.php:23
+#, php-format
+msgid "out of %s5%s"
+msgstr "/ %s5%s"
+
+#: includes/Data/Product_Reviews.php:24
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] "%s käyttäjäarvostelun perusteella"
+msgstr[1] "%s käyttäjäarvostelun perusteella"
+
+#: includes/Data/Product_Stock.php:18
+msgid "In stock"
+msgstr "Varastossa"
+
+#: includes/Frontend_Scripts.php:119
+#, fuzzy
+#| msgid "Showing 0 products"
+msgid "Showing _TOTAL_ products"
+msgstr "Näytetään 0 tuotetta"
+
+#: includes/Frontend_Scripts.php:120
+#, fuzzy
+#| msgid "Buy product"
+msgid "0 products"
+msgstr "Tilaa tuote"
+
+#: includes/Frontend_Scripts.php:121
+#, fuzzy
+#| msgid "(_MAX_ products in total)"
+msgid "(_MAX_ in total)"
+msgstr "(Yhteensä _MAX_ tuotetta)"
+
+#: includes/Frontend_Scripts.php:122
+#, fuzzy
+#| msgid "Show _MENU_ products"
+msgid "Show _MENU_ per page"
+msgstr "Näytä _MENU_ tuotteet"
+
+#: includes/Frontend_Scripts.php:123 includes/Frontend_Scripts.php:124
+#, fuzzy
+#| msgid "No matching products found."
+msgid "No matching products"
+msgstr "Hakuehtoihin sopivia tuotteita ei löytynyt."
+
+#: includes/Frontend_Scripts.php:125
+msgid "Search:"
+msgstr "Etsi:"
+
+#: includes/Frontend_Scripts.php:127
+msgid "First"
+msgstr "Ensimmäinen"
+
+#: includes/Frontend_Scripts.php:128
+msgid "Last"
+msgstr "Viimeinen"
+
+#: includes/Frontend_Scripts.php:129
+msgid "Next"
+msgstr "Seuraava"
+
+#: includes/Frontend_Scripts.php:130
+msgid "Previous"
+msgstr "Edellinen"
+
+#: includes/Frontend_Scripts.php:132
+msgctxt "thousands separator"
+msgid ","
+msgstr "&#8201;"
+
+#: includes/Frontend_Scripts.php:133
+msgctxt "decimal mark"
+msgid "."
+msgstr ","
+
+#: includes/Frontend_Scripts.php:136
+msgid ": activate to sort column ascending"
+msgstr ": lajittele sarake nousevasti"
+
+#: includes/Frontend_Scripts.php:138
+msgid ": activate to sort column descending"
+msgstr ": lajittele sarake laskevasti"
+
+#: includes/Frontend_Scripts.php:142
+msgid "Reset"
+msgstr "Tyhjennä"
+
+#: includes/Hook_Manager.php:300
+msgid "Buy product"
+msgstr "Tilaa tuote"
+
+#: includes/Hook_Manager.php:338
+msgid "This product is currently out of stock and unavailable."
+msgstr "Tuotetta ei ole tällä hetkellä varastossa."
+
+#: includes/Table_Args.php:470
+msgid "Show details"
+msgstr "Näytä tiedot"
+
+#: includes/Util/Columns_Util.php:32
+msgid "Description"
+msgstr "Kuvaus"
+
+#: includes/Util/Columns_Util.php:33
+msgid "Summary"
+msgstr "Tiivistelmä"
+
+#: includes/Util/Columns_Util.php:34
+msgid "Date"
+msgstr "Päiväys"
+
+#: includes/Util/Columns_Util.php:35
+msgid "Categories"
+msgstr "Kategoriat"
+
+#: includes/Util/Columns_Util.php:36
+msgid "Tags"
+msgstr "Tagit"
+
+#: includes/Util/Columns_Util.php:37
+msgid "Image"
+msgstr "Kuva"
+
+#: includes/Util/Columns_Util.php:38
+msgid "Stock"
+msgstr "Varasto"
+
+#: includes/Util/Columns_Util.php:39
+msgid "Reviews"
+msgstr "Arvostelut"
+
+#: includes/Util/Columns_Util.php:40
+msgid "Weight"
+msgstr "Paino"
+
+#: includes/Util/Columns_Util.php:41
+msgid "Dimensions"
+msgstr "Mitat"
+
+#: includes/Util/Columns_Util.php:43
+msgid "Buy"
+msgstr "Tilaa"
+
+#: includes/Util/Columns_Util.php:44
+msgid "Details"
+msgstr "Tiedot"
+
+#: includes/Util/Settings.php:72
+#, fuzzy
+#| msgid "Add Selected To Cart"
+msgid "Add To Cart"
+msgstr "Lisää valitut ostoskoriin"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:24
+msgid "Display a list of active filters for your product table."
+msgstr "Näytä tuotetaulukon aktiivisten suodinten lista."
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:26
+msgid "Product Table: Active Filters"
+msgstr "Tuotetaulukko: aktiiviset suotimet"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:30
+msgid "Active filters"
+msgstr "Aktiiviset suotimet"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:31
+#: includes/widgets/class-wcpt-widget-layered-nav.php:76
+#: includes/widgets/class-wcpt-widget-price-filter.php:31
+#: includes/widgets/class-wcpt-widget-rating-filter.php:31
+msgid "Title"
+msgstr "Otsikko"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:83
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:90
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:95
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:102
+msgid "Remove filter"
+msgstr "Poista suodin"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:90
+#, php-format
+msgid "Min %s"
+msgstr "Min %s"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:95
+#, php-format
+msgid "Max %s"
+msgstr "Max %s"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:24
+msgid "Display a list of attributes to filter products in your product table."
+msgstr ""
+"Näytä tuoteominaisuussuodatin rajataksesi tuotetaulukossa näkyvien "
+"tuotteiden määrää."
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:26
+msgid "Product Table: Filter by Attribute"
+msgstr "Tuotetaulukko: suodata ominaisuuksien mukaan"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:75
+msgid "Filter by"
+msgstr "Suodata"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:81
+msgid "Attribute"
+msgstr "Ominaisuus"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:87
+msgid "Display type"
+msgstr "Näyttötyyppi"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:89
+msgid "List"
+msgstr "Lista"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:90
+msgid "Dropdown"
+msgstr "Alasvetovalikko"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:96
+msgid "Query type"
+msgstr "Haun tyyppi"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:98
+msgid "AND"
+msgstr "JA"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:99
+msgid "OR"
+msgstr "TAI"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:203
+#, php-format
+msgid "Any %s"
+msgstr "Mikä tahansa %s"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:242
+msgid "Apply"
+msgstr "Käytä"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:275
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr "Hakuehtoihin sopivia tuotteita ei löytynyt"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:24
+msgid "Display a slider to filter your product table by price."
+msgstr "Näytä liukupalkki hinnan mukaan suodattamiseen."
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:26
+msgid "Product Table: Filter by Price"
+msgstr "Tuotetaulukko: Suodata hinnan mukaan"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:30
+msgid "Filter by price"
+msgstr "Suodata hinnan mukaan"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:96
+msgid "Min price"
+msgstr "Minimihinta"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:97
+msgid "Max price"
+msgstr "Maksimihinta"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:98
+msgid "Filter"
+msgstr "Suodatin"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:100
+msgid "Price:"
+msgstr "Hinta:"
+
+#: includes/widgets/class-wcpt-widget-rating-filter.php:24
+msgid ""
+"Display a list of star ratings to filter products in your product table."
+msgstr ""
+"Näytä lista tähtien mukaan arvioinneista suodattaaksesi taulukon tuotteita."
+
+#: includes/widgets/class-wcpt-widget-rating-filter.php:26
+msgid "Product Table: Filter by Rating"
+msgstr "Tuotetaulukko: suodata arvioiden mukaan"
+
+#: includes/widgets/class-wcpt-widget-rating-filter.php:30
+msgid "Average rating"
+msgstr "Keskivertoarvio"
+
+#: lib/Plugin/Admin/Admin_Links.php:52
+msgid "Settings"
+msgstr "Asetukset"
+
+#: lib/Plugin/Admin/Admin_Links.php:70
+#, fuzzy, php-format
+#| msgid "View Documentation"
+msgid "View %s documentation"
+msgstr "Näytä käyttöohjeet"
+
+#: lib/Plugin/Admin/Admin_Links.php:71
+msgid "Docs"
+msgstr "Dokumentit"
+
+#: lib/Plugin/Admin/Plugin_Updater.php:121
+#, php-format
+msgid "Activate %1$syour license key%2$s to enable updates."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:63
+msgid "License key successfully activated."
+msgstr "Lisenssiavain on otettu käyttöön."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:64
+#, fuzzy
+#| msgid "There was an error saving your license key, please try again."
+msgid "There was an error activating your license key."
+msgstr ""
+"Lisenssiavaimesi tallentaminen ei onnistunut. Ole hyvä ja yritä uudelleen."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:72
+#, fuzzy
+#| msgid "License key successfully activated."
+msgid "License key successfully deactivated."
+msgstr "Lisenssiavain on otettu käyttöön."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:73
+#, fuzzy
+#| msgid "There was an error saving your license key, please try again."
+msgid "There was an error deactivating your license key, please try again."
+msgstr ""
+"Lisenssiavaimesi tallentaminen ei onnistunut. Ole hyvä ja yritä uudelleen."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:80
+msgid "The license key looks good!"
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:81
+#, fuzzy
+#| msgid "Please enter your license key."
+msgid "There's a problem with your license key."
+msgstr "Syötä lisenssiavaimesi."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:89
+msgid "License key"
+msgstr "Lisenssiavain"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:97
+msgid "The licence key is contained in your order confirmation email."
+msgstr "Lisenssiavain löytyy tilausvahvistussähköpostista."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:100
+#, fuzzy
+#| msgid "License key"
+msgid "License Key"
+msgstr "Lisenssiavain"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:241
+#, fuzzy
+#| msgid "Deactivate"
+msgid "Activate"
+msgstr "Poista käytöstä"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:242
+msgid "Deactivate"
+msgstr "Poista käytöstä"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:253
+#, fuzzy
+#| msgid "License key successfully activated."
+msgid "License key deactivated."
+msgstr "Lisenssiavain on otettu käyttöön."
+
+#: lib/Plugin/License/Admin/License_Notices.php:90
+#, php-format
+msgid ""
+"Thank you for installing %1$s. To get started, please %2$senter your license "
+"key%3$s."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Notices.php:107
+#, php-format
+msgid ""
+"Your license key for %1$s has expired. %2$sClick here to renew for 20%% "
+"discount%3$s."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Notices.php:124
+#, php-format
+msgid ""
+"You no longer have a valid license for %1$s. Please %2$spurchase a new "
+"license key%3$s to continue using the plugin."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Notices.php:145
+#, php-format
+msgid ""
+"%1$s - your site has moved to a new domain. Please %2$sreactivate your "
+"license key%3$s."
+msgstr ""
+
+#: lib/Plugin/License/EDD_Licensing.php:184
+msgid "An error has occurred, please try again."
+msgstr "Tapahtui virhe, ole hyvä ja yritä uudelleen."
+
+#: lib/Plugin/License/Plugin_License.php:93
+#, fuzzy
+#| msgid "Your license key is invalid."
+msgid "Your license key is active."
+msgstr "Lisenssiavaimesi ei ole kelvollinen."
+
+#: lib/Plugin/License/Plugin_License.php:113
+msgid "Please enter your license key."
+msgstr "Syötä lisenssiavaimesi."
+
+#: lib/Plugin/License/Plugin_License.php:115
+#: lib/Plugin/License/Plugin_License.php:380
+msgid "Your license key is invalid."
+msgstr "Lisenssiavaimesi ei ole kelvollinen."
+
+#: lib/Plugin/License/Plugin_License.php:319
+#, fuzzy, php-format
+#| msgid "The licence key is contained in your order confirmation email."
+msgid ""
+"Invalid license key - please check your order confirmation email or "
+"%1$sAccount%2$s."
+msgstr "Lisenssiavain löytyy tilausvahvistussähköpostista."
+
+#: lib/Plugin/License/Plugin_License.php:325
+msgid "No URL was supplied for activation, please contact support."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:328
+msgid "License key mismatch, please contact support."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:331
+msgid "This license is for a bundled product and cannot be activated."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:335
+#, fuzzy
+#| msgid "Your license is not active for this URL."
+msgid "Your license key is not valid for this plugin."
+msgstr "Lisenssisi ei ole aktiivinen tälle osoitteelle (URL)."
+
+#: lib/Plugin/License/Plugin_License.php:341
+#, php-format
+msgid "%s site active"
+msgid_plural "%s sites active"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/Plugin/License/Plugin_License.php:344
+#, fuzzy, php-format
+#| msgid "Your license key has reached its activation limit."
+msgid "Your license key has reached its activation limit (%s)."
+msgstr "Lisenssiavaimesi aktivointiraja on täynnä."
+
+#: lib/Plugin/License/Plugin_License.php:345 lib/Util.php:38
+msgid "Read more"
+msgstr "Lue lisää"
+
+#: lib/Plugin/License/Plugin_License.php:348
+#: lib/Plugin/License/Plugin_License.php:369
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:362
+#, php-format
+msgid "Your license key expired on %s."
+msgstr "Lisenssiavaimesi on umpeutunut %s."
+
+#: lib/Plugin/License/Plugin_License.php:366
+#, php-format
+msgid "Renew now for 20% discount."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:617
+#, fuzzy
+#| msgid "Your license is not active for this URL."
+msgid "Your license key is not active. Please reactivate or save the settings."
+msgstr "Lisenssisi ei ole aktiivinen tälle osoitteelle (URL)."
+
+#: lib/Plugin/License/Plugin_License.php:621
+#, fuzzy
+#| msgid "Your license key expired on %s."
+msgid "Your license key expired has expired."
+msgstr "Lisenssiavaimesi on umpeutunut %s."
+
+#: lib/Plugin/License/Plugin_License.php:626
+#, php-format
+msgid ""
+"Your license key has been disabled. Please %1$spurchase a new license key"
+"%2$s to continue using the plugin."
+msgstr ""
+
+#: lib/WooCommerce/Admin/Custom_Settings_Fields.php:91
+msgid "Size"
+msgstr "Koko"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Product Table"
+msgstr "WooCommerce tuotetaulukko"
+
+#. Plugin URI of the plugin/theme
+msgid "https://barn2.com/wordpress-plugins/woocommerce-product-table/"
+msgstr ""
+
+#. Description of the plugin/theme
+#, fuzzy
+#| msgid ""
+#| "Provides a shortcode to show a list of your WooCommerce products in a "
+#| "searchable and sortable table."
+msgid ""
+"Display and purchase WooCommerce products from a searchable and sortable "
+"table. Filter by anything."
+msgstr ""
+"Mahdollistaa WooCommerce tuotteiden näyttämisen haettavassa ja "
+"järjestettävissä olevassa taulukossa helpon lyhytkoodin avulla."
+
+#. Author of the plugin/theme
+msgid "Barn2 Plugins"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://barn2.com"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Table design"
+#~ msgid "Table display"
+#~ msgstr "Taulukon ulkoasu"
+
+#, fuzzy
+#~| msgid "Loading products"
+#~ msgid "_TOTAL_ products"
+#~ msgstr "Ladataan tuotteita"
+
+#~ msgid "Show based on columns in table"
+#~ msgstr "Näytä sarakkeiden mukaisesti taulukossa"
+
+#~ msgid "Pagination buttons"
+#~ msgstr "Sivutusnapit"
+
+#, fuzzy
+#~| msgid "Table design"
+#~ msgid "Table reset"
+#~ msgstr "Taulukon ulkoasu"
+
+#~ msgid "View WooCommerce Product Table documentation"
+#~ msgstr "Näytä WooCommerce tuotetaulukon käyttöohjeet"
+
+#~ msgid ""
+#~ "Enable this if you have many products or experience slow page load times."
+#~ "<br/><strong>Warning:</strong> Lazy load has some limitations - it limits "
+#~ "the search, sorting, and display of variations. Only use it if you "
+#~ "definitely need it."
+#~ msgstr ""
+#~ "Kytke tämä päälle, jos sinulla on paljon tuotteita tai sivu latautuu "
+#~ "hitaasti.<br/><strong>Varoitus:</strong> Laiska lataus aiheuttaa "
+#~ "rajoitteita hakuun, järjestelyyn ja muunnelmien esittämiseen. Käytä sitä "
+#~ "vain tarvittaessa."
+
+#~ msgid "This option is ignored if lazy load is enabled."
+#~ msgstr "Tätä asetusta ei huomioida, jos laista lataus on kytketty päälle."
+
+#~ msgid "Button only"
+#~ msgstr "Vain nappi"
+
+#~ msgid "Checkbox only"
+#~ msgstr "Vain valintaruutu"
+
+#~ msgid "How 'Add to Cart' buttons are displayed in the table."
+#~ msgstr "Miten Lisää koriin -napit näkyvät taulukossa."
+
+#~ msgid "Add to cart behavior"
+#~ msgstr "Lisää koriin -napin toiminta"
+
+#~ msgid "Show quantity selectors in the Add to Cart column"
+#~ msgstr "Näytä määrävalitsimet ‘Lisää koriin’ -sarakkeessa"
+
+#~ msgid "Link to product page"
+#~ msgstr "Linkki tuotesivulle"
+
+#, fuzzy
+#~| msgid "Show quantity selectors in the Add to Cart column"
+#~ msgid "Dropdown lists in add to cart column"
+#~ msgstr "Näytä määrävalitsimet ‘Lisää koriin’ -sarakkeessa"
+
+#, fuzzy
+#~| msgid "Show as separate rows (1 per variation)"
+#~ msgid "Separate rows in table (one per variation)"
+#~ msgstr "Näytä erillisinä riveinä (1 muunnelma rivillä)"
+
+#~ msgid "'Add Selected' position"
+#~ msgstr "Lisää valitut -napin sijainti"
+
+#~ msgid "The position of the product search box."
+#~ msgstr "Tuotehakukentän sijainti."
+
+#~ msgid ""
+#~ "The position of the product totals, e.g. 'Showing 1 to 5 of 10 products'."
+#~ msgstr ""
+#~ "Tuotteiden kokonaismäärän sijainti, esim. ‘Näytetään 1 - 5 / 10 "
+#~ "tuotteesta’."
+
+#~ msgid "The position of the paging buttons which scroll between results."
+#~ msgstr "Sivutusnappien sijainti."
+
+#~ msgid "Numbers only"
+#~ msgstr "Vain numerot"
+
+#~ msgid "Prev/next/first/last"
+#~ msgstr "Edellinen/seuraava/ensimmäinen/viimeinen"
+
+#~ msgid "Prev/next/first/last + numbers"
+#~ msgstr "Edellinen/seuraava/ensimmäinen/viimeinen + numerot"
+
+#~ msgid "Reset button"
+#~ msgstr "Tyhjennä-nappi"
+
+#, php-format
+#~ msgid ""
+#~ "Please see the Knowledge Base for the %sfull list of shortcode options%s."
+#~ msgstr "Katso tietopankista %stäysi lista lyhytkoodeista%s."
+
+#~ msgid "Getting Started Guide"
+#~ msgstr "Pikaopas"
+
+#~ msgid "Knowledge Base"
+#~ msgstr "Tietopankki"
+
+#~ msgid "Showing _START_ to _END_ of _TOTAL_ products"
+#~ msgstr "Näytetään _START_ - _END_ yhteensä _TOTAL_ tuotteesta"
+
+#~ msgid "Filter:"
+#~ msgstr "Suodatin:"
+
+#, php-format
+#~ msgid "Rated %1$s out of 5 based on %2$s customer rating"
+#~ msgid_plural "Rated %1$s out of 5 based on %2$s customer ratings"
+#~ msgstr[0] "Arvosana %1$s / 5 (%2$s arvostelun pohjalta)"
+#~ msgstr[1] "Arvosana %1$s / 5 (%2$s arvostelun pohjalta)"
+
+#, fuzzy
+#~| msgctxt "license key error message"
+#~| msgid "Error: %s"
+#~ msgid "Error"
+#~ msgstr "Virhe: %s"
+
+#, fuzzy
+#~| msgid "Your license key has been disabled."
+#~ msgid "Your license key has been disabled, please contact support,"
+#~ msgstr "Lisenssiavaimesi on poistettu käytöstä."
+
+#, fuzzy
+#~| msgid "License key successfully deactivated."
+#~ msgid "License key successfully deactivated. Click Save to reactivate."
+#~ msgstr "Lisenssiavain poistettiin käytöstä."
+
+#~ msgid "Choosing your products"
+#~ msgstr "Tuotteidesi valitseminen"
+
+#~ msgid ""
+#~ "The tables will display all products by default, or you can select "
+#~ "products based on category, tag, custom field, taxonomy, or individual "
+#~ "products."
+#~ msgstr ""
+#~ "Taulukossa näkyvät oletuksena kaikki tuotteet. Voit myös suodattaa "
+#~ "tuotteita mm. kategorian ja tagin mukaan."
+
+#, fuzzy
+#~| msgid "%1$sHow to select your products%2$s."
+#~ msgid "Learn how to select your products"
+#~ msgstr "%1$sMiten myydä tuotteitasi%2$s."
+
+#~ msgid "Stacked (vertically)"
+#~ msgstr "Päällekkäin (pystysuoraan)"
+
+#~ msgid "Inline (horizontally)"
+#~ msgstr "Samalle riville (vaakasuoraan)"
+
+#~ msgid "None"
+#~ msgstr "Ei mitään"
+
+#~ msgctxt "help text for custom search filters"
+#~ msgid "For taxonomies use %1$s, and for product attributes use %2$s"
+#~ msgstr "Käytä %1$s luokitteluille ja %2$s tuoteparametreille"
+
+#~ msgid "W x H in pixels. Sets the image size when using the 'image' column."
+#~ msgstr "K x L pikseleissä. Asettaa kuvan koon käytettäessä kuvasaraketta."
+
+#~ msgid "Product name"
+#~ msgstr "Tuotteen nimi"
+
+#~ msgid "Product ID"
+#~ msgstr "Tuote-ID"
+
+#~ msgid "Other column"
+#~ msgstr "Toinen sarake"
+
+#~ msgid ""
+#~ "Enter a column name in the same format used in the columns option. e.g. "
+#~ "\"sku\" or \"cf:date_field\""
+#~ msgstr ""
+#~ "Lisää sarakkeen nimi samassa formaatissa kuin sarakkeen asetuksissa, "
+#~ "esim. “sku” tai “cf:date_field”"
+
+#~ msgid "This controls how variable products are displayed in the table."
+#~ msgstr "Tämä määrittää, miten muunnelmatuotteet näkyvät taulukossa."
+
+#, fuzzy
+#~| msgid "Product Tables"
+#~ msgid "Product totals message"
+#~ msgstr "Tuotetaulukot"
+
+#, fuzzy
+#~| msgid "Show details"
+#~ msgid "Show links"
+#~ msgstr "Näytä tiedot"
+
+#~ msgid ""
+#~ "Shows active filters for the product table so users can see and "
+#~ "deactivate them."
+#~ msgstr ""
+#~ "Näyttää tuotetaulukon aktiiviset suotimet käyttäjälle, joka halutessaan "
+#~ "voi poistaa ne käytöstä."
+
+#~ msgid "Product Table layered nav filters"
+#~ msgstr "Tuotetaulukon kerrostetut navigointisuotimet"
+
+#~ msgid ""
+#~ "Shows a price filter slider which lets you narrow down the list of "
+#~ "products in the product table."
+#~ msgstr ""
+#~ "Näyttää hintaliu’uttimen, jolla voit rajata tuotteiden määrää "
+#~ "tuotetaulukossa."
+
+#~ msgid "Filter products by average rating when viewing product tables."
+#~ msgstr ""
+#~ "Suodata tuotteet keskiarvoisen arvostelun mukaan tuotetaulokkoa "
+#~ "näyttäessä."
+
+#, fuzzy
+#~ msgid "Product Table average rating filter"
+#~ msgstr "Tuotetaulukon keskiarvoinen arvostelusuodin"
+
+#, fuzzy
+#~| msgid "Active filters"
+#~ msgid "Search filters"
+#~ msgstr "Aktiiviset suotimet"
+
+#~ msgid "Get help with WooCommerce Product Table"
+#~ msgstr "Apua WooCommerce Tuotetaulukon käytössä"
+
+#~ msgid "Get Support"
+#~ msgstr "Tukipyyntö"

@@ -1,0 +1,10 @@
+
+$prefix: 'wc-product-table';
+
+// Can't import top-level folder unless using libsass > 3.6.5
+@import "../../lib/assets/scss/tables/_index";
+@import "main";
+@import "cart";
+@import "plugins";
+@import "themes";
+@import "deprecated";

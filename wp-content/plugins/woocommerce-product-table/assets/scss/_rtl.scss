@@ -1,0 +1,131 @@
+// RTL support
+#{$wrapper-class} {
+
+	.added_to_cart {
+		text-align: left;
+	}
+
+	.wc-forward::after {
+		content: "\ea40" !important; /* left arrow */
+	}
+
+}
+
+#{$table-class} {
+
+	thead .col-buy,
+	.product-row .col-buy,
+	.product-row .col-button:last-child {
+		text-align: left;
+	}
+
+	.cart {
+		select {
+			@include swap-padding(1em, 0.5em);
+		}
+
+		.quantity,
+		select,
+		.single_add_to_cart_button {
+			margin-left: 0 !important;
+			margin-right: 3px !important;
+		}
+	}
+
+	.wpt_variations_form .single_variation p {
+		text-align: left;
+	}
+
+	.multi-cart {
+		@include swap-padding(32px, 0);
+
+		.multi-cart-check {
+			left: 6px;
+			right: auto;
+		}
+	}
+
+	.child .multi-cart {
+		&.purchasable {
+			@include swap-padding(0, 25px);
+		}
+
+		.multi-cart-check {
+			left: auto;
+			right: 0;
+		}
+	}
+
+}
+
+#{$controls-class} {
+
+	.multi-cart-message {
+		text-align: left;
+	}
+
+}
+
+// WooCommerce Product Addons
+#{$table-class} {
+
+	.addons-inline {
+		.wc-pao-addons-container + .add-to-cart-button {
+			margin-left: 0;
+			margin-right: 3px;
+		}
+
+		.wc-pao-addon-container {
+			margin-left: 0;
+			margin-right: 8px;
+			text-align: right;
+
+			.wc-pao-addon-description,
+			& > label,
+			.form-row > label {
+				text-align: right;
+			}
+
+			input[type="checkbox"],
+			input[type="radio"] {
+				margin-right: 7px;
+				margin-left: 0;
+				float: left;
+			}
+		}
+	}
+
+	.addons-options-inline .wc-pao-addon-container {
+
+		input[type="checkbox"],
+		input[type="radio"] {
+			margin-left: 4px;
+			margin-right: 0;
+			float: none;
+		}
+
+		.form-row + .form-row {
+			margin-left: 0;
+			margin-right: 10px;
+		}
+	}
+
+	.addons-block {
+
+		&.addons-options-block .wc-pao-addon-container {
+			input[type="checkbox"],
+			input[type="radio"] {
+				margin-left: 0;
+				margin-right: 7px;
+				float: left;
+			}
+		}
+	}
+
+}
+
+// WooCommerce Variations and Swatches
+#{$table-class} .cart .swatch-anchor {
+	text-align: right;
+}
+

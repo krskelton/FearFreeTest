@@ -1,0 +1,1407 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Product Table\n"
+"POT-Creation-Date: 2021-09-23 18:17+0200\n"
+"PO-Revision-Date: 2021-09-23 18:17+0200\n"
+"Last-Translator: Andrew Keith <andy@barn2.co.uk>\n"
+"Language-Team: \n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: woocommerce-product-table.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: includes/license/EDD_SL_Plugin_Updater.php\n"
+
+#: includes/Admin/Admin_Controller.php:46
+#, fuzzy
+#| msgid "Product Tables"
+msgid "Product Table"
+msgstr "Πίνακες προϊόντων"
+
+#: includes/Admin/Settings_Page.php:60 includes/Admin/Settings_Page.php:83
+#, fuzzy
+#| msgid "Product Tables"
+msgid "Product tables"
+msgstr "Πίνακες προϊόντων"
+
+#: includes/Admin/Settings_Page.php:86
+#, fuzzy
+#| msgid "The following options control the %s extension."
+msgid "The following options control the WooCommerce Product Table extension."
+msgstr "Οι παρακάτω επιλογές ελέγχουν την επέκταση %s."
+
+#: includes/Admin/Settings_Page.php:88
+msgid "Documentation"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:89
+msgid "Support"
+msgstr "Υποστήριξη"
+
+#: includes/Admin/Settings_Page.php:103
+msgid "Table design"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:104
+msgid "You can customize the table design to suit your requirements."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:109
+msgid "Design"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:113
+msgid "Default"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:114 includes/Admin/Settings_Page.php:499
+msgid "Custom"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:125
+msgid ""
+"Choose your custom table styles below. Any settings you leave blank will "
+"default to your theme styles."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:129
+msgid "Borders"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:132
+msgid "External border icon"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:132
+msgid "External"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:133
+msgid "The border for the outer edges of the table."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:140
+msgid "Header border icon"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:140
+msgid "Header"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:141
+msgid "The border for the bottom of the header row."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:148
+msgid "Cell border icon"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:148
+msgid "Cell"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:149
+msgid "The border between cells in your table."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:153
+msgid "Header background"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:156
+msgid "The header background color."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:157 includes/Admin/Settings_Page.php:166
+#: lib/WooCommerce/Admin/Custom_Settings_Fields.php:80
+msgid "Color"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:162
+msgid "Cell background"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:165
+msgid "The main background color used for the table contents."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:171
+msgid "Header font"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:174
+msgid "The font used in the table header."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:179
+msgid "Cell font"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:182
+msgid "The font used for the table contents."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:194
+msgid ""
+"The following options replace the standard WooCommerce template with a "
+"product table. You can also add the [product_table] shortcode to any post or "
+"page."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:199
+msgid "Shop integration"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:205
+#, fuzzy
+#| msgid "Please select one or more products."
+msgid "Where to display product tables"
+msgstr "Επιλέξτε ένα ή περισσότερα προϊόντα."
+
+#: includes/Admin/Settings_Page.php:208
+#, fuzzy
+#| msgid "Show _MENU_ products"
+msgid "Shop page"
+msgstr "Εμφάνιση _MENU_ προϊόντων"
+
+#: includes/Admin/Settings_Page.php:215
+#, fuzzy
+#| msgid "Product Table price filter"
+msgid "Product search results"
+msgstr "Φίλτρο τιμών πίνακα προϊόντων"
+
+#: includes/Admin/Settings_Page.php:222
+#, fuzzy
+#| msgid "Product Table price filter"
+msgid "Product categories"
+msgstr "Φίλτρο τιμών πίνακα προϊόντων"
+
+#: includes/Admin/Settings_Page.php:229
+#, fuzzy
+#| msgid "Product Tables"
+msgid "Product tags"
+msgstr "Πίνακες προϊόντων"
+
+#: includes/Admin/Settings_Page.php:236
+#, fuzzy
+#| msgid "Product Tables"
+msgid "Product attributes"
+msgstr "Πίνακες προϊόντων"
+
+#: includes/Admin/Settings_Page.php:252
+msgid "Table content"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:255
+msgid ""
+"These options set defaults for all product tables. You can override them in "
+"the shortcode for individual tables."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:256
+msgid "See the full list of shortcode options"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:259
+msgid "Columns"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:262
+#, fuzzy
+#| msgid "Please select one or more products."
+msgid "Enter the columns for your product tables."
+msgstr "Επιλέξτε ένα ή περισσότερα προϊόντα."
+
+#: includes/Admin/Settings_Page.php:267
+#, fuzzy
+#| msgid "Image"
+msgid "Image size"
+msgstr "Εικόνα"
+
+#: includes/Admin/Settings_Page.php:270
+msgid "W x H in pixels, e.g. 70x50"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:271
+msgid ""
+"You can also enter a standard image size such as thumbnail, shop_thumbnail, "
+"medium, etc."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:276
+msgid "Image lightbox"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:279
+msgid "Show product images in a lightbox"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:283
+msgid "Description length"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:286
+msgid "words"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:287
+msgid "Enter -1 to show the full product description including formatting."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:295 includes/Admin/Settings_Page.php:656
+#, fuzzy
+#| msgid "Product Tables"
+msgid "Product links"
+msgstr "Πίνακες προϊόντων"
+
+#: includes/Admin/Settings_Page.php:298
+msgid "Include links to the relevant product, category, tag, or attribute."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:299
+msgid ""
+"Enter all, none, or a combination of: sku, name, image, tags, categories, "
+"terms, or attributes as a comma-separated list."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:311
+#, fuzzy
+#| msgid "Showing 0 products"
+msgid "Loading"
+msgstr "Εμφάνιση 0 προϊόντων"
+
+#: includes/Admin/Settings_Page.php:316
+msgid "Lazy load"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:319
+msgid "Load products one page at a time"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:320
+msgid ""
+"Enable this if you have many products or experience slow page load times."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:322
+#, php-format
+msgid ""
+"Warning: Lazy load has %1$ssome limitations%2$s &mdash; it limits the "
+"search, sorting, dropdown filters, and variations."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:334
+msgid "Product limit"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:337
+#, fuzzy
+#| msgid "Please select one or more products."
+msgid "The maximum number of products in one table."
+msgstr "Επιλέξτε ένα ή περισσότερα προϊόντα."
+
+#: includes/Admin/Settings_Page.php:338
+msgid "Enter -1 to show all products."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:347
+msgid "Rows per page"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:350
+msgid "The number of products per page of results."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:351
+msgid "Enter -1 to show all products on a single page."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:366
+#, fuzzy
+#| msgid "Settings"
+msgid "Sorting"
+msgstr "Ρυθμίσεις"
+
+#: includes/Admin/Settings_Page.php:371
+msgid "Sort by"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:375
+msgid "As listed in the Products screen (menu order)"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:376 includes/Util/Columns_Util.php:30
+msgid "SKU"
+msgstr "SKU"
+
+#: includes/Admin/Settings_Page.php:377 includes/Util/Columns_Util.php:31
+msgid "Name"
+msgstr "Όνομα"
+
+#: includes/Admin/Settings_Page.php:378 includes/Util/Columns_Util.php:29
+msgid "ID"
+msgstr "ID"
+
+#: includes/Admin/Settings_Page.php:379 includes/Util/Columns_Util.php:42
+msgid "Price"
+msgstr "Τιμή"
+
+#: includes/Admin/Settings_Page.php:380
+msgid "Number of sales"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:381
+#, fuzzy
+#| msgid "Average rating"
+msgid "Average reviews"
+msgstr "Μέσο όρο αξιολόγησης"
+
+#: includes/Admin/Settings_Page.php:382
+msgid "Date added"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:383
+msgid "Date modified"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:384
+msgid "Other"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:386
+msgid "The initial sort order applied to the table."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:395
+msgid "Sort column"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:399
+msgid ""
+"Enter a column name, e.g. description, att:size, etc. Will only work when "
+"lazy load is disabled."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:403
+msgid "Sort direction"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:407
+msgid "Automatic"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:408
+msgid "Ascending (A to Z, 1 to 99)"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:409
+msgid "Descending (Z to A, 99 to 1)"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:422
+#, fuzzy
+#| msgid "Add Selected To Cart"
+msgid "Add to cart"
+msgstr "Προσθήκη επιλεγμένων στο καλάθι"
+
+#: includes/Admin/Settings_Page.php:427
+#, fuzzy
+#| msgid "Showing 0 products"
+msgid "Adding products to cart"
+msgstr "Εμφάνιση 0 προϊόντων"
+
+#: includes/Admin/Settings_Page.php:431
+#, fuzzy
+#| msgid "Add Selected To Cart"
+msgid "Add to cart buttons"
+msgstr "Προσθήκη επιλεγμένων στο καλάθι"
+
+#: includes/Admin/Settings_Page.php:432
+#, fuzzy
+#| msgid "Add Selected To Cart"
+msgid "Add to cart checkboxes"
+msgstr "Προσθήκη επιλεγμένων στο καλάθι"
+
+#: includes/Admin/Settings_Page.php:433
+msgid "Buttons and checkboxes"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:435
+msgid "How a customer orders products from the table."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:440
+msgid "Quantities"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:443
+msgid "Show a quantity box for each product"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:447
+msgid "Variations"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:451
+msgid "Show as dropdown lists"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:452
+msgid "Show one variation per row"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:453
+msgid "Show a Read More button linking to product page"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:455
+msgid "How to display options for variable products."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:460
+msgid "Multi-select cart button"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:464 includes/Admin/Settings_Page.php:522
+#: includes/Admin/Settings_Page.php:542 includes/Admin/Settings_Page.php:556
+#: includes/Admin/Settings_Page.php:569
+msgid "Above table"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:465 includes/Admin/Settings_Page.php:523
+#: includes/Admin/Settings_Page.php:543 includes/Admin/Settings_Page.php:557
+#: includes/Admin/Settings_Page.php:570
+msgid "Below table"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:466 includes/Admin/Settings_Page.php:524
+#: includes/Admin/Settings_Page.php:544 includes/Admin/Settings_Page.php:558
+#: includes/Admin/Settings_Page.php:571
+msgid "Above and below table"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:468
+msgid ""
+"The position of the 'Add To Cart' button to add multiple products from the "
+"table."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:469
+msgid ""
+"Only applicable if using checkboxes for the 'Adding products to cart' option "
+"above"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:474
+#, fuzzy
+#| msgid "Add Selected To Cart"
+msgid "Multi-select button text"
+msgstr "Προσθήκη επιλεγμένων στο καλάθι"
+
+#: includes/Admin/Settings_Page.php:477
+msgid "The text for the multi-select add to cart button."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:488
+msgid "Table controls"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:493
+#, fuzzy
+#| msgid "Product Tables"
+msgid "Product filters"
+msgstr "Πίνακες προϊόντων"
+
+#: includes/Admin/Settings_Page.php:497
+msgid "Disabled"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:498
+msgid "Show based on table content"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:501
+msgid ""
+"Display dropdown lists to filter the table by category, tag, attribute or "
+"taxonomy."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:510
+#, fuzzy
+#| msgid "Active filters"
+msgid "Custom filters"
+msgstr "Ενεργά Φίλτρα"
+
+#: includes/Admin/Settings_Page.php:513
+msgid "Enter the filters as a comma-separated list."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:514
+msgid "E.g. categories,tags,att:color"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:518
+msgid "Search box"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:525 includes/Admin/Settings_Page.php:545
+#: includes/Admin/Settings_Page.php:559 includes/Admin/Settings_Page.php:572
+msgid "Hidden"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:531
+#, fuzzy
+#| msgid "Reset"
+msgid "Reset link"
+msgstr "Επαναφορά"
+
+#: includes/Admin/Settings_Page.php:534
+msgid "Show the reset link above the table"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:538
+msgid "Page length"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:547
+msgid "The position of the 'Show [x] per page' option."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:552
+#, fuzzy
+#| msgid "Product Tables"
+msgid "Product totals"
+msgstr "Πίνακες προϊόντων"
+
+#: includes/Admin/Settings_Page.php:565
+msgid "Pagination"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:585
+msgid "Advanced"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:590
+msgid "Pagination type"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:594
+msgid "Page numbers"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:595
+msgid "Prev - Next"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:596
+msgid "Prev - Page numbers - Next"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:597
+msgid "First - Prev - Next - Last"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:598
+msgid "First - Prev - Page numbers - Next - Last"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:604
+msgid "AJAX"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:607
+msgid "Use AJAX when adding to the cart"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:611
+msgid "Shortcodes"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:614
+msgid "Show shortcodes, HTML and other formatting in the table"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:618
+msgid "Caching"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:621
+msgid "Cache table contents to improve load times"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:629
+msgid "Cache expiration"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:632
+msgid "hours"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:633
+msgid "Your data will be refreshed after this length of time."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:651
+msgid "Quick View Pro"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:659
+msgid "Replace links to the product page with a Quick View"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:661
+#, php-format
+msgid "%sLearn how%s to correctly configure this option."
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:677
+#, fuzzy
+#| msgid "Product Tables"
+msgid "Product Addons"
+msgstr "Πίνακες προϊόντων"
+
+#: includes/Admin/Settings_Page.php:682
+msgid "Addons layout"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:685 includes/Admin/Settings_Page.php:697
+msgid "Vertical"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:686 includes/Admin/Settings_Page.php:698
+msgid "Horizontal"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:689
+msgid ""
+"Should product addons display horizontally or vertically within the table?"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:694
+msgid "Addon options layout"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:701
+msgid ""
+"Should individual options for each addon display horizontally or vertically?"
+msgstr ""
+
+#: includes/Admin/Settings_Page.php:804
+msgid ""
+"The columns option is invalid. Please check you have entered valid column "
+"names."
+msgstr ""
+
+#: includes/Ajax_Handler.php:179
+msgid "View Cart"
+msgstr "Εμφάνιση Καλαθιού"
+
+#: includes/Ajax_Handler.php:204
+#, fuzzy
+#| msgid "There was an error saving your license key, please try again."
+msgid "There was an error adding to the cart. Please try again."
+msgstr ""
+"Παρουσιάστηκε σφάλμα κατά την αποθήκευση του κλειδιού άδειας χρήσης, "
+"δοκιμάστε ξανά."
+
+#: includes/Cart_Handler.php:48 includes/Frontend_Scripts.php:144
+msgid "Please select one or more products."
+msgstr "Επιλέξτε ένα ή περισσότερα προϊόντα."
+
+#: includes/Cart_Handler.php:106
+msgid "No product selected. Please try again."
+msgstr "Δεν έχει επιλεγεί κανένα προϊόν. Παρακαλώ προσπάθηστε ξανά."
+
+#: includes/Cart_Handler.php:113
+#, fuzzy
+#| msgid "Please enter a quantity of 1 or greater."
+msgid "Please enter a quantity greater than 0."
+msgstr "Εισαγάγετε ποσότητα 1 ή μεγαλύτερη."
+
+#: includes/Cart_Handler.php:122
+#, fuzzy
+#| msgid "That product is no longer available. Please select an alternative."
+msgid "This product is no longer available. Please select an alternative."
+msgstr "Το προϊόν αυτό δεν είναι πλέον διαθέσιμο. Επιλέξτε κάποιο άλλο."
+
+#: includes/Config_Builder.php:74
+msgctxt "show all products option"
+msgid "All"
+msgstr "Όλων των"
+
+#: includes/Data/Product_Custom_Field.php:144
+msgid "True"
+msgstr "Σωστό"
+
+#: includes/Data/Product_Custom_Field.php:144
+msgid "False"
+msgstr "Λάθος"
+
+#: includes/Data/Product_Reviews.php:20
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:102
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "Αξιολόγηση %s από 5"
+
+#: includes/Data/Product_Reviews.php:23
+#, php-format
+msgid "out of %s5%s"
+msgstr "από %s5%s"
+
+#: includes/Data/Product_Reviews.php:24
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] "Βασισμένο στην αξιολόγηση %s χρήστη"
+msgstr[1] "Βασισμένο στην αξιολόγηση %s χρηστών"
+
+#: includes/Data/Product_Stock.php:18
+msgid "In stock"
+msgstr "Διαθέσιμο"
+
+#: includes/Frontend_Scripts.php:119
+#, fuzzy
+#| msgid "Showing 0 products"
+msgid "Showing _TOTAL_ products"
+msgstr "Εμφάνιση 0 προϊόντων"
+
+#: includes/Frontend_Scripts.php:120
+#, fuzzy
+#| msgid "Buy product"
+msgid "0 products"
+msgstr "Αγορά προϊόντος"
+
+#: includes/Frontend_Scripts.php:121
+#, fuzzy
+#| msgid "(_MAX_ products in total)"
+msgid "(_MAX_ in total)"
+msgstr "(_MAX_ προϊόντα συνολικά)"
+
+#: includes/Frontend_Scripts.php:122
+#, fuzzy
+#| msgid "Show _MENU_ products"
+msgid "Show _MENU_ per page"
+msgstr "Εμφάνιση _MENU_ προϊόντων"
+
+#: includes/Frontend_Scripts.php:123 includes/Frontend_Scripts.php:124
+#, fuzzy
+#| msgid "No matching products found."
+msgid "No matching products"
+msgstr "Δεν υπάρχουν δεδομένα στον πίνακα."
+
+#: includes/Frontend_Scripts.php:125
+msgid "Search:"
+msgstr "Αναζήτηση:"
+
+#: includes/Frontend_Scripts.php:127
+msgid "First"
+msgstr "Πρώτη"
+
+#: includes/Frontend_Scripts.php:128
+msgid "Last"
+msgstr "Τελευταία"
+
+#: includes/Frontend_Scripts.php:129
+msgid "Next"
+msgstr "Επόμενη"
+
+#: includes/Frontend_Scripts.php:130
+msgid "Previous"
+msgstr "Προηγούμενη"
+
+#: includes/Frontend_Scripts.php:132
+msgctxt "thousands separator"
+msgid ","
+msgstr "&#8201;"
+
+#: includes/Frontend_Scripts.php:133
+msgctxt "decimal mark"
+msgid "."
+msgstr ","
+
+#: includes/Frontend_Scripts.php:136
+msgid ": activate to sort column ascending"
+msgstr ": ενεργοποιήστε για αύξουσα ταξινόμηση της στήλης"
+
+#: includes/Frontend_Scripts.php:138
+msgid ": activate to sort column descending"
+msgstr ": ενεργοποιήστε για φθίνουσα ταξινόμηση της στήλης"
+
+#: includes/Frontend_Scripts.php:142
+msgid "Reset"
+msgstr "Επαναφορά"
+
+#: includes/Hook_Manager.php:300
+msgid "Buy product"
+msgstr "Αγορά προϊόντος"
+
+#: includes/Hook_Manager.php:338
+msgid "This product is currently out of stock and unavailable."
+msgstr "Αυτό το προϊόν έχει εξαντληθεί και είναι μη διαθέσιμο."
+
+#: includes/Table_Args.php:470
+msgid "Show details"
+msgstr "Εμφάνιση λεπτομερειών"
+
+#: includes/Util/Columns_Util.php:32
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: includes/Util/Columns_Util.php:33
+msgid "Summary"
+msgstr "Σύνοψη"
+
+#: includes/Util/Columns_Util.php:34
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: includes/Util/Columns_Util.php:35
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+#: includes/Util/Columns_Util.php:36
+msgid "Tags"
+msgstr "Ετικέτες"
+
+#: includes/Util/Columns_Util.php:37
+msgid "Image"
+msgstr "Εικόνα"
+
+#: includes/Util/Columns_Util.php:38
+msgid "Stock"
+msgstr "Απόθεμα"
+
+#: includes/Util/Columns_Util.php:39
+msgid "Reviews"
+msgstr "Κριτικές"
+
+#: includes/Util/Columns_Util.php:40
+msgid "Weight"
+msgstr "Βάρος"
+
+#: includes/Util/Columns_Util.php:41
+msgid "Dimensions"
+msgstr "Διαστάσεις"
+
+#: includes/Util/Columns_Util.php:43
+msgid "Buy"
+msgstr "Αγοραστε"
+
+#: includes/Util/Columns_Util.php:44
+msgid "Details"
+msgstr "Στοιχεία"
+
+#: includes/Util/Settings.php:72
+#, fuzzy
+#| msgid "Add Selected To Cart"
+msgid "Add To Cart"
+msgstr "Προσθήκη επιλεγμένων στο καλάθι"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:24
+#, fuzzy
+#| msgid "Please select one or more products."
+msgid "Display a list of active filters for your product table."
+msgstr "Επιλέξτε ένα ή περισσότερα προϊόντα."
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:26
+#, fuzzy
+#| msgid "Product Table price filter"
+msgid "Product Table: Active Filters"
+msgstr "Φίλτρο τιμών πίνακα προϊόντων"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:30
+msgid "Active filters"
+msgstr "Ενεργά Φίλτρα"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:31
+#: includes/widgets/class-wcpt-widget-layered-nav.php:76
+#: includes/widgets/class-wcpt-widget-price-filter.php:31
+#: includes/widgets/class-wcpt-widget-rating-filter.php:31
+msgid "Title"
+msgstr "Τίτλος"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:83
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:90
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:95
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:102
+msgid "Remove filter"
+msgstr "Αφαίρεση φίλτρου"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:90
+#, php-format
+msgid "Min %s"
+msgstr "Ελάχιστο %s"
+
+#: includes/widgets/class-wcpt-widget-layered-nav-filters.php:95
+#, php-format
+msgid "Max %s"
+msgstr "Μέγιστο %s"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:24
+#, fuzzy
+#| msgid ""
+#| "Show a product attribute filter to narrow down the list of products in "
+#| "the product table."
+msgid "Display a list of attributes to filter products in your product table."
+msgstr ""
+"Εμφάνιση φίλτρου χαρακτηριστικών προϊόντος για να περιορίσετε τη λίστα των "
+"προϊόντων στον πίνακα προϊόντων."
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:26
+#, fuzzy
+#| msgid "Product Table price filter"
+msgid "Product Table: Filter by Attribute"
+msgstr "Φίλτρο τιμών πίνακα προϊόντων"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:75
+msgid "Filter by"
+msgstr "Φίλτρο βάσει"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:81
+msgid "Attribute"
+msgstr "Χαρακτηριστικό"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:87
+msgid "Display type"
+msgstr "Τύπος εμφάνισης"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:89
+msgid "List"
+msgstr "Λίστα"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:90
+msgid "Dropdown"
+msgstr "Αναπτυσσόμενο μενού"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:96
+msgid "Query type"
+msgstr "Τύπος ερωτήματος"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:98
+msgid "AND"
+msgstr "ΚΑΙ"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:99
+msgid "OR"
+msgstr "Η"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:203
+#, fuzzy, php-format
+#| msgid "Any %s"
+msgid "Any %s"
+msgstr "Όποιο %s"
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:242
+msgid "Apply"
+msgstr ""
+
+#: includes/widgets/class-wcpt-widget-layered-nav.php:275
+#, fuzzy
+#| msgid "No matching products found."
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr "Δεν υπάρχουν δεδομένα στον πίνακα."
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:24
+msgid "Display a slider to filter your product table by price."
+msgstr ""
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:26
+#, fuzzy
+#| msgid "Product Table price filter"
+msgid "Product Table: Filter by Price"
+msgstr "Φίλτρο τιμών πίνακα προϊόντων"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:30
+msgid "Filter by price"
+msgstr "Φίλτρο βάσει τιμής"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:96
+msgid "Min price"
+msgstr "Ελάχιστη τιμή"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:97
+msgid "Max price"
+msgstr "Μέγιστη τιμή"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:98
+msgid "Filter"
+msgstr "Φίλτρο"
+
+#: includes/widgets/class-wcpt-widget-price-filter.php:100
+msgid "Price:"
+msgstr "Τιμή:"
+
+#: includes/widgets/class-wcpt-widget-rating-filter.php:24
+msgid ""
+"Display a list of star ratings to filter products in your product table."
+msgstr ""
+
+#: includes/widgets/class-wcpt-widget-rating-filter.php:26
+#, fuzzy
+#| msgid "Product Table layered nav"
+msgid "Product Table: Filter by Rating"
+msgstr "Πολυεπίπεδη Πλοήγηση πίνακα προϊόντων"
+
+#: includes/widgets/class-wcpt-widget-rating-filter.php:30
+msgid "Average rating"
+msgstr "Μέσο όρο αξιολόγησης"
+
+#: lib/Plugin/Admin/Admin_Links.php:52
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: lib/Plugin/Admin/Admin_Links.php:70
+#, php-format
+msgid "View %s documentation"
+msgstr ""
+
+#: lib/Plugin/Admin/Admin_Links.php:71
+msgid "Docs"
+msgstr "Έγγραφα"
+
+#: lib/Plugin/Admin/Plugin_Updater.php:121
+#, php-format
+msgid "Activate %1$syour license key%2$s to enable updates."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:63
+msgid "License key successfully activated."
+msgstr "Το κλειδί άδειας ενεργοποιήθηκε με επιτυχία."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:64
+#, fuzzy
+#| msgid "There was an error saving your license key, please try again."
+msgid "There was an error activating your license key."
+msgstr ""
+"Παρουσιάστηκε σφάλμα κατά την αποθήκευση του κλειδιού άδειας χρήσης, "
+"δοκιμάστε ξανά."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:72
+#, fuzzy
+#| msgid "License key successfully activated."
+msgid "License key successfully deactivated."
+msgstr "Το κλειδί άδειας ενεργοποιήθηκε με επιτυχία."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:73
+#, fuzzy
+#| msgid "There was an error saving your license key, please try again."
+msgid "There was an error deactivating your license key, please try again."
+msgstr ""
+"Παρουσιάστηκε σφάλμα κατά την αποθήκευση του κλειδιού άδειας χρήσης, "
+"δοκιμάστε ξανά."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:80
+msgid "The license key looks good!"
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:81
+#, fuzzy
+#| msgid "Please enter your license key."
+msgid "There's a problem with your license key."
+msgstr "Πληκτρολογήστε το κλειδί άδειας χρήσης."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:89
+#, fuzzy
+#| msgid "License Key"
+msgid "License key"
+msgstr "Άδεια χρήσης"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:97
+msgid "The licence key is contained in your order confirmation email."
+msgstr ""
+"Το κλειδί άδειας χρήσης περιέχεται στο email επιβεβαίωσης της παραγγελίας "
+"σας."
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:100
+#, fuzzy
+#| msgid "License Key"
+msgid "License Key"
+msgstr "Άδεια χρήσης"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:241
+#, fuzzy
+#| msgid "Deactivate"
+msgid "Activate"
+msgstr "Απενεργοποίηση"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:242
+msgid "Deactivate"
+msgstr "Απενεργοποίηση"
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:253
+#, fuzzy
+#| msgid "License key successfully activated."
+msgid "License key deactivated."
+msgstr "Το κλειδί άδειας ενεργοποιήθηκε με επιτυχία."
+
+#: lib/Plugin/License/Admin/License_Notices.php:90
+#, php-format
+msgid ""
+"Thank you for installing %1$s. To get started, please %2$senter your license "
+"key%3$s."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Notices.php:107
+#, php-format
+msgid ""
+"Your license key for %1$s has expired. %2$sClick here to renew for 20%% "
+"discount%3$s."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Notices.php:124
+#, php-format
+msgid ""
+"You no longer have a valid license for %1$s. Please %2$spurchase a new "
+"license key%3$s to continue using the plugin."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Notices.php:145
+#, php-format
+msgid ""
+"%1$s - your site has moved to a new domain. Please %2$sreactivate your "
+"license key%3$s."
+msgstr ""
+
+#: lib/Plugin/License/EDD_Licensing.php:184
+msgid "An error has occurred, please try again."
+msgstr "Παρουσιάστηκε σφάλμα. Παρακαλώ προσπαθήστε ξανά."
+
+#: lib/Plugin/License/Plugin_License.php:93
+#, fuzzy
+#| msgid "Your license key is invalid."
+msgid "Your license key is active."
+msgstr "Το κλειδί άδειας χρήσης δεν είναι έγκυρο."
+
+#: lib/Plugin/License/Plugin_License.php:113
+msgid "Please enter your license key."
+msgstr "Πληκτρολογήστε το κλειδί άδειας χρήσης."
+
+#: lib/Plugin/License/Plugin_License.php:115
+#: lib/Plugin/License/Plugin_License.php:380
+msgid "Your license key is invalid."
+msgstr "Το κλειδί άδειας χρήσης δεν είναι έγκυρο."
+
+#: lib/Plugin/License/Plugin_License.php:319
+#, fuzzy, php-format
+#| msgid "The licence key is contained in your order confirmation email."
+msgid ""
+"Invalid license key - please check your order confirmation email or "
+"%1$sAccount%2$s."
+msgstr ""
+"Το κλειδί άδειας χρήσης περιέχεται στο email επιβεβαίωσης της παραγγελίας "
+"σας."
+
+#: lib/Plugin/License/Plugin_License.php:325
+msgid "No URL was supplied for activation, please contact support."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:328
+msgid "License key mismatch, please contact support."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:331
+msgid "This license is for a bundled product and cannot be activated."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:335
+#, fuzzy
+#| msgid "Your license is not active for this URL."
+msgid "Your license key is not valid for this plugin."
+msgstr "Η άδεια χρήσης σας δεν είναι ενεργή για αυτήν τη διεύθυνση URL."
+
+#: lib/Plugin/License/Plugin_License.php:341
+#, php-format
+msgid "%s site active"
+msgid_plural "%s sites active"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/Plugin/License/Plugin_License.php:344
+#, fuzzy, php-format
+#| msgid "Your license key has reached its activation limit."
+msgid "Your license key has reached its activation limit (%s)."
+msgstr "Το κλειδί άδειας χρήσης έχει φτάσει στο όριο ενεργοποίησής του."
+
+#: lib/Plugin/License/Plugin_License.php:345 lib/Util.php:38
+msgid "Read more"
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:348
+#: lib/Plugin/License/Plugin_License.php:369
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:362
+#, php-format
+msgid "Your license key expired on %s."
+msgstr "Το κλειδί άδειας χρήσης έληξε την %s."
+
+#: lib/Plugin/License/Plugin_License.php:366
+#, php-format
+msgid "Renew now for 20% discount."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:617
+#, fuzzy
+#| msgid "Your license is not active for this URL."
+msgid "Your license key is not active. Please reactivate or save the settings."
+msgstr "Η άδεια χρήσης σας δεν είναι ενεργή για αυτήν τη διεύθυνση URL."
+
+#: lib/Plugin/License/Plugin_License.php:621
+#, fuzzy
+#| msgid "Your license key expired on %s."
+msgid "Your license key expired has expired."
+msgstr "Το κλειδί άδειας χρήσης έληξε την %s."
+
+#: lib/Plugin/License/Plugin_License.php:626
+#, php-format
+msgid ""
+"Your license key has been disabled. Please %1$spurchase a new license key"
+"%2$s to continue using the plugin."
+msgstr ""
+
+#: lib/WooCommerce/Admin/Custom_Settings_Fields.php:91
+msgid "Size"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Product Table"
+msgstr "Πίνακας προϊόντων του WooCommerce"
+
+#. Plugin URI of the plugin/theme
+msgid "https://barn2.com/wordpress-plugins/woocommerce-product-table/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Display and purchase WooCommerce products from a searchable and sortable "
+"table. Filter by anything."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Barn2 Plugins"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://barn2.com"
+msgstr ""
+
+#, fuzzy
+#~| msgid "Showing 0 products"
+#~ msgid "_TOTAL_ products"
+#~ msgstr "Εμφάνιση 0 προϊόντων"
+
+#~ msgid "View WooCommerce Product Table documentation"
+#~ msgstr "Δείτε τις οδηγίες του πίνακα προϊόντων για το WooCommerce"
+
+#, fuzzy
+#~| msgid "Add Selected To Cart"
+#~ msgid "Add to cart behavior"
+#~ msgstr "Προσθήκη επιλεγμένων στο καλάθι"
+
+#, fuzzy
+#~| msgid "Add Selected To Cart"
+#~ msgid "Dropdown lists in add to cart column"
+#~ msgstr "Προσθήκη επιλεγμένων στο καλάθι"
+
+#, fuzzy
+#~| msgid "Add Selected To Cart"
+#~ msgid "'Add Selected' position"
+#~ msgstr "Προσθήκη επιλεγμένων στο καλάθι"
+
+#~ msgid "Showing _START_ to _END_ of _TOTAL_ products"
+#~ msgstr "Εμφάνηση απο _START_ έως _END_ από _TOTAL_ εγγραφές"
+
+#~ msgid "Filter:"
+#~ msgstr "Φίλτρο:"
+
+#, fuzzy, php-format
+#~| msgid "based on %s customer rating"
+#~| msgid_plural "based on %s customer ratings"
+#~ msgid "Rated %1$s out of 5 based on %2$s customer rating"
+#~ msgid_plural "Rated %1$s out of 5 based on %2$s customer ratings"
+#~ msgstr[0] "Βασισμένο στην αξιολόγηση %s χρήστη"
+#~ msgstr[1] "Βασισμένο στην αξιολόγηση %s χρηστών"
+
+#, fuzzy
+#~| msgctxt "license key error message"
+#~| msgid "Error: %s"
+#~ msgid "Error"
+#~ msgstr "Σφάλμα: %s [ Μήνυμα λάθους κλειδιού άδειας χρήσης ]"
+
+#, fuzzy
+#~| msgid "Your license key has been disabled."
+#~ msgid "Your license key has been disabled, please contact support,"
+#~ msgstr "Το κλειδί άδειας χρήσης έχει απενεργοποιηθεί."
+
+#, fuzzy
+#~| msgid "License key successfully deactivated."
+#~ msgid "License key successfully deactivated. Click Save to reactivate."
+#~ msgstr "Το κλειδί άδειας χρήσης απενεργοποιήθηκε."
+
+#, fuzzy
+#~| msgid "Showing 0 products"
+#~ msgid "Choosing your products"
+#~ msgstr "Εμφάνιση 0 προϊόντων"
+
+#, fuzzy
+#~| msgid "Showing 0 products"
+#~ msgid "Learn how to select your products"
+#~ msgstr "Εμφάνιση 0 προϊόντων"
+
+#, fuzzy
+#~| msgid "Product Tables"
+#~ msgid "Product totals message"
+#~ msgstr "Πίνακες προϊόντων"
+
+#, fuzzy
+#~| msgid "Show details"
+#~ msgid "Show links"
+#~ msgstr "Εμφάνιση λεπτομερειών"
+
+#~ msgid ""
+#~ "Shows active filters for the product table so users can see and "
+#~ "deactivate them."
+#~ msgstr ""
+#~ "Εμφανίζει ενεργά φίλτρα για τον πίνακα προϊόντων, ώστε οι χρήστες να "
+#~ "μπορούν να τα βλέπουν και να τα απενεργοποιούν."
+
+#~ msgid "Product Table layered nav filters"
+#~ msgstr "Φίλτρα Πολυεπίπεδης Πλοήγησης πίνακα προϊόντων"
+
+#~ msgid ""
+#~ "Shows a price filter slider which lets you narrow down the list of "
+#~ "products in the product table."
+#~ msgstr ""
+#~ "Εμφανίζει έναν επιλογέα τιμών, που επιτρέπει να φιλτράρεται η λίστα των "
+#~ "εμφανιζόμενων προϊόντων στον πίνακα."
+
+#~ msgid "Filter products by average rating when viewing product tables."
+#~ msgstr ""
+#~ "Φιλτράρετε τα προϊόντα κατά μέσο όρο κατά την προβολή τους στον πίνακα "
+#~ "προϊόντων."
+
+#~ msgid "Product Table average rating filter"
+#~ msgstr "Πίνακας μέσου όρου βαθμολόγησης προϊόντος"
+
+#, fuzzy
+#~| msgid "Active filters"
+#~ msgid "Search filters"
+#~ msgstr "Ενεργά Φίλτρα"
+
+#~ msgid "Get help with WooCommerce Product Table"
+#~ msgstr "Λάβετε βοήθεια σχετικά με τον πίνακα προϊόντων του WooCommerce"
+
+#~ msgid "Get Support"
+#~ msgstr "Λήψη υποστήριξης"
